@@ -1,0 +1,11 @@
+PIRANHA BUGS (http://www.g-truc.net)
+
+========================================================================
+- Many memory leak when exit the before demoscene end.
+- Bad exit under Linux when using fullscreen.
+- Bad mouse motion management.
+- A texture memory leak.
+
+========================================================================
+
+

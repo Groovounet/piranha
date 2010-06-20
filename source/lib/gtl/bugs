@@ -1,0 +1,15 @@
+GTL BUGS (http://www.g-truc.net)
+
+========================================================================
+- La prise en charge des formats d'images TGA est incomplète. 
+Seule les images TGA 16, 24 et 32 bits non compresse peuvent etre 
+charge et enregistre.
+- La prise en charge des formats d'images BMP est egalement
+incomplete. Seule les images BMP 24 bits pour windows peuvent
+être charge et enregistre.
+- La classe CPolynomial bug sous Linux.
+- L'exemples polynomial n'est pas disponible sous Linux.
+- Problème de lenteur de CFontTga avec l'option gtl::FONT_SPACING.
+
+========================================================================
+08/11/2004 - Groove

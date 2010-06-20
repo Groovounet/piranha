@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+<title>GTL: gtl_image_raw.h Source File</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body>
+<!-- Généré par Doxygen 1.3.8 -->
+<div class="qindex"><a class="qindex" href="index.html">Page&nbsp;principale</a> | <a class="qindex" href="namespaces.html">Liste des namespaces</a> | <a class="qindex" href="hierarchy.html">Hiérarchie&nbsp;des&nbsp;classes</a> | <a class="qindex" href="annotated.html">Liste&nbsp;des&nbsp;classes</a> | <a class="qindex" href="files.html">Liste&nbsp;des&nbsp;fichiers</a> | <a class="qindex" href="namespacemembers.html">Membres&nbsp;de&nbsp;namespace</a> | <a class="qindex" href="functions.html">Membres&nbsp;de&nbsp;classe</a> | <a class="qindex" href="globals.html">Membres&nbsp;de&nbsp;fichier</a></div>
+<h1>gtl_image_raw.h</h1><a href="gtl__image__raw_8h.html">Aller à la documentation de ce fichier.</a><pre class="fragment"><div>00001 
+00002 <span class="comment">// GTL</span>
+00003 <span class="comment">// Copyright (c) 2003-2004, Groove</span>
+00004 <span class="comment">// Sous licence LGPL version 2</span>
+00005 <span class="comment">// G-Truc Creation, www.g-truc.net</span>
+00011 <span class="comment"></span>
+00012 <span class="preprocessor">#ifndef GTL_IMAGE_RAW_H</span>
+00013 <span class="preprocessor"></span><span class="preprocessor">#define GTL_IMAGE_RAW_H</span>
+00014 <span class="preprocessor"></span>
+00015 <span class="preprocessor">#include "<a class="code" href="gtl__image_8h.html">gtl_image.h</a>"</span>
+00016 <span class="preprocessor">#include &lt;string&gt;</span>
+00017 
+00018 <span class="keyword">namespace </span>gtl {
+00019 
+<a name="l00021"></a><a class="code" href="classgtl_1_1_c_image_r_a_w.html">00021</a> <span class="keyword">class </span><a class="code" href="classgtl_1_1_c_image_r_a_w.html">CImageRAW</a> : <span class="keyword">public</span> <a class="code" href="classgtl_1_1_c_image.html">CImage</a>
+00022 {
+00023 <span class="keyword">private</span>:
+00024         std::string m_szFilename;
+00025         <span class="keywordtype">bool</span> m_bLoaded;
+00026         <span class="keywordtype">bool</span> m_bSaved;
+00027         <span class="keywordtype">bool</span> m_bChanged;
+00028 
+00029         <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> m_unSizeX;
+00030         <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> m_unSizeY;
+00031         <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> m_ucTexelSize;
+00032         <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* m_pucData;
+00033 
+00034 <span class="keyword">public</span>:
+00035         <a class="code" href="classgtl_1_1_c_image_r_a_w.html#a0">CImageRAW</a> ();
+00036         <a class="code" href="classgtl_1_1_c_image_r_a_w.html#a0">CImageRAW</a> (<span class="keyword">const</span> <span class="keywordtype">char</span>* szFilename, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> unSizeX, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> unSizeY, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ucPixelSize);
+00037         <span class="keyword">virtual</span> <a class="code" href="classgtl_1_1_c_image_r_a_w.html#a2">~CImageRAW</a> ();
+00038 
+00039         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classgtl_1_1_c_image_r_a_w.html#a3">Load</a> (<span class="keyword">const</span> <span class="keywordtype">char</span>* szFilename);
+<a name="l00040"></a><a class="code" href="classgtl_1_1_c_image_r_a_w.html#a4">00040</a>         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classgtl_1_1_c_image_r_a_w.html#a4">IsLoaded</a> () {<span class="keywordflow">return</span> m_bLoaded;}
+00041         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classgtl_1_1_c_image_r_a_w.html#a5">Save</a> ();
+00042         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classgtl_1_1_c_image_r_a_w.html#a6">SaveAs</a> (<span class="keyword">const</span> <span class="keywordtype">char</span>* szFilename);
+<a name="l00043"></a><a class="code" href="classgtl_1_1_c_image_r_a_w.html#a7">00043</a>         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classgtl_1_1_c_image_r_a_w.html#a7">IsSaved</a> () {<span class="keywordflow">return</span> m_bSaved;}
+00044         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classgtl_1_1_c_image_r_a_w.html#a8">New</a> (<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> x, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> y, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ucTexelSize, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* pucData = 0);
+00045 
+<a name="l00046"></a><a class="code" href="classgtl_1_1_c_image_r_a_w.html#a9">00046</a>         <span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* <a class="code" href="classgtl_1_1_c_image_r_a_w.html#a9">Data</a> ()<span class="keyword"> const </span>{<span class="keywordflow">return</span> m_pucData;}
+<a name="l00047"></a><a class="code" href="classgtl_1_1_c_image_r_a_w.html#a10">00047</a>         <span class="keyword">virtual</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code" href="classgtl_1_1_c_image_r_a_w.html#a10">Width</a> ()<span class="keyword"> const </span>{<span class="keywordflow">return</span> m_unSizeX;}
+<a name="l00048"></a><a class="code" href="classgtl_1_1_c_image_r_a_w.html#a11">00048</a>         <span class="keyword">virtual</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code" href="classgtl_1_1_c_image_r_a_w.html#a11">Height</a> ()<span class="keyword"> const </span>{<span class="keywordflow">return</span> m_unSizeY;}
+<a name="l00049"></a><a class="code" href="classgtl_1_1_c_image_r_a_w.html#a12">00049</a>         <span class="keyword">virtual</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="classgtl_1_1_c_image_r_a_w.html#a12">TexelSize</a> ()<span class="keyword"> const </span>{<span class="keywordflow">return</span> static_cast&lt;unsigned char&gt;(m_ucTexelSize);}
+00050 
+00051         <span class="keyword">virtual</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="classgtl_1_1_c_image_r_a_w.html#a13">GetValue</a> (<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> x, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> y, <span class="keyword">const</span> EColor &amp; Color) <span class="keyword">const</span>;
+00052         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classgtl_1_1_c_image_r_a_w.html#a14">SetValue</a> (<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> x, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> y, <span class="keyword">const</span> EColor &amp; Color, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ucValue);
+00053 };
+00054 
+00055 }; <span class="comment">//namespace gtl</span>
+00056 
+00057 <span class="preprocessor">#endif //GTL_IMAGE_RAW_H</span>
+</div></pre><hr size="1"><address style="align: right;"><small>Généré le Wed Jan 5 23:28:22 2005 pour GTL par
+<a href="http://www.doxygen.org/index.html">
+<img src="doxygen.png" alt="doxygen" align="middle" border=0 ></a> 1.3.8 </small></address>
+</body>
+</html>

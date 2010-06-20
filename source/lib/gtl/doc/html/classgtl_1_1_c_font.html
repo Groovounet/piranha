@@ -1,0 +1,684 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+<title>GTL: Référence de la classe gtl::CFont</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body>
+<!-- Généré par Doxygen 1.3.8 -->
+<div class="qindex"><a class="qindex" href="index.html">Page&nbsp;principale</a> | <a class="qindex" href="namespaces.html">Liste des namespaces</a> | <a class="qindex" href="hierarchy.html">Hiérarchie&nbsp;des&nbsp;classes</a> | <a class="qindex" href="annotated.html">Liste&nbsp;des&nbsp;classes</a> | <a class="qindex" href="files.html">Liste&nbsp;des&nbsp;fichiers</a> | <a class="qindex" href="namespacemembers.html">Membres&nbsp;de&nbsp;namespace</a> | <a class="qindex" href="functions.html">Membres&nbsp;de&nbsp;classe</a> | <a class="qindex" href="globals.html">Membres&nbsp;de&nbsp;fichier</a></div>
+<h1>Référence de la classe gtl::CFont</h1>Interface pour l'affichage de caractères.  
+<a href="#_details">Plus de détails...</a>
+<p>
+<code>#include &lt;<a class="el" href="gtl__font_8h-source.html">gtl_font.h</a>&gt;</code>
+<p>
+<p>Graphe d'héritage de gtl::CFont:
+<p><center><img src="classgtl_1_1_c_font.png" usemap="#gtl::CFont_map" border="0" alt=""></center>
+<map name="gtl::CFont_map">
+<area href="classgtl_1_1_c_font_t_g_a.html" alt="gtl::CFontTGA" shape="rect" coords="0,56,90,80">
+</map>
+<a href="classgtl_1_1_c_font-members.html">Liste de tous les membres</a><table border=0 cellpadding=0 cellspacing=0>
+<tr><td></td></tr>
+<tr><td colspan=2><br><h2>Fonctions membres publiques</h2></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="classgtl_1_1_c_font.html#a0">CFont</a> ()</td></tr>
+
+<tr><td class="memItemLeft" nowrap align=right valign=top>virtual&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="classgtl_1_1_c_font.html#a1">~CFont</a> ()</td></tr>
+
+<tr><td class="memItemLeft" nowrap align=right valign=top>virtual bool&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="classgtl_1_1_c_font.html#a2">Load</a> (const char *szFilename)=0</td></tr>
+
+<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="classgtl_1_1_c_font.html#a3">End</a> () const</td></tr>
+
+<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="classgtl_1_1_c_font.html#a4">Begin</a> () const</td></tr>
+
+<tr><td class="memItemLeft" nowrap align=right valign=top>virtual void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="classgtl_1_1_c_font.html#a5">Print</a> (int x, int y, const char *szMsg,...) const =0</td></tr>
+
+<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="classgtl_1_1_c_font.html#a6">Enable</a> (unsigned int uiOption)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="classgtl_1_1_c_font.html#a7">Disable</a> (unsigned int uiOption)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="classgtl_1_1_c_font.html#a8">Size</a> (float x, float y, float z=1.0f)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="classgtl_1_1_c_font.html#a9">Color</a> (float x, float y, float z)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="classgtl_1_1_c_font.html#a10">Spacing</a> (float fSpace)</td></tr>
+
+<tr><td colspan=2><br><h2>Fonctions membres protégées</h2></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>virtual void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="classgtl_1_1_c_font.html#b0">Build</a> ()=0</td></tr>
+
+<tr><td colspan=2><br><h2>Attributs protégés</h2></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>unsigned int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="classgtl_1_1_c_font.html#p0">m_uiFontIndex</a></td></tr>
+
+<tr><td class="memItemLeft" nowrap align=right valign=top>unsigned int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="classgtl_1_1_c_font.html#p1">m_uiDisplayListIndex</a></td></tr>
+
+<tr><td class="memItemLeft" nowrap align=right valign=top>bool&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="classgtl_1_1_c_font.html#p2">m_bLoaded</a></td></tr>
+
+<tr><td class="memItemLeft" nowrap align=right valign=top>unsigned int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="classgtl_1_1_c_font.html#p3">m_uiOption</a></td></tr>
+
+<tr><td class="memItemLeft" nowrap align=right valign=top>float&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="classgtl_1_1_c_font.html#p4">m_fScale</a> [3]</td></tr>
+
+<tr><td class="memItemLeft" nowrap align=right valign=top>float&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="classgtl_1_1_c_font.html#p5">m_fColor</a> [3]</td></tr>
+
+<tr><td class="memItemLeft" nowrap align=right valign=top>float&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="classgtl_1_1_c_font.html#p6">m_fSize</a> [2]</td></tr>
+
+<tr><td class="memItemLeft" nowrap align=right valign=top>float&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="classgtl_1_1_c_font.html#p7">m_fSpace</a></td></tr>
+
+</table>
+<hr><a name="_details"></a><h2>Description détaillée</h2>
+Interface pour l'affichage de caractères. 
+<p>
+Définition à la ligne <a class="el" href="gtl__font_8h-source.html#l00031">31</a> du fichier <a class="el" href="gtl__font_8h-source.html">gtl_font.h</a>.<hr><h2>Documentation des contructeurs et destructeur</h2>
+<a class="anchor" name="a0" doxytag="gtl::CFont::CFont" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> gtl::CFont::CFont           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Définition à la ligne <a class="el" href="gtl__font_8cpp-source.html#l00017">17</a> du fichier <a class="el" href="gtl__font_8cpp-source.html">gtl_font.cpp</a>.
+<p>
+Références <a class="el" href="gtl__font_8h-source.html#l00036">m_bLoaded</a>, <a class="el" href="gtl__font_8h-source.html#l00039">m_fColor</a>, <a class="el" href="gtl__font_8h-source.html#l00038">m_fScale</a>, <a class="el" href="gtl__font_8h-source.html#l00041">m_fSpace</a>, <a class="el" href="gtl__font_8h-source.html#l00035">m_uiDisplayListIndex</a>, et <a class="el" href="gtl__font_8h-source.html#l00037">m_uiOption</a>.    </td>
+  </tr>
+</table>
+<a class="anchor" name="a1" doxytag="gtl::CFont::~CFont" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> gtl::CFont::~<a class="el" href="classgtl_1_1_c_font.html">CFont</a>           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap><code> [virtual]</code></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Définition à la ligne <a class="el" href="gtl__font_8cpp-source.html#l00027">27</a> du fichier <a class="el" href="gtl__font_8cpp-source.html">gtl_font.cpp</a>.
+<p>
+Références <a class="el" href="gtl__font_8h-source.html#l00036">m_bLoaded</a>, et <a class="el" href="gtl__font_8h-source.html#l00035">m_uiDisplayListIndex</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Documentation des fonctions membres</h2>
+<a class="anchor" name="a4" doxytag="gtl::CFont::Begin" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> void gtl::CFont::Begin           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap> const</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Définition à la ligne <a class="el" href="gtl__font_8cpp-source.html#l00033">33</a> du fichier <a class="el" href="gtl__font_8cpp-source.html">gtl_font.cpp</a>.
+<p>
+Références <a class="el" href="namespacegtl.html#a39a11">gtl::FONT_BLEND</a>, <a class="el" href="gtl__font_8h-source.html#l00039">m_fColor</a>, <a class="el" href="gtl__font_8h-source.html#l00034">m_uiFontIndex</a>, et <a class="el" href="gtl__font_8h-source.html#l00037">m_uiOption</a>.    </td>
+  </tr>
+</table>
+<a class="anchor" name="b0" doxytag="gtl::CFont::Build" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> virtual void gtl::CFont::Build           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap><code> [protected, pure virtual]</code></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Référencé par <a class="el" href="gtl__font__tga_8cpp-source.html#l00087">gtl::CFontTGA::Load()</a>.    </td>
+  </tr>
+</table>
+<a class="anchor" name="a9" doxytag="gtl::CFont::Color" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> void gtl::CFont::Color           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">float&nbsp;</td>
+          <td class="mdname" nowrap> <em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>float&nbsp;</td>
+          <td class="mdname" nowrap> <em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>float&nbsp;</td>
+          <td class="mdname" nowrap> <em>z</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="md">)&nbsp;</td>
+          <td class="md" colspan="2"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Définition à la ligne <a class="el" href="gtl__font_8cpp-source.html#l00072">72</a> du fichier <a class="el" href="gtl__font_8cpp-source.html">gtl_font.cpp</a>.
+<p>
+Références <a class="el" href="gtl__font_8h-source.html#l00039">m_fColor</a>.    </td>
+  </tr>
+</table>
+<a class="anchor" name="a7" doxytag="gtl::CFont::Disable" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> void gtl::CFont::Disable           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">unsigned int&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap> <em>uiOption</em>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Définition à la ligne <a class="el" href="gtl__font_8cpp-source.html#l00060">60</a> du fichier <a class="el" href="gtl__font_8cpp-source.html">gtl_font.cpp</a>.
+<p>
+Références <a class="el" href="gtl__font_8h-source.html#l00037">m_uiOption</a>.    </td>
+  </tr>
+</table>
+<a class="anchor" name="a6" doxytag="gtl::CFont::Enable" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> void gtl::CFont::Enable           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">unsigned int&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap> <em>uiOption</em>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Définition à la ligne <a class="el" href="gtl__font_8cpp-source.html#l00055">55</a> du fichier <a class="el" href="gtl__font_8cpp-source.html">gtl_font.cpp</a>.
+<p>
+Références <a class="el" href="gtl__font_8h-source.html#l00037">m_uiOption</a>.    </td>
+  </tr>
+</table>
+<a class="anchor" name="a3" doxytag="gtl::CFont::End" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> void gtl::CFont::End           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap> const</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Définition à la ligne <a class="el" href="gtl__font_8cpp-source.html#l00050">50</a> du fichier <a class="el" href="gtl__font_8cpp-source.html">gtl_font.cpp</a>.    </td>
+  </tr>
+</table>
+<a class="anchor" name="a2" doxytag="gtl::CFont::Load" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> virtual bool gtl::CFont::Load           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">const char *&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap> <em>szFilename</em>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Implémenté dans <a class="el" href="classgtl_1_1_c_font_t_g_a.html#a2">gtl::CFontTGA</a>.
+<p>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a5" doxytag="gtl::CFont::Print" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> virtual void gtl::CFont::Print           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">int&nbsp;</td>
+          <td class="mdname" nowrap> <em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>int&nbsp;</td>
+          <td class="mdname" nowrap> <em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>const char *&nbsp;</td>
+          <td class="mdname" nowrap> <em>szMsg</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>&nbsp;</td>
+          <td class="mdname" nowrap> <em>...</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="md">)&nbsp;</td>
+          <td class="md" colspan="2"> const<code> [pure virtual]</code></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Implémenté dans <a class="el" href="classgtl_1_1_c_font_t_g_a.html#a3">gtl::CFontTGA</a>.
+<p>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a8" doxytag="gtl::CFont::Size" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> void gtl::CFont::Size           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">float&nbsp;</td>
+          <td class="mdname" nowrap> <em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>float&nbsp;</td>
+          <td class="mdname" nowrap> <em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td></td>
+          <td class="md" nowrap>float&nbsp;</td>
+          <td class="mdname" nowrap> <em>z</em> = <code>1.0f</code></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="md">)&nbsp;</td>
+          <td class="md" colspan="2"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Définition à la ligne <a class="el" href="gtl__font_8cpp-source.html#l00065">65</a> du fichier <a class="el" href="gtl__font_8cpp-source.html">gtl_font.cpp</a>.
+<p>
+Références <a class="el" href="gtl__font_8h-source.html#l00038">m_fScale</a>, et <a class="el" href="gtl__font_8h-source.html#l00040">m_fSize</a>.    </td>
+  </tr>
+</table>
+<a class="anchor" name="a10" doxytag="gtl::CFont::Spacing" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> void gtl::CFont::Spacing           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">float&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap> <em>fSpace</em>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Définition à la ligne <a class="el" href="gtl__font_8cpp-source.html#l00079">79</a> du fichier <a class="el" href="gtl__font_8cpp-source.html">gtl_font.cpp</a>.
+<p>
+Références <a class="el" href="gtl__font_8h-source.html#l00041">m_fSpace</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Documentation des données membres</h2>
+<a class="anchor" name="p2" doxytag="gtl::CFont::m_bLoaded" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> bool <a class="el" href="classgtl_1_1_c_font.html#p2">gtl::CFont::m_bLoaded</a><code> [protected]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Définition à la ligne <a class="el" href="gtl__font_8h-source.html#l00036">36</a> du fichier <a class="el" href="gtl__font_8h-source.html">gtl_font.h</a>.
+<p>
+Référencé par <a class="el" href="gtl__font_8cpp-source.html#l00017">CFont()</a>, et <a class="el" href="gtl__font_8cpp-source.html#l00027">~CFont()</a>.    </td>
+  </tr>
+</table>
+<a class="anchor" name="p5" doxytag="gtl::CFont::m_fColor" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> float <a class="el" href="classgtl_1_1_c_font.html#p5">gtl::CFont::m_fColor</a>[3]<code> [protected]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Définition à la ligne <a class="el" href="gtl__font_8h-source.html#l00039">39</a> du fichier <a class="el" href="gtl__font_8h-source.html">gtl_font.h</a>.
+<p>
+Référencé par <a class="el" href="gtl__font_8cpp-source.html#l00033">Begin()</a>, <a class="el" href="gtl__font_8cpp-source.html#l00017">CFont()</a>, et <a class="el" href="gtl__font_8cpp-source.html#l00072">Color()</a>.    </td>
+  </tr>
+</table>
+<a class="anchor" name="p4" doxytag="gtl::CFont::m_fScale" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> float <a class="el" href="classgtl_1_1_c_font.html#p4">gtl::CFont::m_fScale</a>[3]<code> [protected]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Définition à la ligne <a class="el" href="gtl__font_8h-source.html#l00038">38</a> du fichier <a class="el" href="gtl__font_8h-source.html">gtl_font.h</a>.
+<p>
+Référencé par <a class="el" href="gtl__font_8cpp-source.html#l00017">CFont()</a>, et <a class="el" href="gtl__font_8cpp-source.html#l00065">Size()</a>.    </td>
+  </tr>
+</table>
+<a class="anchor" name="p6" doxytag="gtl::CFont::m_fSize" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> float <a class="el" href="classgtl_1_1_c_font.html#p6">gtl::CFont::m_fSize</a>[2]<code> [protected]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Définition à la ligne <a class="el" href="gtl__font_8h-source.html#l00040">40</a> du fichier <a class="el" href="gtl__font_8h-source.html">gtl_font.h</a>.
+<p>
+Référencé par <a class="el" href="gtl__font_8cpp-source.html#l00065">Size()</a>.    </td>
+  </tr>
+</table>
+<a class="anchor" name="p7" doxytag="gtl::CFont::m_fSpace" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> float <a class="el" href="classgtl_1_1_c_font.html#p7">gtl::CFont::m_fSpace</a><code> [protected]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Définition à la ligne <a class="el" href="gtl__font_8h-source.html#l00041">41</a> du fichier <a class="el" href="gtl__font_8h-source.html">gtl_font.h</a>.
+<p>
+Référencé par <a class="el" href="gtl__font_8cpp-source.html#l00017">CFont()</a>, et <a class="el" href="gtl__font_8cpp-source.html#l00079">Spacing()</a>.    </td>
+  </tr>
+</table>
+<a class="anchor" name="p1" doxytag="gtl::CFont::m_uiDisplayListIndex" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> unsigned int <a class="el" href="classgtl_1_1_c_font.html#p1">gtl::CFont::m_uiDisplayListIndex</a><code> [protected]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Définition à la ligne <a class="el" href="gtl__font_8h-source.html#l00035">35</a> du fichier <a class="el" href="gtl__font_8h-source.html">gtl_font.h</a>.
+<p>
+Référencé par <a class="el" href="gtl__font_8cpp-source.html#l00017">CFont()</a>, et <a class="el" href="gtl__font_8cpp-source.html#l00027">~CFont()</a>.    </td>
+  </tr>
+</table>
+<a class="anchor" name="p0" doxytag="gtl::CFont::m_uiFontIndex" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> unsigned int <a class="el" href="classgtl_1_1_c_font.html#p0">gtl::CFont::m_uiFontIndex</a><code> [protected]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Définition à la ligne <a class="el" href="gtl__font_8h-source.html#l00034">34</a> du fichier <a class="el" href="gtl__font_8h-source.html">gtl_font.h</a>.
+<p>
+Référencé par <a class="el" href="gtl__font_8cpp-source.html#l00033">Begin()</a>.    </td>
+  </tr>
+</table>
+<a class="anchor" name="p3" doxytag="gtl::CFont::m_uiOption" ></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> unsigned int <a class="el" href="classgtl_1_1_c_font.html#p3">gtl::CFont::m_uiOption</a><code> [protected]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Définition à la ligne <a class="el" href="gtl__font_8h-source.html#l00037">37</a> du fichier <a class="el" href="gtl__font_8h-source.html">gtl_font.h</a>.
+<p>
+Référencé par <a class="el" href="gtl__font_8cpp-source.html#l00033">Begin()</a>, <a class="el" href="gtl__font_8cpp-source.html#l00017">CFont()</a>, <a class="el" href="gtl__font_8cpp-source.html#l00060">Disable()</a>, et <a class="el" href="gtl__font_8cpp-source.html#l00055">Enable()</a>.    </td>
+  </tr>
+</table>
+<hr>La documentation de cette classe a été générée à partir des fichiers suivants:<ul>
+<li><a class="el" href="gtl__font_8h-source.html">gtl_font.h</a><li><a class="el" href="gtl__font_8cpp-source.html">gtl_font.cpp</a></ul>
+<hr size="1"><address style="align: right;"><small>Généré le Wed Jan 5 23:28:23 2005 pour GTL par
+<a href="http://www.doxygen.org/index.html">
+<img src="doxygen.png" alt="doxygen" align="middle" border=0 ></a> 1.3.8 </small></address>
+</body>
+</html>

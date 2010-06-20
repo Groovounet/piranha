@@ -1,0 +1,18 @@
+//////////////////////////////////////////////////////////////////////////////
+// Piranha, Copyright (c) 2004-2005 G-Truc Creation (www.g-truc.net)
+// Under LGPL licence 
+//////////////////////////////////////////////////////////////////////////////
+//! \author Groove (groove@g-truc.net)
+//! \date 11-14-2004
+//! \file ./window/index.h
+//! \brief 
+//////////////////////////////////////////////////////////////////////////////
+
+#ifndef __PIRANHA_WINDOW_INDEX_H__
+#define __PIRANHA_WINDOW_INDEX_H__
+
+#include "./hud.h"
+#include "./window.h"
+#include "./window_sdl.h"
+
+#endif //__PIRANHA_WINDOW_INDEX_H__

@@ -1,0 +1,25 @@
+GTL TODO (http://www.g-truc.net)
+
+========================================================================
+Beta 2.0 - xx/xx/2005
+- Intégrer une classe pour le chargement de shader de bas niveau.
+- Intégrer une classe pour le chargement de shader de haut niveau.
+- Intégrer les headers OpenGL ainsi que les procs pour tous les extensions ARB.
+- Améliorer les classes CFont* et CScreenshot pour faciliter l'utilisation des format BMP et TGA.
+- Correction du bug de lenteur lors de l'utilisation de gtl::FONT_SPACING avec gtl::CFontTGA.
+- Ajouter un loader d'images DDS.
+
+========================================================================
+Non classé
+- Makefile pour Visual C++.
+- Support du compilateur BCX.
+- Chargement et sauvegarde d'images avec compression RLE.
+- Console.
+- Améliorer voir refaire la camera.
+- Améliorer voir refaire l'affichage de charactères.
+- Ajouter des utilitaires pour débugger.
+- Ajouter des utilitaires pour l'architecture des logiciels.
+
+========================================================================
+06/01/2004 Groove (groove@g-truc.net)
+

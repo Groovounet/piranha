@@ -1,0 +1,17 @@
+PIRANHA TODO (http://www.g-truc.net)
+
+=======================================================================
+- Add "Credits" scene.
+- Add "fire" particles system.
+- Add "meteorite" particles system.
+- Add "Fountain" system.
+- Add sound player.
+- Add many plants types on ground.
+- Add sky morphing during terrain scene 6.
+- Add fog to the terrain.
+- Add spline lighting during terrain scenes.
+- Add camera move in terrain scenes.
+- Add GLSL tunnel effect.
+========================================================================
+
+

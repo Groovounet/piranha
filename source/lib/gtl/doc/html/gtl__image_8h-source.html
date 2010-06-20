@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+<title>GTL: gtl_image.h Source File</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body>
+<!-- Généré par Doxygen 1.3.8 -->
+<div class="qindex"><a class="qindex" href="index.html">Page&nbsp;principale</a> | <a class="qindex" href="namespaces.html">Liste des namespaces</a> | <a class="qindex" href="hierarchy.html">Hiérarchie&nbsp;des&nbsp;classes</a> | <a class="qindex" href="annotated.html">Liste&nbsp;des&nbsp;classes</a> | <a class="qindex" href="files.html">Liste&nbsp;des&nbsp;fichiers</a> | <a class="qindex" href="namespacemembers.html">Membres&nbsp;de&nbsp;namespace</a> | <a class="qindex" href="functions.html">Membres&nbsp;de&nbsp;classe</a> | <a class="qindex" href="globals.html">Membres&nbsp;de&nbsp;fichier</a></div>
+<h1>gtl_image.h</h1><a href="gtl__image_8h.html">Aller à la documentation de ce fichier.</a><pre class="fragment"><div>00001 
+00002 <span class="comment">// GTL</span>
+00003 <span class="comment">// Copyright (c) 2003-2004, Groove</span>
+00004 <span class="comment">// Sous licence LGPL version 2</span>
+00005 <span class="comment">// G-Truc Creation, www.g-truc.net</span>
+00011 <span class="comment"></span>
+00012 <span class="preprocessor">#ifndef GTL_IMAGE_H</span>
+00013 <span class="preprocessor"></span><span class="preprocessor">#define GTL_IMAGE_H</span>
+00014 <span class="preprocessor"></span>
+00015 <span class="preprocessor">#include "<a class="code" href="gtl__color_8h.html">gtl_color.h</a>"</span>
+00016 
+00017 <span class="keyword">namespace </span>gtl {
+00018 
+<a name="l00020"></a><a class="code" href="classgtl_1_1_c_image.html">00020</a> <span class="keyword">class </span><a class="code" href="classgtl_1_1_c_image.html">CImage</a>
+00021 {
+00022 <span class="keyword">public</span>:
+<a name="l00023"></a><a class="code" href="classgtl_1_1_c_image.html#a0">00023</a>         <span class="keyword">virtual</span> <a class="code" href="classgtl_1_1_c_image.html#a0">~CImage</a> () {}
+00024 
+00025         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classgtl_1_1_c_image.html#a1">Load</a> (<span class="keyword">const</span> <span class="keywordtype">char</span>* szFilename) = 0;
+00026         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classgtl_1_1_c_image.html#a2">IsLoaded</a> () = 0;
+00027         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classgtl_1_1_c_image.html#a3">Save</a> () = 0;
+00028         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classgtl_1_1_c_image.html#a4">SaveAs</a> (<span class="keyword">const</span> <span class="keywordtype">char</span>* szFilename) = 0;
+00029         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classgtl_1_1_c_image.html#a5">IsSaved</a> () = 0;
+00030         <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classgtl_1_1_c_image.html#a6">New</a> (<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> x, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> y, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ucTexelSize, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* pucData = 0) = 0;
+00031 
+00032         <span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* <a class="code" href="classgtl_1_1_c_image.html#a7">Data</a> () const = 0;
+00033         virtual <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> Width () const = 0;
+00034         virtual <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> Height () const = 0;
+00035         virtual <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> TexelSize () const = 0;
+00036 
+00037         virtual <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> GetValue (<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> x, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> y, const EColor &amp; Color) const = 0;
+00038         virtual <span class="keywordtype">bool</span> SetValue (<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> x, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> y, const EColor &amp; Color, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ucValue) = 0;
+00039 };
+00040 
+00041 }; <span class="comment">//namespace gtl</span>
+00042 
+00043 #endif <span class="comment">//GTL_IMAGE_H</span>
+</div></pre><hr size="1"><address style="align: right;"><small>Généré le Wed Jan 5 23:28:22 2005 pour GTL par
+<a href="http://www.doxygen.org/index.html">
+<img src="doxygen.png" alt="doxygen" align="middle" border=0 ></a> 1.3.8 </small></address>
+</body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+<title>GTL: gtl_color3.h Source File</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body>
+<!-- Généré par Doxygen 1.3.8 -->
+<div class="qindex"><a class="qindex" href="index.html">Page&nbsp;principale</a> | <a class="qindex" href="namespaces.html">Liste des namespaces</a> | <a class="qindex" href="hierarchy.html">Hiérarchie&nbsp;des&nbsp;classes</a> | <a class="qindex" href="annotated.html">Liste&nbsp;des&nbsp;classes</a> | <a class="qindex" href="files.html">Liste&nbsp;des&nbsp;fichiers</a> | <a class="qindex" href="namespacemembers.html">Membres&nbsp;de&nbsp;namespace</a> | <a class="qindex" href="functions.html">Membres&nbsp;de&nbsp;classe</a> | <a class="qindex" href="globals.html">Membres&nbsp;de&nbsp;fichier</a></div>
+<h1>gtl_color3.h</h1><a href="gtl__color3_8h.html">Aller à la documentation de ce fichier.</a><pre class="fragment"><div>00001 
+00002 <span class="comment">// GTL</span>
+00003 <span class="comment">// Copyright (c) 2003-2004 Groove</span>
+00004 <span class="comment">// Sous licence LGPL version 2</span>
+00005 <span class="comment">// G-Truc Creation, www.g-truc.net</span>
+00011 <span class="comment"></span>
+00012 <span class="preprocessor">#ifndef GTL_COLOR_3_H</span>
+00013 <span class="preprocessor"></span><span class="preprocessor">#define GTL_COLOR_3_H</span>
+00014 <span class="preprocessor"></span>
+00015 <span class="preprocessor">#include "<a class="code" href="gtl__color_8h.html">gtl_color.h</a>"</span>
+00016 
+00017 <span class="keyword">namespace </span>gtl {
+00018 
+<a name="l00019"></a><a class="code" href="gtl__color3_8h.html#a0">00019</a> <span class="preprocessor">#define GTL_COLOR_3_RANG 3</span>
+00020 <span class="preprocessor"></span>
+<a name="l00022"></a><a class="code" href="classgtl_1_1_c_color3.html">00022</a> <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt; <span class="keyword">class </span><a class="code" href="classgtl_1_1_c_color3.html">CColor3</a>
+00023 {
+00024 <span class="keyword">private</span>:
+00025         T m_Value[<a class="code" href="gtl__color3_8h.html#a0">GTL_COLOR_3_RANG</a>];
+00026 
+00027 <span class="keyword">public</span>:
+<a name="l00028"></a><a class="code" href="classgtl_1_1_c_color3.html#a0">00028</a>         <a class="code" href="classgtl_1_1_c_color3.html#a0">CColor3</a> ()
+00029         {
+00030                 m_Value[0] = 0;
+00031                 m_Value[1] = 0;
+00032                 m_Value[2] = 0;
+00033         }
+00034 
+<a name="l00035"></a><a class="code" href="classgtl_1_1_c_color3.html#a1">00035</a>         <a class="code" href="classgtl_1_1_c_color3.html#a0">CColor3</a> (<span class="keyword">const</span> T x, <span class="keyword">const</span> T y, <span class="keyword">const</span> T z)
+00036         {
+00037                 m_Value[0] = x;
+00038                 m_Value[1] = y;
+00039                 m_Value[2] = z;
+00040         }
+00041 
+<a name="l00042"></a><a class="code" href="classgtl_1_1_c_color3.html#a2">00042</a>         <a class="code" href="classgtl_1_1_c_color3.html#a0">CColor3</a> (<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_color3.html">CColor3&lt;T&gt;</a> &amp; c)
+00043         {
+00044                 m_Value[0] = c.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[0];
+00045                 m_Value[1] = c.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[1];
+00046                 m_Value[2] = c.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[2];
+00047         }
+00048 
+<a name="l00049"></a><a class="code" href="classgtl_1_1_c_color3.html#a3">00049</a>         <a class="code" href="classgtl_1_1_c_color3.html#a0">CColor3</a> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> uiColor)
+00050         {
+00051                 m_Value[0] = (uiColor &amp; 0x000000ff);
+00052                 m_Value[1] = (uiColor &amp; 0x0000ff00) &gt;&gt; 8;
+00053                 m_Value[2] = (uiColor &amp; 0x00ff0000) &gt;&gt; 16;
+00054         }
+00055 
+<a name="l00056"></a><a class="code" href="classgtl_1_1_c_color3.html#a4">00056</a>         <a class="code" href="classgtl_1_1_c_color3.html#a0">CColor3</a> (<span class="keyword">const</span> T a[GTL_COLOR_3_RANG])
+00057         {
+00058                 m_Value[0] = a[0];
+00059                 m_Value[1] = a[1];
+00060                 m_Value[2] = a[2];
+00061         }
+00062 
+<a name="l00063"></a><a class="code" href="classgtl_1_1_c_color3.html#a5">00063</a>         <span class="keyword">inline</span> <span class="keyword">const</span> <span class="keywordtype">bool</span> <a class="code" href="classgtl_1_1_c_color3.html#a5">operator== </a>(<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_color3.html">CColor3&lt;T&gt;</a> &amp; c)<span class="keyword"> const</span>
+00064 <span class="keyword">        </span>{
+00065                 <span class="keywordflow">return</span> (m_Value[0] == c.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[0] 
+00066                         &amp;&amp; m_Value[1] == c.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[1]
+00067                         &amp;&amp; m_Value[2] == c.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[2]
+00068                 );
+00069         }
+00070 
+<a name="l00071"></a><a class="code" href="classgtl_1_1_c_color3.html#a6">00071</a>         <span class="keyword">inline</span> <a class="code" href="classgtl_1_1_c_color3.html">CColor3</a>&amp; <a class="code" href="classgtl_1_1_c_color3.html#a6">operator= </a>(<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_color3.html">CColor3&lt;T&gt;</a> &amp; c)
+00072         {
+00073                 m_Value[0] = c.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[0];
+00074                 m_Value[1] = c.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[1];
+00075                 m_Value[2] = c.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[2];
+00076                 <span class="keywordflow">return</span> *<span class="keyword">this</span>;
+00077         }
+00078 
+<a name="l00079"></a><a class="code" href="classgtl_1_1_c_color3.html#a7">00079</a>         <span class="keyword">inline</span> <a class="code" href="classgtl_1_1_c_color3.html">CColor3</a>&amp; <a class="code" href="classgtl_1_1_c_color3.html#a6">operator= </a>(<span class="keyword">const</span> T a[GTL_COLOR_3_RANG])
+00080         {
+00081                 m_Value[0] = a[0];
+00082                 m_Value[1] = a[1];
+00083                 m_Value[2] = a[2];
+00084                 <span class="keywordflow">return</span> *<span class="keyword">this</span>;
+00085         }
+00086 
+<a name="l00087"></a><a class="code" href="classgtl_1_1_c_color3.html#a8">00087</a>         <span class="keyword">inline</span> <a class="code" href="classgtl_1_1_c_color3.html">CColor3</a> <a class="code" href="classgtl_1_1_c_color3.html#a8">operator+ </a>(<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_color3.html">CColor3&lt;T&gt;</a> &amp; c)<span class="keyword"> const</span>
+00088 <span class="keyword">        </span>{
+00089                 <span class="keywordflow">return</span> <a class="code" href="classgtl_1_1_c_color3.html">CColor3&lt;T&gt;</a> (
+00090                         m_Value[0] + c.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[0],
+00091                         m_Value[1] + c.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[1],
+00092                         m_Value[2] + c.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[2]
+00093                 );
+00094         }
+00095 
+<a name="l00096"></a><a class="code" href="classgtl_1_1_c_color3.html#a9">00096</a>         <span class="keyword">inline</span> <a class="code" href="classgtl_1_1_c_color3.html">CColor3</a>&amp; <a class="code" href="classgtl_1_1_c_color3.html#a9">operator+= </a>(<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_color3.html">CColor3&lt;T&gt;</a> &amp; c)
+00097         {
+00098                 m_Value[0] += v.m_Value[0];
+00099                 m_Value[1] += v.m_Value[1];
+00100                 m_Value[2] += v.m_Value[2];
+00101                 <span class="keywordflow">return</span> *<span class="keyword">this</span>;
+00102         }
+00103 
+<a name="l00104"></a><a class="code" href="classgtl_1_1_c_color3.html#a10">00104</a>         <span class="keyword">inline</span> <a class="code" href="classgtl_1_1_c_color3.html">CColor3</a> <a class="code" href="classgtl_1_1_c_color3.html#a10">operator- </a>(<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_color3.html">CColor3&lt;T&gt;</a> &amp; c)<span class="keyword"> const</span>
+00105 <span class="keyword">        </span>{
+00106                 <span class="keywordflow">return</span> <a class="code" href="classgtl_1_1_c_color3.html">CColor3&lt;T&gt;</a> (
+00107                         m_Value[0] - c.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[0],
+00108                         m_Value[1] - c.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[1],
+00109                         m_Value[2] - c.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[2]
+00110                 );
+00111         }
+00112 
+<a name="l00113"></a><a class="code" href="classgtl_1_1_c_color3.html#a11">00113</a>         <span class="keyword">inline</span> <a class="code" href="classgtl_1_1_c_color3.html">CColor3</a>&amp; <a class="code" href="classgtl_1_1_c_color3.html#a11">operator-= </a>(<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_color3.html">CColor3&lt;T&gt;</a> &amp; c)
+00114         {
+00115                 m_Value[0] -= c.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[0];
+00116                 m_Value[1] -= c.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[1];
+00117                 m_Value[2] -= c.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[2];
+00118                 <span class="keywordflow">return</span> *<span class="keyword">this</span>;
+00119         }
+00120 
+<a name="l00121"></a><a class="code" href="classgtl_1_1_c_color3.html#a12">00121</a>         <span class="keyword">inline</span> <a class="code" href="classgtl_1_1_c_color3.html">CColor3</a> <a class="code" href="classgtl_1_1_c_color3.html#a12">operator* </a>(<span class="keyword">const</span> T s)<span class="keyword"> const</span>
+00122 <span class="keyword">        </span>{
+00123                 <span class="keywordflow">return</span> <a class="code" href="classgtl_1_1_c_color3.html">CColor3&lt;T&gt;</a> (
+00124                         m_Value[0] * s,
+00125                         m_Value[1] * s,
+00126                         m_Value[2] * s
+00127                 );
+00128         }
+00129 
+<a name="l00130"></a><a class="code" href="classgtl_1_1_c_color3.html#a13">00130</a>         <span class="keyword">inline</span> <a class="code" href="classgtl_1_1_c_color3.html">CColor3</a>&amp; <a class="code" href="classgtl_1_1_c_color3.html#a13">operator*= </a>(<span class="keyword">const</span> T s)
+00131         {
+00132                 m_Value[0] *= s;
+00133                 m_Value[1] *= s;
+00134                 m_Value[2] *= s;
+00135                 <span class="keywordflow">return</span> *<span class="keyword">this</span>;
+00136         }
+00137 
+<a name="l00138"></a><a class="code" href="classgtl_1_1_c_color3.html#a14">00138</a>         <span class="keyword">inline</span> <a class="code" href="classgtl_1_1_c_color3.html">CColor3</a> <a class="code" href="classgtl_1_1_c_color3.html#a14">operator/ </a>(<span class="keyword">const</span> T s)<span class="keyword"> const</span>
+00139 <span class="keyword">        </span>{
+00140                 <span class="keywordflow">return</span> <a class="code" href="classgtl_1_1_c_color3.html">CColor3&lt;T&gt;</a> (
+00141                         m_Value[0] / s,
+00142                         m_Value[1] / s,
+00143                         m_Value[2] / s
+00144                 );
+00145         }
+00146 
+<a name="l00147"></a><a class="code" href="classgtl_1_1_c_color3.html#a15">00147</a>         <span class="keyword">inline</span> <a class="code" href="classgtl_1_1_c_color3.html">CColor3</a>&amp; <a class="code" href="classgtl_1_1_c_color3.html#a15">operator/= </a>(<span class="keyword">const</span> T s)
+00148         {
+00149                 m_Value[0] /= s;
+00150                 m_Value[1] /= s;
+00151                 m_Value[2] /= s;
+00152                 <span class="keywordflow">return</span> *<span class="keyword">this</span>;
+00153         }
+00154 
+<a name="l00155"></a><a class="code" href="classgtl_1_1_c_color3.html#a16">00155</a>         <span class="keyword">inline</span> T&amp; <a class="code" href="classgtl_1_1_c_color3.html#a16">operator() </a>(<span class="keyword">const</span> EColor &amp; c)
+00156         {
+00157                 <span class="keywordflow">return</span> m_Value[c];
+00158         }
+00159 
+<a name="l00160"></a><a class="code" href="classgtl_1_1_c_color3.html#a17">00160</a>         <span class="keyword">inline</span> T <a class="code" href="classgtl_1_1_c_color3.html#a16">operator() </a>(<span class="keyword">const</span> EColor &amp; c)<span class="keyword"> const</span>
+00161 <span class="keyword">        </span>{
+00162                 <span class="keywordflow">return</span> m_Value[c];
+00163         }
+00164 
+<a name="l00165"></a><a class="code" href="classgtl_1_1_c_color3.html#a18">00165</a>         <span class="keyword">inline</span> <a class="code" href="classgtl_1_1_c_color3.html#a18">operator T* </a>()
+00166         {
+00167                 <span class="keywordflow">return</span> m_Value;
+00168         }
+00169 
+<a name="l00170"></a><a class="code" href="classgtl_1_1_c_color3.html#a19">00170</a>         <span class="keyword">inline</span> <a class="code" href="classgtl_1_1_c_color3.html#a19">operator const T* </a>()<span class="keyword"> const</span>
+00171 <span class="keyword">        </span>{
+00172                 <span class="keywordflow">return</span> m_Value;
+00173         }
+00174 
+<a name="l00175"></a><a class="code" href="classgtl_1_1_c_color3.html#a20">00175</a>         <a class="code" href="classgtl_1_1_c_color3.html">CColor3&lt;T&gt;</a> &amp; <a class="code" href="classgtl_1_1_c_color3.html#a20">ToHLS</a> (<span class="keyword">const</span> T MaxRGB, <span class="keyword">const</span> T MaxHSV)
+00176         {
+00177                 <a class="code" href="classgtl_1_1_c_color3.html">CColor3&lt;T&gt;</a> ColorHSV = GetHLS (MaxRGB, MaxHSV);
+00178         
+00179                 m_Value[0] = ColorHSV.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[0];
+00180                 m_Value[1] = ColorHSV.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[1];
+00181                 m_Value[2] = ColorHSV.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[2];
+00182                 <span class="keywordflow">return</span> *<span class="keyword">this</span>;
+00183         }
+00184 
+00185         <span class="comment">// Hue, Saturation, Value =&gt; Teinte, Saturation, Valeur)</span>
+<a name="l00186"></a><a class="code" href="classgtl_1_1_c_color3.html#a21">00186</a>         <a class="code" href="classgtl_1_1_c_color3.html">CColor3&lt;T&gt;</a> <a class="code" href="classgtl_1_1_c_color3.html#a21">GetHSV</a> (<span class="keyword">const</span> T MaxRGB, <span class="keyword">const</span> T MaxHSV)
+00187         {
+00188                 <a class="code" href="classgtl_1_1_c_color3.html">CColor3&lt;T&gt;</a> ColorHSV;
+00189 
+00190                 T Max = max(max(m_Value[0], m_Value[1]), m_Value[2]);
+00191                 T Min = min(min(m_Value[0], m_Value[1]), m_Value[2]);
+00192                 ColorHSV.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[1] = (((Max + Min) * MaxHSV) + MaxRGB) / (2 * MaxRGB);
+00193         
+00194                 <span class="keywordflow">if</span> (Max == Min) <span class="comment">// r=g=b --&gt; achromatic case</span>
+00195                 {
+00196                         ColorHSV.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[2] = 0; <span class="comment">// saturation</span>
+00197                         ColorHSV.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[0] = 0; <span class="comment">// hue</span>
+00198                 }
+00199                 <span class="keywordflow">else</span> <span class="comment">// chromatic case</span>
+00200                 {                                                               
+00201                         <span class="comment">// saturation  </span>
+00202                         <span class="keywordflow">if</span> (ColorHSV.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[1] &lt;= (MaxHSV / 2))
+00203                                 ColorHSV.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[2] = (((Max - Min) * MaxHSV) + ((Max + Min) / 2)) / (Max + Min);
+00204                         <span class="keywordflow">else</span>
+00205                                 ColorHSV.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[2] = (((Max - Min) * MaxHSV) + ((2 * MaxRGB - Max - Min) / 2)) / (2 * MaxRGB - Max - Min);
+00206 
+00207                         <span class="comment">// hue </span>
+00208                         <a class="code" href="classgtl_1_1_c_color3.html">CColor3&lt;T&gt;</a> ColorTmp;
+00209                         ColorTmp.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[0] = (((Max - m_Value[0]) * (MaxHSV / 6)) + ((Max - Min) / 2)) / (Max - Min);
+00210                         ColorTmp.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[1] = (((Max - m_Value[1]) * (MaxHSV / 6)) + ((Max - Min) / 2)) / (Max - Min);
+00211                         ColorTmp.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[2] = (((Max - m_Value[2]) * (MaxHSV / 6)) + ((Max - Min) / 2)) / (Max - Min);
+00212 
+00213                         <span class="keywordflow">if</span> (m_Value[0] == Max)
+00214                                 ColorHSV.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[0] = ColorTmp.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[2] - ColorTmp.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[1];
+00215                         <span class="keywordflow">else</span> <span class="keywordflow">if</span> (m_Value[1] == Max)
+00216                                 ColorHSV.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[0] = (MaxHSV / 3) + ColorTmp.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[0] - ColorTmp.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[2];
+00217                         <span class="keywordflow">else</span> <span class="comment">// m_Value[2] == Max</span>
+00218                                 ColorHSV.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[0] = ((2 * MaxHSV) / 3) + ColorTmp.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[1] - ColorTmp.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[0];
+00219 
+00220                         <span class="keywordflow">if</span> (ColorHSV.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[0] &lt; 0)
+00221                                 ColorHSV.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[0] += MaxHSV;
+00222                         <span class="keywordflow">if</span> (ColorHSV.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[0] &gt; MaxHSV)
+00223                                 ColorHSV.<a class="code" href="classgtl_1_1_c_color3.html#r0">m_Value</a>[0] -= MaxHSV;
+00224                 }
+00225         
+00226                 <span class="keywordflow">return</span> ColorHSV;
+00227         }
+00228 };
+00229 
+<a name="l00230"></a><a class="code" href="namespacegtl.html#a31">00230</a> <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt; <a class="code" href="classgtl_1_1_c_color3.html">CColor3&lt;T&gt;</a> <a class="code" href="namespacegtl.html#a31">operator* </a>(<span class="keyword">const</span> T s, <span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_color3.html">CColor3&lt;T&gt;</a>&amp; c)
+00231 {
+00232         <span class="keywordflow">return</span> v * c;
+00233 }
+00234 
+00235 }; <span class="comment">// namespace gtl</span>
+00236 
+00237 <span class="preprocessor">#endif //GTL_COLOR_3_H</span>
+00238 <span class="preprocessor"></span>
+</div></pre><hr size="1"><address style="align: right;"><small>Généré le Wed Jan 5 23:28:22 2005 pour GTL par
+<a href="http://www.doxygen.org/index.html">
+<img src="doxygen.png" alt="doxygen" align="middle" border=0 ></a> 1.3.8 </small></address>
+</body>
+</html>

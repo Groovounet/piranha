@@ -1,0 +1,29 @@
+//////////////////////////////////////////////////////////////////////////////
+// GTL
+// Copyright (c) 2003-2004, Groove
+// Sous licence LGPL version 2
+// G-Truc Creation, www.g-truc.net
+//////////////////////////////////////////////////////////////////////////////
+//! \date 02/06/2004
+//! \file gtl_vector.h
+//! \brief Outils communs pour les vecteurs.
+//////////////////////////////////////////////////////////////////////////////
+
+#ifndef GTL_VECTOR_H
+#define GTL_VECTOR_H
+
+#include "./gtl_math.h"
+
+namespace gtl {
+
+typedef enum
+{
+	X = 0,
+	Y = 1,
+	Z = 2,
+	W = 3
+} TCoord;
+
+}; // namespace gtl
+
+#endif //GTL_VECTOR_H

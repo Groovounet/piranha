@@ -1,0 +1,193 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+<title>GTL: gtl_shader.cpp Source File</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body>
+<!-- Généré par Doxygen 1.3.8 -->
+<div class="qindex"><a class="qindex" href="index.html">Page&nbsp;principale</a> | <a class="qindex" href="namespaces.html">Liste des namespaces</a> | <a class="qindex" href="hierarchy.html">Hiérarchie&nbsp;des&nbsp;classes</a> | <a class="qindex" href="annotated.html">Liste&nbsp;des&nbsp;classes</a> | <a class="qindex" href="files.html">Liste&nbsp;des&nbsp;fichiers</a> | <a class="qindex" href="namespacemembers.html">Membres&nbsp;de&nbsp;namespace</a> | <a class="qindex" href="functions.html">Membres&nbsp;de&nbsp;classe</a> | <a class="qindex" href="globals.html">Membres&nbsp;de&nbsp;fichier</a></div>
+<h1>gtl_shader.cpp</h1><a href="gtl__shader_8cpp.html">Aller à la documentation de ce fichier.</a><pre class="fragment"><div>00001 
+00002 <span class="comment">// GTL</span>
+00003 <span class="comment">// Copyright (c) 2003-2004, Groove</span>
+00004 <span class="comment">// G-Truc Creation, www.g-truc.net</span>
+00005 <span class="comment">// Sous licence LGPL version 2</span>
+00011 <span class="comment"></span>
+00012 <span class="preprocessor">#include "../include/gtl_shader.h"</span>
+00013 <span class="preprocessor">#include &lt;fstream&gt;</span>
+00014 <span class="preprocessor">#include &lt;string.h&gt;</span>
+00015 
+00016 <span class="keyword">namespace </span>gtl {
+00017 
+<a name="l00018"></a><a class="code" href="namespacegtl.html#a25">00018</a> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="namespacegtl.html#a25">szARBvp1_0</a> = <span class="stringliteral">"!!ARBvp1.0"</span>;
+<a name="l00019"></a><a class="code" href="namespacegtl.html#a26">00019</a> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="namespacegtl.html#a26">szNVvp1_0</a> = <span class="stringliteral">"!!VP1.0"</span>;
+<a name="l00020"></a><a class="code" href="namespacegtl.html#a27">00020</a> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="namespacegtl.html#a27">szNVvp1_1</a> = <span class="stringliteral">"!!VP1.1"</span>;
+<a name="l00021"></a><a class="code" href="namespacegtl.html#a28">00021</a> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="namespacegtl.html#a28">szNVvp2_0</a> = <span class="stringliteral">"!!VP2.0"</span>;
+<a name="l00022"></a><a class="code" href="namespacegtl.html#a29">00022</a> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="namespacegtl.html#a29">szARBfp1_0</a> = <span class="stringliteral">"!!ARBfp1.0"</span>;
+<a name="l00023"></a><a class="code" href="namespacegtl.html#a30">00023</a> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="namespacegtl.html#a30">szNVfp1_0</a> = <span class="stringliteral">"!!FP1.0"</span>;
+00024 
+<a name="l00025"></a><a class="code" href="classgtl_1_1_c_shader.html#a0">00025</a> CShader::CShader (<span class="keyword">const</span> <span class="keywordtype">char</span>* szFilename)
+00026 {
+00027         m_pcData = 0;
+00028         m_iSize = 0;
+00029         m_bLoaded = <span class="keyword">false</span>;
+00030 
+00031         <span class="keywordflow">if</span> (szFilename != 0)
+00032                 <a class="code" href="classgtl_1_1_c_shader.html#a2">Load</a> (szFilename);
+00033 }
+00034 
+<a name="l00035"></a><a class="code" href="classgtl_1_1_c_shader.html#a1">00035</a> CShader::~CShader ()
+00036 {
+00037         <span class="keywordflow">if</span> (m_bLoaded)
+00038                 <span class="keyword">delete</span> [] m_pcData;
+00039 }
+00040 
+00041 <span class="comment">/*</span>
+00042 <span class="comment">bool CShader::Load (const char* szFilename)</span>
+00043 <span class="comment">{</span>
+00044 <span class="comment">        if (m_bLoaded)</span>
+00045 <span class="comment">        {</span>
+00046 <span class="comment">                delete [] m_pcData;</span>
+00047 <span class="comment">                m_pcData = 0;</span>
+00048 <span class="comment">                m_iSize = 0;</span>
+00049 <span class="comment">                m_bLoaded = false;</span>
+00050 <span class="comment">        }</span>
+00051 <span class="comment"></span>
+00052 <span class="comment">        FILE* pFile = fopen (szFilename, "r");</span>
+00053 <span class="comment">        if (!pFile)</span>
+00054 <span class="comment">                return false;</span>
+00055 <span class="comment"></span>
+00056 <span class="comment">        fseek (pFile, 0, SEEK_END);</span>
+00057 <span class="comment">        m_iSize = ftell (pFile);</span>
+00058 <span class="comment">        fseek (pFile, 0, SEEK_SET);</span>
+00059 <span class="comment"></span>
+00060 <span class="comment">        m_pcData = new char [m_iSize + 1];</span>
+00061 <span class="comment">        memset (m_pcData, '\0', m_iSize + 1);</span>
+00062 <span class="comment">        if (!m_pcData)</span>
+00063 <span class="comment">        {</span>
+00064 <span class="comment">                fclose (pFile);</span>
+00065 <span class="comment">                return false;</span>
+00066 <span class="comment">        }</span>
+00067 <span class="comment"></span>
+00068 <span class="comment">        fread (m_pcData, sizeof (char), m_iSize, pFile);</span>
+00069 <span class="comment">        fclose (pFile);</span>
+00070 <span class="comment"></span>
+00071 <span class="comment">        m_bLoaded = true;</span>
+00072 <span class="comment"></span>
+00073 <span class="comment">        m_iSize = strlen (m_pcData);</span>
+00074 <span class="comment"></span>
+00075 <span class="comment">        return m_bLoaded;</span>
+00076 <span class="comment">}</span>
+00077 <span class="comment">*/</span>
+00078 
+<a name="l00079"></a><a class="code" href="classgtl_1_1_c_shader.html#a2">00079</a> <span class="keywordtype">bool</span> CShader::Load (<span class="keyword">const</span> <span class="keywordtype">char</span>* szFilename)
+00080 {
+00081         <span class="keywordflow">if</span> (m_bLoaded)
+00082         {
+00083                 <span class="keyword">delete</span> [] m_pcData;
+00084                 m_pcData = 0;
+00085                 m_iSize = 0;
+00086                 m_bLoaded = <span class="keyword">false</span>;
+00087         }
+00088 
+00089         std::ifstream FileIn (szFilename, std::ios::in);
+00090 
+00091         FileIn.seekg (0, std::ios::end);
+00092         m_iSize = FileIn.tellg ();
+00093         FileIn.seekg (0, std::ios::beg);
+00094 
+00095         m_pcData = <span class="keyword">new</span> <span class="keywordtype">char</span> [m_iSize + 1];
+00096         memset (m_pcData, <span class="charliteral">'\0'</span>, m_iSize + 1);
+00097         <span class="keywordflow">if</span> (!m_pcData)
+00098         {
+00099                 FileIn.close ();
+00100                 <span class="keywordflow">return</span> <span class="keyword">false</span>;
+00101         }
+00102 
+00103         FileIn.read (m_pcData, m_iSize);
+00104         FileIn.close ();
+00105 
+00106         m_bLoaded = <span class="keyword">true</span>;
+00107 
+00108         m_iSize = strlen (m_pcData);
+00109 
+00110         <span class="keywordflow">return</span> m_bLoaded;
+00111 }
+00112 
+<a name="l00113"></a><a class="code" href="classgtl_1_1_c_shader.html#a6">00113</a> <span class="keywordtype">bool</span> CShader::IsShaderType (<span class="keyword">const</span> <span class="keywordtype">char</span>* szType)<span class="keyword"> const</span>
+00114 <span class="keyword"></span>{
+00115         <span class="keywordflow">if</span> (!m_bLoaded)
+00116                 <span class="keywordflow">return</span> <span class="keyword">false</span>;
+00117 
+00118         <span class="keywordflow">if</span> (strstr (m_pcData, szType) == &amp;m_pcData[0])
+00119                 <span class="keywordflow">return</span> <span class="keyword">true</span>;
+00120         <span class="keywordflow">else</span>
+00121                 <span class="keywordflow">return</span> <span class="keyword">false</span>;
+00122 }
+00123 
+<a name="l00124"></a><a class="code" href="classgtl_1_1_c_shader.html#a7">00124</a> <span class="keywordtype">bool</span> CShader::IsShaderType (<span class="keyword">const</span> EShaderType &amp; ShaderType)<span class="keyword"> const</span>
+00125 <span class="keyword"></span>{
+00126         <span class="keywordflow">if</span> (!m_bLoaded)
+00127                 <span class="keywordflow">return</span> <span class="keyword">false</span>;
+00128 
+00129         <span class="keywordflow">switch</span> (ShaderType)
+00130         {
+00131         <span class="keywordflow">default</span>:
+00132         <span class="keywordflow">case</span> <a class="code" href="namespacegtl.html#a40a14">SHADER_TYPE_NULL</a>:
+00133                 <span class="keywordflow">return</span> <span class="keyword">false</span>;
+00134         <span class="keywordflow">case</span> <a class="code" href="namespacegtl.html#a40a15">SHADER_TYPE_ARB_VP</a>:
+00135                 <span class="keywordflow">return</span> (strstr (m_pcData, <span class="stringliteral">"!!ARBvp1.0"</span>) == &amp;m_pcData[0]);
+00136         <span class="keywordflow">case</span> <a class="code" href="namespacegtl.html#a40a16">SHADER_TYPE_NV_VP</a>:
+00137                 <span class="keywordflow">return</span> (strstr (m_pcData, <span class="stringliteral">"!!VP1.0"</span>) == &amp;m_pcData[0]);
+00138         <span class="keywordflow">case</span> <a class="code" href="namespacegtl.html#a40a17">SHADER_TYPE_NV_VP1_1</a>:
+00139                 <span class="keywordflow">return</span> (strstr (m_pcData, <span class="stringliteral">"!!VP1.1"</span>) == &amp;m_pcData[0]);
+00140         <span class="keywordflow">case</span> <a class="code" href="namespacegtl.html#a40a18">SHADER_TYPE_NV_VP2</a>:
+00141                 <span class="keywordflow">return</span> (strstr (m_pcData, <span class="stringliteral">"!!VP2.0"</span>) == &amp;m_pcData[0]);
+00142         <span class="keywordflow">case</span> <a class="code" href="namespacegtl.html#a40a19">SHADER_TYPE_ARB_FP</a>:
+00143                 <span class="keywordflow">return</span> (strstr (m_pcData, <span class="stringliteral">"!!ARBfp1.0"</span>) == &amp;m_pcData[0]);
+00144         <span class="keywordflow">case</span> <a class="code" href="namespacegtl.html#a40a20">SHADER_TYPE_NV_FP</a>:
+00145                 <span class="keywordflow">return</span> (strstr (m_pcData, <span class="stringliteral">"!!FP1.0"</span>) == &amp;m_pcData[0]);
+00146         }
+00147 }
+00148 
+<a name="l00149"></a><a class="code" href="classgtl_1_1_c_shader.html#a8">00149</a> <a class="code" href="namespacegtl.html#a40">EShaderType</a> CShader::GetShaderType ()<span class="keyword"> const</span>
+00150 <span class="keyword"></span>{
+00151         <span class="keywordflow">if</span> (!m_bLoaded)
+00152                 <span class="keywordflow">return</span> <a class="code" href="namespacegtl.html#a40a14">SHADER_TYPE_NULL</a>;
+00153 
+00154         <span class="keywordflow">if</span> (strstr (m_pcData, <span class="stringliteral">"!!ARBvp1.0"</span>) == &amp;m_pcData[0])
+00155                 <span class="keywordflow">return</span> <a class="code" href="namespacegtl.html#a40a15">SHADER_TYPE_ARB_VP</a>;
+00156         <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strstr (m_pcData, <span class="stringliteral">"!!VP1.0"</span>) == &amp;m_pcData[0])
+00157                 <span class="keywordflow">return</span> <a class="code" href="namespacegtl.html#a40a16">SHADER_TYPE_NV_VP</a>;
+00158         <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strstr (m_pcData, <span class="stringliteral">"!!VP1.1"</span>) == &amp;m_pcData[0])
+00159                 <span class="keywordflow">return</span> <a class="code" href="namespacegtl.html#a40a17">SHADER_TYPE_NV_VP1_1</a>;
+00160         <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strstr (m_pcData, <span class="stringliteral">"!!VP2.0"</span>) == &amp;m_pcData[0])
+00161                 <span class="keywordflow">return</span> <a class="code" href="namespacegtl.html#a40a18">SHADER_TYPE_NV_VP2</a>;
+00162         <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strstr (m_pcData, <span class="stringliteral">"!!ARBfp1.0"</span>) == &amp;m_pcData[0])
+00163                 <span class="keywordflow">return</span> <a class="code" href="namespacegtl.html#a40a19">SHADER_TYPE_ARB_FP</a>;
+00164         <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strstr (m_pcData, <span class="stringliteral">"!!FP1.0"</span>) == &amp;m_pcData[0])
+00165                 <span class="keywordflow">return</span> <a class="code" href="namespacegtl.html#a40a20">SHADER_TYPE_NV_FP</a>;
+00166         <span class="keywordflow">else</span>
+00167                 <span class="keywordflow">return</span> <a class="code" href="namespacegtl.html#a40a14">SHADER_TYPE_NULL</a>;
+00168 }
+00169 
+<a name="l00170"></a><a class="code" href="classgtl_1_1_c_shader.html#a3">00170</a> <span class="keywordtype">char</span>* CShader::GetData ()<span class="keyword"> const</span>
+00171 <span class="keyword"></span>{
+00172         <span class="keywordflow">return</span> m_pcData;
+00173 }
+00174 
+<a name="l00175"></a><a class="code" href="classgtl_1_1_c_shader.html#a4">00175</a> <span class="keywordtype">long</span> CShader::GetSize ()<span class="keyword"> const</span>
+00176 <span class="keyword"></span>{
+00177         <span class="keywordflow">return</span> m_iSize;
+00178 }
+00179 
+<a name="l00180"></a><a class="code" href="classgtl_1_1_c_shader.html#a5">00180</a> <span class="keywordtype">bool</span> CShader::IsLoaded ()<span class="keyword"> const</span>
+00181 <span class="keyword"></span>{
+00182         <span class="keywordflow">return</span> m_bLoaded;
+00183 }
+00184 
+00185 }; <span class="comment">// namespace gtl</span>
+00186 
+</div></pre><hr size="1"><address style="align: right;"><small>Généré le Wed Jan 5 23:28:23 2005 pour GTL par
+<a href="http://www.doxygen.org/index.html">
+<img src="doxygen.png" alt="doxygen" align="middle" border=0 ></a> 1.3.8 </small></address>
+</body>
+</html>

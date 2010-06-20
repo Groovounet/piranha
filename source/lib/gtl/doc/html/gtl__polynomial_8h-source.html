@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+<title>GTL: gtl_polynomial.h Source File</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body>
+<!-- Généré par Doxygen 1.3.8 -->
+<div class="qindex"><a class="qindex" href="index.html">Page&nbsp;principale</a> | <a class="qindex" href="namespaces.html">Liste des namespaces</a> | <a class="qindex" href="hierarchy.html">Hiérarchie&nbsp;des&nbsp;classes</a> | <a class="qindex" href="annotated.html">Liste&nbsp;des&nbsp;classes</a> | <a class="qindex" href="files.html">Liste&nbsp;des&nbsp;fichiers</a> | <a class="qindex" href="namespacemembers.html">Membres&nbsp;de&nbsp;namespace</a> | <a class="qindex" href="functions.html">Membres&nbsp;de&nbsp;classe</a> | <a class="qindex" href="globals.html">Membres&nbsp;de&nbsp;fichier</a></div>
+<h1>gtl_polynomial.h</h1><a href="gtl__polynomial_8h.html">Aller à la documentation de ce fichier.</a><pre class="fragment"><div>00001 
+00002 <span class="comment">// GTL</span>
+00003 <span class="comment">// Copyright (c) 2003-2004, Groove</span>
+00004 <span class="comment">// Sous licence LGPL version 2</span>
+00005 <span class="comment">// G-Truc Creation, www.g-truc.net</span>
+00011 <span class="comment"></span>
+00012 <span class="preprocessor">#ifndef GTL_POLYNOMIAL_H</span>
+00013 <span class="preprocessor"></span><span class="preprocessor">#define GTL_POLYNOMIAL_H</span>
+00014 <span class="preprocessor"></span>
+00015 <span class="keyword">namespace </span>gtl {
+00016 
+<a name="l00018"></a><a class="code" href="classgtl_1_1_c_polynomial.html">00018</a> <span class="keyword">class </span><a class="code" href="classgtl_1_1_c_polynomial.html">CPolynomial</a>
+00019 {
+00020 <span class="keyword">private</span>:
+00021         <span class="keywordtype">short</span> m_iDegree;
+00022         <span class="keywordtype">short</span> m_iMaxDegree;
+00023         <span class="keywordtype">double</span>* m_pfTerm;
+00024 
+00025         <span class="keywordtype">void</span> Scale (<span class="keywordtype">double</span> fOldUnits, <span class="keywordtype">double</span> fNewUnits);
+00026 
+00027 <span class="keyword">public</span>:
+00028         <a class="code" href="classgtl_1_1_c_polynomial.html#a0">CPolynomial</a> (<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> unDegree = 0);
+00029         <a class="code" href="classgtl_1_1_c_polynomial.html#a0">CPolynomial</a> (<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_polynomial.html">CPolynomial</a> &amp; Polynomial);
+00030         <a class="code" href="classgtl_1_1_c_polynomial.html#a2">~CPolynomial</a> ();
+00031 
+00033         <span class="keywordtype">void</span> <a class="code" href="classgtl_1_1_c_polynomial.html#a3">Load</a> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> uiArraySize, <span class="keywordtype">double</span>* x, <span class="keywordtype">double</span>* y);
+00035         <span class="keywordtype">void</span> <a class="code" href="classgtl_1_1_c_polynomial.html#a3">Load</a> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> uiDegree, <span class="keywordtype">double</span>* t);
+00036 
+00037         <span class="keywordtype">bool</span> <a class="code" href="classgtl_1_1_c_polynomial.html#a5">IsNull</a> ();
+00039         <span class="keywordtype">double</span> <a class="code" href="classgtl_1_1_c_polynomial.html#a6">operator() </a>(<span class="keywordtype">double</span> x);
+00040 
+00041         <a class="code" href="classgtl_1_1_c_polynomial.html">CPolynomial</a>&amp; <a class="code" href="classgtl_1_1_c_polynomial.html#a7">operator= </a>(<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_polynomial.html">CPolynomial</a> &amp; Polynomial);
+00042         
+00043         <a class="code" href="classgtl_1_1_c_polynomial.html">CPolynomial</a> <a class="code" href="classgtl_1_1_c_polynomial.html#a8">operator- </a>() <span class="keyword">const</span>;
+00044 
+00045         <a class="code" href="classgtl_1_1_c_polynomial.html">CPolynomial</a> <a class="code" href="classgtl_1_1_c_polynomial.html#a9">operator+ </a>(<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_polynomial.html">CPolynomial</a> &amp; Polynomial) <span class="keyword">const</span>;
+00046         <a class="code" href="classgtl_1_1_c_polynomial.html">CPolynomial</a>&amp; <a class="code" href="classgtl_1_1_c_polynomial.html#a10">operator+= </a>(<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_polynomial.html">CPolynomial</a> &amp; Polynomial);
+00047 
+00048         <a class="code" href="classgtl_1_1_c_polynomial.html">CPolynomial</a> <a class="code" href="classgtl_1_1_c_polynomial.html#a8">operator- </a>(<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_polynomial.html">CPolynomial</a> &amp; Polynomial) <span class="keyword">const</span>;
+00049         <a class="code" href="classgtl_1_1_c_polynomial.html">CPolynomial</a>&amp; <a class="code" href="classgtl_1_1_c_polynomial.html#a12">operator-= </a>(<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_polynomial.html">CPolynomial</a> &amp; Polynomial);
+00050         
+00051         <span class="comment">//CPolynomial operator* (const CPolynomial &amp; Polynomial) const;</span>
+00052         <span class="comment">//CPolynomial&amp; operator*= (const CPolynomial &amp; Polynomial);</span>
+00053 
+00054         <span class="comment">//CPolynomial operator+ (double s) const;</span>
+00055         <span class="comment">//CPolynomial&amp; operator+= (double s);</span>
+00056 
+00057         <span class="comment">//CPolynomial operator- (double s) const;</span>
+00058         <span class="comment">//CPolynomial&amp; operator-= (double s);</span>
+00059 
+00060         <a class="code" href="classgtl_1_1_c_polynomial.html">CPolynomial</a> <a class="code" href="classgtl_1_1_c_polynomial.html#a13">operator* </a>(<span class="keywordtype">double</span> s) <span class="keyword">const</span>;
+00061         <a class="code" href="classgtl_1_1_c_polynomial.html">CPolynomial</a>&amp; <a class="code" href="classgtl_1_1_c_polynomial.html#a14">operator*= </a>(<span class="keywordtype">double</span> s);
+00062 
+00063         <a class="code" href="classgtl_1_1_c_polynomial.html">CPolynomial</a> <a class="code" href="classgtl_1_1_c_polynomial.html#a15">operator/ </a>(<span class="keywordtype">double</span> s) <span class="keyword">const</span>;
+00064         <a class="code" href="classgtl_1_1_c_polynomial.html">CPolynomial</a>&amp; <a class="code" href="classgtl_1_1_c_polynomial.html#a16">operator/= </a>(<span class="keywordtype">double</span> s);
+00065 
+00066         <span class="keywordtype">void</span> <a class="code" href="classgtl_1_1_c_polynomial.html#a17">Add</a> (<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_polynomial.html">CPolynomial</a> &amp; Polynomial, <span class="keywordtype">double</span> coeff = 1);
+00067 
+00068         <span class="keywordtype">void</span> <a class="code" href="classgtl_1_1_c_polynomial.html#a18">SetDegree</a> (<span class="keywordtype">int</span> uiDegree);
+00069         <span class="keywordtype">void</span> <a class="code" href="classgtl_1_1_c_polynomial.html#a19">SetTerm</a> (<span class="keywordtype">int</span> coeff, <span class="keywordtype">double</span> value);
+00070 
+00071         <span class="keywordtype">int</span> <a class="code" href="classgtl_1_1_c_polynomial.html#a20">GetDegree</a> () <span class="keyword">const</span>;
+00072         <span class="keywordtype">double</span> <a class="code" href="classgtl_1_1_c_polynomial.html#a21">GetTerm</a> (<span class="keywordtype">int</span> coeff) <span class="keyword">const</span>;
+00073 
+00074         <a class="code" href="classgtl_1_1_c_polynomial.html">CPolynomial</a> <a class="code" href="classgtl_1_1_c_polynomial.html#a22">GetDerivative</a> () <span class="keyword">const</span>;
+00075         <a class="code" href="classgtl_1_1_c_polynomial.html">CPolynomial</a> <a class="code" href="classgtl_1_1_c_polynomial.html#a23">GetCompress</a> (<span class="keywordtype">double</span> fEpsilon) <span class="keyword">const</span>;
+00076 };
+00077 
+00078 }; <span class="comment">// namespace gtl</span>
+00079 
+00080 <span class="preprocessor">#endif //GTL_POLYNOMIAL_H</span>
+</div></pre><hr size="1"><address style="align: right;"><small>Généré le Wed Jan 5 23:28:23 2005 pour GTL par
+<a href="http://www.doxygen.org/index.html">
+<img src="doxygen.png" alt="doxygen" align="middle" border=0 ></a> 1.3.8 </small></address>
+</body>
+</html>

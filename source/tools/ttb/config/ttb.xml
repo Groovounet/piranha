@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+
+<conversions>
+	<texture filename="./ground-good.tga" heightmap="./data/heightmap.tga">
+		<level filename="./data/texture/texture0.tga" heightnonemin="0" heightfullmin="0" heightfullmax="48" heightnonemax="64" />
+		<level filename="./data/texture/texture1.tga" heightnonemin="48" heightfullmin="64" heightfullmax="64" heightnonemax="128" />
+		<level filename="./data/texture/texture2.tga" heightnonemin="64" heightfullmin="128" heightfullmax="128" heightnonemax="192" />
+		<level filename="./data/texture/texture3.tga" heightnonemin="128" heightfullmin="192" heightfullmax="192" heightnonemax="224" />
+		<level filename="./data/texture/texture4.tga" heightnonemin="192" heightfullmin="224" heightfullmax="255" heightnonemax="255" />
+	</texture>
+	<texture filename="./ground-evil.tga" heightmap="./data/heightmap.tga">
+		<level filename="./data/destroyed/texture0.tga" heightnonemin="0" heightfullmin="0" heightfullmax="48" heightnonemax="64" />
+		<level filename="./data/destroyed/texture1.tga" heightnonemin="48" heightfullmin="64" heightfullmax="64" heightnonemax="128" />
+		<level filename="./data/destroyed/texture2.tga" heightnonemin="64" heightfullmin="128" heightfullmax="128" heightnonemax="192" />
+		<level filename="./data/destroyed/texture3.tga" heightnonemin="128" heightfullmin="192" heightfullmax="192" heightnonemax="224" />
+		<level filename="./data/destroyed/texture4.tga" heightnonemin="192" heightfullmin="224" heightfullmax="255" heightnonemax="255" />
+	</texture>
+</conversions>

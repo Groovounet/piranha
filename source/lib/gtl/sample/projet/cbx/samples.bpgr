@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Groupe de projets-->
+<projectgroup>
+  <project path="font.cbx"/>
+  <project path="image.cbx"/>
+  <project path="lighting.cbx"/>
+  <project path="ogl_ext.cbx"/>
+  <project path="particles.cbx"/>
+  <project path="transformation.cbx"/>
+  <project path="frustum_culling.cbx"/>
+</projectgroup>

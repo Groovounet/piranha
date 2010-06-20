@@ -1,0 +1,246 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+<title>GTL: gtl_image_bmp.cpp Source File</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body>
+<!-- Généré par Doxygen 1.3.8 -->
+<div class="qindex"><a class="qindex" href="index.html">Page&nbsp;principale</a> | <a class="qindex" href="namespaces.html">Liste des namespaces</a> | <a class="qindex" href="hierarchy.html">Hiérarchie&nbsp;des&nbsp;classes</a> | <a class="qindex" href="annotated.html">Liste&nbsp;des&nbsp;classes</a> | <a class="qindex" href="files.html">Liste&nbsp;des&nbsp;fichiers</a> | <a class="qindex" href="namespacemembers.html">Membres&nbsp;de&nbsp;namespace</a> | <a class="qindex" href="functions.html">Membres&nbsp;de&nbsp;classe</a> | <a class="qindex" href="globals.html">Membres&nbsp;de&nbsp;fichier</a></div>
+<h1>gtl_image_bmp.cpp</h1><a href="gtl__image__bmp_8cpp.html">Aller à la documentation de ce fichier.</a><pre class="fragment"><div>00001 
+00002 <span class="comment">// GTL</span>
+00003 <span class="comment">// Copyright (c) 2003-2004, Groove</span>
+00004 <span class="comment">// Sous licence LGPL version 2</span>
+00005 <span class="comment">// G-Truc Creation, www.g-truc.net</span>
+00011 <span class="comment"></span>
+00012 <span class="preprocessor">#include "../include/gtl_image_bmp.h"</span>
+00013 <span class="preprocessor">#include &lt;fstream&gt;</span>
+00014 
+00015 <span class="keyword">namespace </span>gtl {
+00016 
+<a name="l00017"></a><a class="code" href="classgtl_1_1_c_image_b_m_p.html#a0">00017</a> CImageBMP::CImageBMP (<span class="keyword">const</span> <span class="keywordtype">char</span>* szFilename)
+00018 {
+00019         m_pucData = 0;
+00020         <span class="keywordflow">if</span> (szFilename != 0)
+00021                 <a class="code" href="classgtl_1_1_c_image_b_m_p.html#a2">Load</a> (szFilename);
+00022 }
+00023 
+<a name="l00024"></a><a class="code" href="classgtl_1_1_c_image_b_m_p.html#a1">00024</a> CImageBMP::~CImageBMP ()
+00025 {
+00026         <span class="keywordflow">if</span> (m_pucData != 0)
+00027                 <span class="keyword">delete</span> m_pucData;
+00028 }
+00029 
+<a name="l00030"></a><a class="code" href="classgtl_1_1_c_image_b_m_p.html#a7">00030</a> <span class="keywordtype">bool</span> CImageBMP::New (<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> x, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> y, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ucTexelSize, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* pucData)
+00031 {
+00032         <span class="keywordtype">bool</span> bSuccess = <span class="keyword">false</span>;
+00033 
+00034         m_uiSizeX = x;
+00035         m_uiSizeY = y;
+00036         m_unTexelSize = ucTexelSize;
+00037 
+00038         <span class="keywordflow">if</span> (m_pucData)
+00039                 <span class="keyword">delete</span> m_pucData;
+00040         m_pucData = <span class="keyword">new</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> [x * y * ucTexelSize/8];
+00041         <span class="keywordflow">if</span> (m_pucData)
+00042                 bSuccess = <span class="keyword">true</span>;
+00043 
+00044         <span class="keywordflow">if</span> (pucData)
+00045                 memcpy (m_pucData, pucData, x * y * ucTexelSize/8);
+00046 
+00047         m_bLoaded = bSuccess;
+00048         <span class="keywordflow">return</span> bSuccess;
+00049 }
+00050 
+<a name="l00051"></a><a class="code" href="classgtl_1_1_c_image_b_m_p.html#a2">00051</a> <span class="keywordtype">bool</span> CImageBMP::Load (<span class="keyword">const</span> <span class="keywordtype">char</span> *szFilename)
+00052 {
+00053         <span class="keywordflow">if</span> (m_bLoaded)
+00054         {
+00055                 <span class="keywordflow">if</span> (m_pucData != 0)
+00056                 {
+00057                         <span class="keyword">delete</span> m_pucData;
+00058                         m_pucData = 0;
+00059                 }
+00060                 m_bLoaded = <span class="keyword">false</span>;
+00061         }
+00062 
+00063         m_szFilename = szFilename;
+00064 
+00065         std::ifstream FileIn (m_szFilename.c_str (), std::ios::in | std::ios::binary);
+00066         <span class="keywordflow">if</span> (!FileIn)
+00067                 <span class="keywordflow">return</span> <span class="keyword">false</span>;
+00068 
+00069         FileIn.seekg (0x0000, std::ios::beg);
+00070         FileIn.read ((<span class="keywordtype">char</span>*)&amp;m_cIdentifier, <span class="keyword">sizeof</span> (m_cIdentifier));
+00071         FileIn.seekg (0x000A, std::ios::beg);
+00072         FileIn.read ((<span class="keywordtype">char</span>*)&amp;m_uiDataOffset, <span class="keyword">sizeof</span> (m_uiDataOffset));
+00073         FileIn.seekg (0x0012, std::ios::beg);
+00074         FileIn.read ((<span class="keywordtype">char</span>*)&amp;m_uiSizeX, <span class="keyword">sizeof</span> (m_uiSizeX));
+00075         FileIn.seekg (0x0016, std::ios::beg);
+00076         FileIn.read ((<span class="keywordtype">char</span>*)&amp;m_uiSizeY, <span class="keyword">sizeof</span> (m_uiSizeY));
+00077         FileIn.seekg (0x001C, std::ios::beg);
+00078         FileIn.read ((<span class="keywordtype">char</span>*)&amp;m_unTexelSize, <span class="keyword">sizeof</span> (m_unTexelSize));
+00079         FileIn.seekg (0x001E, std::ios::beg);
+00080         FileIn.read ((<span class="keywordtype">char</span>*)&amp;m_uiCompression, <span class="keyword">sizeof</span> (m_uiCompression));
+00081         FileIn.seekg (0x002E, std::ios::beg);
+00082         FileIn.read ((<span class="keywordtype">char</span>*)&amp;m_uiColorsNumber, <span class="keyword">sizeof</span> (m_uiColorsNumber));
+00083 
+00084         <span class="keywordflow">if</span> (FileIn.fail () || FileIn.bad ())
+00085                 <span class="keywordflow">return</span> <span class="keyword">false</span>;
+00086 
+00087         <span class="keywordflow">if</span> (m_cIdentifier[0] != <span class="charliteral">'B'</span> || m_cIdentifier[1] != <span class="charliteral">'M'</span>)
+00088                 <span class="keywordflow">return</span> <span class="keyword">false</span>;
+00089 
+00090         <span class="keywordflow">if</span> (m_uiCompression != 0)
+00091                 <span class="keywordflow">return</span> <span class="keyword">false</span>;
+00092 
+00093         <span class="keywordflow">if</span> (m_uiColorsNumber != 0)
+00094                 <span class="keywordflow">return</span> <span class="keyword">false</span>;
+00095 
+00096         <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> uiDataSize = m_uiSizeX * m_uiSizeY * m_unTexelSize / 8;
+00097 
+00098         m_pucData = <span class="keyword">new</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> [uiDataSize];
+00099         <span class="keywordflow">if</span> (!m_pucData)
+00100                 <span class="keywordflow">return</span> <span class="keyword">false</span>;
+00101 
+00102         FileIn.seekg (m_uiDataOffset, std::ios::beg);
+00103         FileIn.read ((<span class="keywordtype">char</span>*)m_pucData, uiDataSize);
+00104 
+00105         <span class="keywordflow">if</span> (FileIn.fail () || FileIn.bad ())
+00106         {
+00107                 <span class="keyword">delete</span> m_pucData;
+00108                 <span class="keywordflow">return</span> <span class="keyword">false</span>;
+00109         }
+00110         <span class="keywordflow">else</span>
+00111                 m_bLoaded = <span class="keyword">true</span>;
+00112 
+00113         FileIn.close ();
+00114 
+00115         <span class="keywordflow">return</span> m_bLoaded;
+00116 }
+00117 
+<a name="l00118"></a><a class="code" href="classgtl_1_1_c_image_b_m_p.html#a4">00118</a> <span class="keywordtype">bool</span> CImageBMP::Save ()
+00119 {
+00120         <span class="keywordflow">if</span> (m_bChanged)
+00121                 <span class="keywordflow">return</span> <a class="code" href="classgtl_1_1_c_image_b_m_p.html#a5">SaveAs</a> (m_szFilename.c_str ());
+00122         <span class="keywordflow">else</span>
+00123                 <span class="keywordflow">return</span> <span class="keyword">true</span>;
+00124 }
+00125 
+<a name="l00126"></a><a class="code" href="classgtl_1_1_c_image_b_m_p.html#a5">00126</a> <span class="keywordtype">bool</span> CImageBMP::SaveAs (<span class="keyword">const</span> <span class="keywordtype">char</span>* szFilename)
+00127 {
+00128         <span class="keywordflow">if</span> (!m_bLoaded &amp;&amp; !m_bChanged)
+00129                 <span class="keywordflow">return</span> <span class="keyword">false</span>;
+00130 
+00131         std::ofstream FileOut (szFilename, std::ios::out | std::ios::binary);
+00132         <span class="keywordflow">if</span> (!FileOut)
+00133                 <span class="keywordflow">return</span> <span class="keyword">false</span>;
+00134 
+00135         FileOut.seekp (0x0000, std::ios::beg);
+00136         FileOut.write (<span class="stringliteral">"BM"</span>, 2);
+00137         FileOut.seekp (0x0002, std::ios::beg);
+00138         <span class="keywordtype">int</span> iFileSize = 54 + m_uiSizeX * m_uiSizeY * 3;
+00139         FileOut.write ((<span class="keywordtype">char</span>*)&amp;iFileSize, 4);
+00140         FileOut.seekp (0x000A, std::ios::beg);
+00141         FileOut.write ((<span class="keywordtype">char</span>*)&amp;m_uiDataOffset, <span class="keyword">sizeof</span> (m_uiDataOffset));
+00142         FileOut.seekp (0x000E, std::ios::beg);
+00143         <span class="keywordtype">int</span> iHeaderSize = 0x28;
+00144         FileOut.write ((<span class="keywordtype">char</span>*)&amp;iHeaderSize, <span class="keyword">sizeof</span> (iHeaderSize));
+00145         FileOut.seekp (0x0012, std::ios::beg);
+00146         FileOut.write ((<span class="keywordtype">char</span>*)&amp;m_uiSizeX, <span class="keyword">sizeof</span> (m_uiSizeX));
+00147         FileOut.seekp (0x0016, std::ios::beg);
+00148         FileOut.write ((<span class="keywordtype">char</span>*)&amp;m_uiSizeY, <span class="keyword">sizeof</span> (m_uiSizeY));
+00149         FileOut.seekp (0x001A, std::ios::beg);
+00150         <span class="keywordtype">short</span> nPlanes = 1;
+00151         FileOut.write ((<span class="keywordtype">char</span>*)&amp;nPlanes, <span class="keyword">sizeof</span> (nPlanes));
+00152         FileOut.seekp (0x001C, std::ios::beg);
+00153         FileOut.write ((<span class="keywordtype">char</span>*)&amp;m_unTexelSize, <span class="keyword">sizeof</span> (m_unTexelSize));
+00154         FileOut.seekp (0x001E, std::ios::beg);
+00155         FileOut.write ((<span class="keywordtype">char</span>*)&amp;m_uiCompression, <span class="keyword">sizeof</span> (m_uiCompression));
+00156         FileOut.seekp (0x002E, std::ios::beg);
+00157         FileOut.write ((<span class="keywordtype">char</span>*)&amp;m_uiColorsNumber, <span class="keyword">sizeof</span> (m_uiColorsNumber));
+00158 
+00159         <span class="keywordflow">if</span> (FileOut.fail () || FileOut.bad ())
+00160                 <span class="keywordflow">return</span> <span class="keyword">false</span>;
+00161 
+00162         <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> uiDataSize = m_uiSizeX * m_uiSizeY * m_unTexelSize / 8;
+00163         FileOut.seekp (m_uiDataOffset, std::ios::beg);
+00164         FileOut.write ((<span class="keywordtype">char</span>*)m_pucData, uiDataSize);
+00165         <span class="keywordflow">if</span> (FileOut.fail () || FileOut.bad ())
+00166         {
+00167                 <span class="keyword">delete</span> m_pucData;
+00168                 <span class="keywordflow">return</span> <span class="keyword">false</span>;
+00169         }
+00170         <span class="keywordflow">else</span>
+00171                 m_bSaved = <span class="keyword">true</span>;
+00172 
+00173         FileOut.close ();
+00174 
+00175         m_bChanged = <span class="keyword">false</span>;
+00176         <span class="keywordflow">return</span> m_bSaved;
+00177 }
+00178 
+<a name="l00179"></a><a class="code" href="classgtl_1_1_c_image_b_m_p.html#a12">00179</a> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> CImageBMP::GetValue (<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> x, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> y, <span class="keyword">const</span> EColor &amp; Color)<span class="keyword"> const</span>
+00180 <span class="keyword"></span>{
+00181         <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ucValue = 0;
+00182         <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ucTexelSize = m_unTexelSize / 8;
+00183 
+00184         <span class="keywordflow">switch</span> (Color)
+00185         {
+00186         <span class="keywordflow">default</span>:
+00187                 <span class="keywordflow">break</span>;
+00188         <span class="keywordflow">case</span> <a class="code" href="namespacegtl.html#a38a3">R</a>:
+00189                 ucValue = m_pucData[((y * m_uiSizeX) +x) * ucTexelSize + 2];
+00190                 <span class="keywordflow">break</span>;
+00191         <span class="keywordflow">case</span> <a class="code" href="namespacegtl.html#a38a4">G</a>:
+00192                 ucValue = m_pucData[((y * m_uiSizeX) +x) * ucTexelSize + 1];
+00193                 <span class="keywordflow">break</span>;
+00194         <span class="keywordflow">case</span> <a class="code" href="namespacegtl.html#a38a5">B</a>:
+00195                 ucValue = m_pucData[((y * m_uiSizeX) +x) * ucTexelSize + 0];
+00196                 <span class="keywordflow">break</span>;
+00197         <span class="keywordflow">case</span> <a class="code" href="namespacegtl.html#a38a6">A</a>:
+00198                 <span class="keywordflow">if</span> ((m_unTexelSize == 16) || (m_unTexelSize == 32))
+00199                         ucValue = m_pucData[((y * m_uiSizeX) +x) * ucTexelSize + 3];
+00200                 <span class="keywordflow">break</span>;
+00201         }
+00202 
+00203         <span class="keywordflow">return</span> ucValue;
+00204 }
+00205 
+<a name="l00206"></a><a class="code" href="classgtl_1_1_c_image_b_m_p.html#a13">00206</a> <span class="keywordtype">bool</span> CImageBMP::SetValue (<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> x, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> y, <span class="keyword">const</span> EColor &amp; Color, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ucValue) 
+00207 {
+00208         <span class="keywordtype">bool</span> bSuccess = <span class="keyword">false</span>;
+00209         <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> ucTexelSize = m_unTexelSize / 8;
+00210 
+00211         <span class="keywordflow">switch</span> (Color)
+00212         {
+00213         <span class="keywordflow">default</span>:
+00214                 <span class="keywordflow">break</span>;
+00215         <span class="keywordflow">case</span> <a class="code" href="namespacegtl.html#a38a3">R</a>:
+00216                 m_pucData[((y * m_uiSizeX) +x) * ucTexelSize + 2] = ucValue;
+00217                 bSuccess = <span class="keyword">true</span>;
+00218                 <span class="keywordflow">break</span>;
+00219         <span class="keywordflow">case</span> <a class="code" href="namespacegtl.html#a38a4">G</a>:
+00220                 m_pucData[((y * m_uiSizeX) +x) * ucTexelSize + 1] = ucValue;
+00221                 bSuccess = <span class="keyword">true</span>;
+00222                 <span class="keywordflow">break</span>;
+00223         <span class="keywordflow">case</span> <a class="code" href="namespacegtl.html#a38a5">B</a>:
+00224                 m_pucData[((y * m_uiSizeX) +x) * ucTexelSize + 0] = ucValue;
+00225                 bSuccess = <span class="keyword">true</span>;
+00226                 <span class="keywordflow">break</span>;
+00227         <span class="keywordflow">case</span> <a class="code" href="namespacegtl.html#a38a6">A</a>:
+00228                 <span class="keywordflow">if</span> ((m_unTexelSize == 16) || (m_unTexelSize == 32))
+00229                 {
+00230                         m_pucData[((y * m_uiSizeX) +x) * ucTexelSize + 3] = ucValue;
+00231                         bSuccess = <span class="keyword">true</span>;
+00232                 }
+00233                 <span class="keywordflow">break</span>;
+00234         }
+00235 
+00236         <span class="keywordflow">return</span> bSuccess;
+00237 }
+00238 
+00239 }; <span class="comment">// namespace gtl</span>
+</div></pre><hr size="1"><address style="align: right;"><small>Généré le Wed Jan 5 23:28:22 2005 pour GTL par
+<a href="http://www.doxygen.org/index.html">
+<img src="doxygen.png" alt="doxygen" align="middle" border=0 ></a> 1.3.8 </small></address>
+</body>
+</html>

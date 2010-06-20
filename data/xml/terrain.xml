@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<terrain>
+	<ground 
+		heightmap="./data/terrain/heightmap.tga" 
+		scale="0.75f" 
+		reso-min="1" 
+		reso-desired="24"
+		colormap-good="./data/terrain/ground-good.tga"
+		colormap-evil="./data/terrain/ground-evil.tga"
+		detailmap="./data/terrain/detailmap.tga" 
+		detailrepeat="4"
+		lightmap="./data/terrain/lightmap.tga"
+		shader-vert="./data/shader/terrain.vert"
+		shader-frag="./data/shader/terrain.frag" />
+	<water 
+		file="./data/terrain/water.tga" 
+		height="48.f" />
+	<sky 
+		file="./data/terrain/sky1.tga" 
+		r="0.627f" 
+		g="0.875f" 
+		b="1.0f" />
+	<plants number="1024" lod-distance="128" height-min="48.f" height-max="96.f">
+		<plant file="./data/terrain/plant.tga" width="1.0" height="4.0" />
+	</plants>
+</terrain>

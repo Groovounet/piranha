@@ -1,0 +1,23 @@
+//////////////////////////////////////////////////////////////////////////////
+// Piranha, Copyright (c) 2004 - 2005 G-Truc Creation (www.g-truc.net)
+// Under LGPL licence 
+//////////////////////////////////////////////////////////////////////////////
+//! \author Groove (groove@g-truc.net)
+//! \date 12-23-2004
+//! \file ./file/element.h
+//! \brief 
+//////////////////////////////////////////////////////////////////////////////
+
+#ifndef __PIRANHA_FILE_ELEMENT_H__
+#define __PIRANHA_FILE_ELEMENT_H__
+
+namespace file {
+
+class CElement
+{
+
+};
+
+}; // file
+
+#endif //__PIRANHA_FILE_ELEMENT_H__

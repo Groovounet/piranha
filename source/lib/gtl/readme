@@ -1,0 +1,142 @@
+GTL README (http://www.g-truc.net)
+
+========================================================================
+GTL est une bibliothèque regroupant des éléments de programmation réutilisables pour des applications graphiques.
+C'est un projet pour Windows et Linux, sous licence LGPL.
+GTL est utilisable avec Visual C++ 6 SP5, Visual C++ 7.1, GCC 3, MinGW 3, MinGW Developer Studio et DevCPP 5.
+
+========================================================================
+Beta 1.2 - 06/01/2005
+- Portage sous C++ Builder X
+- Intégration de tous les headers OpenGL.
+- Ajout d'un d'accès "const" aux données des vecteurs.
+- Ajout d'un d'accès "const" aux données des couleurs.
+- Correction du bug des opérateurs de comparaisons des verteurs.
+
+========================================================================
+Beta 1.1 - 10/11/2004
+- Correction du bug de la transparence des particules dans l'exemple 'particles'.
+- Optimisation de la gestion des collisions de l'exemple 'particles'.
+- Correction des bugs des constructeurs des matrices CMatrix2x2 et CMatrix3x3.
+- Correction des bugs des fonctions de rotation autour d'un axe de la matrice CMatrix4x4.
+- Correction du calcul de déterminants et d'inverses de CMatrix3x3.
+- Paramétrage de la longeur de champ de vision plus simple de la class CCamera.
+- Amélioration de la classe CQuaternion.
+- Correction des opérations += et -= de la classe CVector4.
+- Amélioration des calculs de normes des classes CVector2, CVector3, CVector4.
+
+========================================================================
+Beta 1.0 - 11/10/2004
+- Ajout du chargement de shaders.
+- Ajout de la vérification du support des extensions.
+- Ajout du support des nombres complexes sous forme algébrique et trigonométrique.
+- Ajout de fonctionnalités aux vecteurs : Maximum, minimum, saturation et valeur absolue.
+- Ajout de d'une fonctionnalité permettant de réaliser simultanément une multiplication et une addition.
+- Ajout de matrice 2x2 et 3x3.
+- Ajout de la prise de screenshot.
+- Ajout de la détection des erreurs d'OpenGL.
+- Ajout d'une classe quaternion.
+- Ajout d'outils pour les transformations par des matrices.
+- Ajout de la conversion de couleur RGB en couleur HLS.
+- Ajout de calcules de vecteurs projetés et de vecteurs perpendiculaires.
+- Ajout d'un exemple illustrant les transformations par les fonctions OpenGL, par matrices et par quaternions.
+- Ajout d'un exemple montrant l'éclairage d'un terrain avec calcul de normales par sommet.
+- Ajout d'un exemple utilisant la projection de vecteur pour la gestion des collisions.
+- Correction de la matrice 4x4.
+- Correction de gtl_math.h.
+- Support des extensions d'OpenGL 2.0.
+- Support de MinGW complet.
+
+========================================================================
+Alpha 4.2 - 05/02/2004
+- Ajout de fonctionnalités à gtl::Camera.
+- Correction de l'opérateur = des classes CVectorX.
+- Ajout de gtl::CColor3 et gtl::CColor4.
+- Support de DevCpp 5 beta complet.
+- Support de MinGW Developper Studio 2 complet.
+
+========================================================================
+Alpha 4.1 - 26/12/2003
+- Ajout de gtl::CFont.
+- Ajout de gtl::CFontTGA.
+- Ajout de fonctions de rotation des vecteurs dans les classes CVector*.
+- Ajout d'un exemple d'utilisation de gtl::CPolynamial.
+- Correction de gtl::CMatrix4.
+- Supression de gtl::CText.
+- Supression des exemples non concret.
+- Portage des exemples sous SDL.
+
+========================================================================
+Alpha 4.0 - 28/11/2003
+- Reprogrammation des classes de chargement d'images.
+- Ajoute d'un contrôle l'état du chargement d'images.
+- Améliore la sauvegarde d'images TGA.
+- Ajoute la classe CCamera.
+- Ajoute la classe CMatrix4.
+- Ajoute la classe CTimer.
+- Intégre G-Particule pour exemple.
+- Ajoute d'un exemple d'utilisation de la camera.
+- Plus de support pour Dev C++.
+
+========================================================================
+Alpha 3.2 - 02/08/2003
+- Réécriture du code du chargement d'images TGA. 
+- Sauvegarde d'images TGA.
+- Ajoute un exemple d'utilisation de chargement et sauvegarde d'une image TGA.
+
+========================================================================
+Alpha 3.1 - 11/07/2003
+- Ajoute des vecteurs de rang 4.
+- Ajoute une fonction factorielle.
+- Ajoute un exemple d'utilisation des fonts.
+- Ajoute un exemple d'utilisation des dlls.
+- Ajoute l'opérateur () pour accéder aux éléments d'un vecteur.
+- Supprime l'opérateur [] pour accéder aux éléments d'un vecteur.
+- Fixe les problèmes de surcharges similaires.
+- Utilisation d'une bibliothèque static au lieu d'un groupe d'objet compiler avec GCC.
+- Création d'un projet pour Dev C++.
+
+========================================================================
+Alpha 3.0 - 21/03/2003
+- Chargement, manipulation et affichage de charactères à l'écran en OpenGL.
+- 2 fonts disponibles.
+- Chargement d'images BMP 24 bits aux formats RGB 24 bit ou BGR 24 bits.
+- Chargement d'images TGA 8 bits (palette) aux formats RGB 24 bits et BGR 24 bits.
+- Chargement d'images TGA 24 bits aux formats ARGB 16 bits, RGB 24 bits, BGR 24 bits, RGBA 32 bits et BGRA 32 bits.
+- Chargement d'images TGA 32 bits aux formats RGBA 32 bits et BGRA 32 bits.
+- Chargement d'images RAW.
+- Ajout un exemple d'utilisation du chargement d'images.
+- Ajout un exemple d'utilisation des fonts.
+- Ajout header pour OpenGL 1.4.
+- Aide à la manipulation de la mémoire dynamique.
+- Aide à la manipulation des DLL et SO.
+- Fixe les problèmes de fuites de mémoires.
+- Suppression des éléments concernant les matrices.
+- Suppression des éléments concernant la gestion des champs de bits.
+- Suppression des vecteurs de rang 4 et N.
+- Le tout pour Visual C++ 6, Visual C++ 7/.net et GCC 3.2.
+
+========================================================================
+Alpha 2.1 - 17/02/2003
+- Ajout du chargement d'images BMP 24 Bits
+
+========================================================================
+Alpha 2.0 - 15/02/2003
+- Inclut dans un espace de nom.
+- Outil d'utilisation des DLLs.
+
+========================================================================
+Alpha 1.0 - 02/02/2003
+- Chargement d'images TGA 8, 24 et 32 Bits.
+- Vecteur a 2, 3, 4 et N dimension.
+- Matrice a 2, 3, 4 et N dimension.
+- Définition de couleurs.
+- Gestion des nombres aléatoires.
+- Define des types de données entier et flotant.
+- Model simplifié des cosinus et sinus.
+- Inversion de bit.
+- Outil de comparaison.
+- Conversion radian -> degré et inversement.
+- Gestion des champs de bits.
+
+========================================================================

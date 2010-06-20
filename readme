@@ -1,0 +1,65 @@
+PIRANHA README (http://www.g-truc.net)
+
+========================================================================
+Piranha is an OpenGL demoscene developed under LGPL licence to Windows and Linux.
+It is build to VC7.1, MinGW and GCC.
+
+========================================================================
+Beta 1.1 - 01-06-2005
+- Using GTL Beta 1.2
+- Fixe forgotten extensions detection.
+- Fixe number of texture units detection.
+- Use a new map to terrain.
+
+Beta 1.0 - 01-03-2005
+- Add camera control during pause.
+- Add high qualities textures to the earth.
+- Add state machine.
+- Add multi rendering solution based on computer configuration.
+- Add fade object.
+- Add new utils features : singleton and smart pointer.
+- Add the state machine.
+- Add heightmap blur.
+- Add plant on ground.
+- Add ground colormap deformation.
+- Add terrain sky.
+- Add TinyXML, an XML parser.
+- Add an XML parseur to terrain configuration.
+- Add a log to OpenGL errors.
+- Add some tunnels scenes.
+- Update the scene organization.
+- Update TinyXML to be include in a namespace.
+- Update terrain scenes.
+- Improve the title scene.
+- Improve the transition between scenes "tunnel7" and "tunnel8".
+
+Alpha 2.0 - 12-18-2004
+- Add independente screen resolution rendering.
+- Add memory tracker.
+- Add camera.
+- Add terrain redering.
+- Add some OpenGL extensions support.
+- Improve objects.
+- Improve the GLSL shader class.
+- Improve all scene rendering.
+- Improve the file manager.
+- Fixe memory leak.
+- Fixe some bugs.
+
+Alpha 1.0 - 12-03-2004
+- Add scene manager.
+- Add "Author" scene.
+- Add "Title" scene.
+- Add the last "Tunnel" scene.
+- Add the third last scene.
+- Add particle manager.
+- Add "cube" system.
+- Add "Stars" system.
+- Add "Death Planet" system.
+- Add "Explode" system.
+- Add the HUD.
+- Add the Window manager.
+- Add a full time based system.
+
+========================================================================
+

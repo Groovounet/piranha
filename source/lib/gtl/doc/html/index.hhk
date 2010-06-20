@@ -1,0 +1,1945 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="A"><param name="Name" value="A"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a6"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a6"><param name="Name" value="gtl_color.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Absolute"><param name="Name" value="Absolute"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a35"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a40"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a34"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Add"><param name="Name" value="Add"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a17"><param name="Name" value="gtl::CPolynomial"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Angle"><param name="Name" value="Angle"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a33"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a20"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="B"><param name="Name" value="B"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a5"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a5"><param name="Name" value="gtl_color.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Begin"><param name="Name" value="Begin"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#a4"><param name="Name" value="gtl::CFont"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Build"><param name="Name" value="Build"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#b0"><param name="Name" value="gtl::CFont"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CAMERA_FRUSTUM"><param name="Name" value="CAMERA_FRUSTUM"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a37a1"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a37a1"><param name="Name" value="gtl_camera.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CAMERA_NULL"><param name="Name" value="CAMERA_NULL"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a37a0"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a37a0"><param name="Name" value="gtl_camera.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CAMERA_TURN_OVER"><param name="Name" value="CAMERA_TURN_OVER"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a37a2"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a37a2"><param name="Name" value="gtl_camera.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CCamera"><param name="Name" value="CCamera"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a0"><param name="Name" value="gtl::CCamera"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CColor3"><param name="Name" value="CColor3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a0"><param name="Name" value="gtl::CColor3"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CColor4"><param name="Name" value="CColor4"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a0"><param name="Name" value="gtl::CColor4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CComplexAlgebraic"><param name="Name" value="CComplexAlgebraic"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a0"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CComplexPolar"><param name="Name" value="CComplexPolar"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a0"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CFont"><param name="Name" value="CFont"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#a0"><param name="Name" value="gtl::CFont"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CFontTGA"><param name="Name" value="CFontTGA"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font_t_g_a.html#a0"><param name="Name" value="gtl::CFontTGA"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CheckExt"><param name="Name" value="CheckExt"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a33"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a33"><param name="Name" value="gtl_glext.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CImageBMP"><param name="Name" value="CImageBMP"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a0"><param name="Name" value="gtl::CImageBMP"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CImageRAW"><param name="Name" value="CImageRAW"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a0"><param name="Name" value="gtl::CImageRAW"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CImageTGA"><param name="Name" value="CImageTGA"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a0"><param name="Name" value="gtl::CImageTGA"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Clamp"><param name="Name" value="Clamp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a41"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a46"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a40"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CMatrix2x2"><param name="Name" value="CMatrix2x2"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a0"><param name="Name" value="gtl::CMatrix2x2"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CMatrix3x3"><param name="Name" value="CMatrix3x3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a0"><param name="Name" value="gtl::CMatrix3x3"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CMatrix4x4"><param name="Name" value="CMatrix4x4"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a0"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Color"><param name="Name" value="Color"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#a9"><param name="Name" value="gtl::CFont"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Config"><param name="Name" value="Config"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_screenshot.html#a2"><param name="Name" value="gtl::CScreenshot"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Conjugate"><param name="Name" value="Conjugate"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a30"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a23"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a15"><param name="Name" value="gtl::CQuaternion"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CPolynomial"><param name="Name" value="CPolynomial"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a0"><param name="Name" value="gtl::CPolynomial"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CQuaternion"><param name="Name" value="CQuaternion"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a0"><param name="Name" value="gtl::CQuaternion"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Cross"><param name="Name" value="Cross"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a29"><param name="Name" value="gtl::CVector3"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CScreenshot"><param name="Name" value="CScreenshot"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_screenshot.html#a0"><param name="Name" value="gtl::CScreenshot"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CShader"><param name="Name" value="CShader"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_shader.html#a0"><param name="Name" value="gtl::CShader"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CVector2"><param name="Name" value="CVector2"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a0"><param name="Name" value="gtl::CVector2"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CVector3"><param name="Name" value="CVector3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a0"><param name="Name" value="gtl::CVector3"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CVector4"><param name="Name" value="CVector4"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a0"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Data"><param name="Name" value="Data"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a7"><param name="Name" value="gtl::CImage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a8"><param name="Name" value="gtl::CImageBMP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a9"><param name="Name" value="gtl::CImageRAW"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a8"><param name="Name" value="gtl::CImageTGA"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DEG_TO_RAD"><param name="Name" value="DEG_TO_RAD"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a3"><param name="Name" value="gtl_math.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DegToRad"><param name="Name" value="DegToRad"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_math.html#e0"><param name="Name" value="gtl::CMath"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Det"><param name="Name" value="Det"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a31"><param name="Name" value="gtl::CMatrix2x2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a31"><param name="Name" value="gtl::CMatrix3x3"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Disable"><param name="Name" value="Disable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a3"><param name="Name" value="gtl::CCamera"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#a7"><param name="Name" value="gtl::CFont"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Distance"><param name="Name" value="Distance"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a45"><param name="Name" value="gtl::CVector2"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DistanceSquared"><param name="Name" value="DistanceSquared"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a46"><param name="Name" value="gtl::CVector2"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Dot"><param name="Name" value="Dot"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a23"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ECameraOption"><param name="Name" value="ECameraOption"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a37"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a37"><param name="Name" value="gtl_camera.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="EColor"><param name="Name" value="EColor"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38"><param name="Name" value="gtl_color.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="EFont"><param name="Name" value="EFont"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a39"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a39"><param name="Name" value="gtl_font.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Enable"><param name="Name" value="Enable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a2"><param name="Name" value="gtl::CCamera"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#a6"><param name="Name" value="gtl::CFont"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="End"><param name="Name" value="End"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#a3"><param name="Name" value="gtl::CFont"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="EShaderType"><param name="Name" value="EShaderType"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40"><param name="Name" value="gtl_shader.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Float"><param name="Name" value="Float"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_rand.html#e3"><param name="Name" value="gtl::CRand"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="FONT_BLEND"><param name="Name" value="FONT_BLEND"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a39a11"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a39a11"><param name="Name" value="gtl_font.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="FONT_BUFFER"><param name="Name" value="FONT_BUFFER"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__font_8h.html#a0"><param name="Name" value="gtl_font.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="FONT_NULL"><param name="Name" value="FONT_NULL"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a39a10"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a39a10"><param name="Name" value="gtl_font.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="FONT_SCALE"><param name="Name" value="FONT_SCALE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a39a12"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a39a12"><param name="Name" value="gtl_font.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="FONT_SPACING"><param name="Name" value="FONT_SPACING"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a39a13"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a39a13"><param name="Name" value="gtl_font.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="G"><param name="Name" value="G"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a4"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a4"><param name="Name" value="gtl_color.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetAbsolute"><param name="Name" value="GetAbsolute"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a36"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a41"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a35"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetAngle"><param name="Name" value="GetAngle"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a16"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetClamp"><param name="Name" value="GetClamp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a42"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a47"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a41"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetCompress"><param name="Name" value="GetCompress"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a23"><param name="Name" value="gtl::CPolynomial"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetConjugate"><param name="Name" value="GetConjugate"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a31"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a24"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a16"><param name="Name" value="gtl::CQuaternion"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetCross"><param name="Name" value="GetCross"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a27"><param name="Name" value="gtl::CVector3"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetData"><param name="Name" value="GetData"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_shader.html#a3"><param name="Name" value="gtl::CShader"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetDegree"><param name="Name" value="GetDegree"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a20"><param name="Name" value="gtl::CPolynomial"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetDerivative"><param name="Name" value="GetDerivative"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a22"><param name="Name" value="gtl::CPolynomial"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetDistance"><param name="Name" value="GetDistance"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a16"><param name="Name" value="gtl::CCamera"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetDot"><param name="Name" value="GetDot"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a23"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a25"><param name="Name" value="gtl::CVector3"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetErrorMsg"><param name="Name" value="GetErrorMsg"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__gl_8cpp.html#a1"><param name="Name" value="gtl_gl.cpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__gl_8h.html#a2"><param name="Name" value="gtl_gl.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetHSV"><param name="Name" value="GetHSV"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a21"><param name="Name" value="gtl::CColor3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a22"><param name="Name" value="gtl::CColor4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetIdentificationField"><param name="Name" value="GetIdentificationField"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a14"><param name="Name" value="gtl::CImageTGA"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetIdentity"><param name="Name" value="GetIdentity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a27"><param name="Name" value="gtl::CMatrix2x2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a27"><param name="Name" value="gtl::CMatrix3x3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a25"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetImaginary"><param name="Name" value="GetImaginary"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a20"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetIndentity"><param name="Name" value="GetIndentity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a18"><param name="Name" value="gtl::CQuaternion"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetInverse"><param name="Name" value="GetInverse"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a26"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a22"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a14"><param name="Name" value="gtl::CQuaternion"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetInvert"><param name="Name" value="GetInvert"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a29"><param name="Name" value="gtl::CMatrix2x2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a29"><param name="Name" value="gtl::CMatrix3x3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a30"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a35"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a29"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetMad"><param name="Name" value="GetMad"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a44"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a49"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a43"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetMatrix"><param name="Name" value="GetMatrix"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a11"><param name="Name" value="gtl::CQuaternion"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetMax"><param name="Name" value="GetMax"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a38"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a43"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a37"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetMin"><param name="Name" value="GetMin"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a40"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a45"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a39"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetModulus"><param name="Name" value="GetModulus"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a15"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetNegation"><param name="Name" value="GetNegation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a20"><param name="Name" value="gtl::CQuaternion"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetNormalize"><param name="Name" value="GetNormalize"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a28"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a33"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a27"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetOpposite"><param name="Name" value="GetOpposite"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a29"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetPerp"><param name="Name" value="GetPerp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a50"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a53"><param name="Name" value="gtl::CVector3"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetPosition"><param name="Name" value="GetPosition"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a13"><param name="Name" value="gtl::CCamera"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetProj"><param name="Name" value="GetProj"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a48"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a51"><param name="Name" value="gtl::CVector3"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetReal"><param name="Name" value="GetReal"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a19"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetRotate"><param name="Name" value="GetRotate"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a37"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetRotateX"><param name="Name" value="GetRotateX"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a31"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetRotateY"><param name="Name" value="GetRotateY"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a33"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetRotateZ"><param name="Name" value="GetRotateZ"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a35"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetSaturation"><param name="Name" value="GetSaturation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a34"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a39"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a33"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetScale"><param name="Name" value="GetScale"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a27"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetShaderType"><param name="Name" value="GetShaderType"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_shader.html#a8"><param name="Name" value="gtl::CShader"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetSize"><param name="Name" value="GetSize"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_shader.html#a4"><param name="Name" value="gtl::CShader"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetTerm"><param name="Name" value="GetTerm"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a21"><param name="Name" value="gtl::CPolynomial"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetTranslate"><param name="Name" value="GetTranslate"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a29"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetValue"><param name="Name" value="GetValue"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a11"><param name="Name" value="gtl::CImage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a12"><param name="Name" value="gtl::CImageBMP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a13"><param name="Name" value="gtl::CImageRAW"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a12"><param name="Name" value="gtl::CImageTGA"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetView"><param name="Name" value="GetView"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a14"><param name="Name" value="gtl::CCamera"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetViewDistance"><param name="Name" value="GetViewDistance"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a20"><param name="Name" value="gtl::CCamera"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GL_GLEXT_LEGACY"><param name="Name" value="GL_GLEXT_LEGACY"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__gl_8h.html#a0"><param name="Name" value="gtl_gl.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html"><param name="Name" value="gtl::CCamera"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a0"><param name="Name" value="CCamera"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a3"><param name="Name" value="Disable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a2"><param name="Name" value="Enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a16"><param name="Name" value="GetDistance"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a13"><param name="Name" value="GetPosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a14"><param name="Name" value="GetView"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a20"><param name="Name" value="GetViewDistance"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a4"><param name="Name" value="Init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a19"><param name="Name" value="IsInFrustum"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a8"><param name="Name" value="LookAt"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a10"><param name="Name" value="Move"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a12"><param name="Name" value="MoveUp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a9"><param name="Name" value="Position"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a21"><param name="Name" value="SetViewDistance"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a11"><param name="Name" value="Strafe"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a17"><param name="Name" value="TestDistance"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a1"><param name="Name" value="~CCamera"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html"><param name="Name" value="gtl::CColor3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a0"><param name="Name" value="CColor3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a21"><param name="Name" value="GetHSV"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a12"><param name="Name" value="operator *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a13"><param name="Name" value="operator *="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a19"><param name="Name" value="operator const T *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a18"><param name="Name" value="operator T *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a17"><param name="Name" value="operator()"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a8"><param name="Name" value="operator+"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a9"><param name="Name" value="operator+="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a10"><param name="Name" value="operator-"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a11"><param name="Name" value="operator-="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a14"><param name="Name" value="operator/"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a15"><param name="Name" value="operator/="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a7"><param name="Name" value="operator="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a5"><param name="Name" value="operator=="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a20"><param name="Name" value="ToHLS"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html"><param name="Name" value="gtl::CColor4"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a0"><param name="Name" value="CColor4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a22"><param name="Name" value="GetHSV"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a13"><param name="Name" value="operator *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a14"><param name="Name" value="operator *="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a20"><param name="Name" value="operator const T *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a19"><param name="Name" value="operator T *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a6"><param name="Name" value="operator!="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a18"><param name="Name" value="operator()"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a9"><param name="Name" value="operator+"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a10"><param name="Name" value="operator+="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a11"><param name="Name" value="operator-"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a12"><param name="Name" value="operator-="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a15"><param name="Name" value="operator/"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a16"><param name="Name" value="operator/="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a8"><param name="Name" value="operator="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a5"><param name="Name" value="operator=="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a21"><param name="Name" value="ToHLS"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a33"><param name="Name" value="Angle"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a0"><param name="Name" value="CComplexAlgebraic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a30"><param name="Name" value="Conjugate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a31"><param name="Name" value="GetConjugate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a20"><param name="Name" value="GetImaginary"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a26"><param name="Name" value="GetInverse"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a29"><param name="Name" value="GetOpposite"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a19"><param name="Name" value="GetReal"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a24"><param name="Name" value="Imaginary"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a25"><param name="Name" value="Inverse"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a32"><param name="Name" value="Modulus"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a13"><param name="Name" value="operator *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a14"><param name="Name" value="operator *="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a6"><param name="Name" value="operator const float *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a5"><param name="Name" value="operator float *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a18"><param name="Name" value="operator!="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a9"><param name="Name" value="operator+"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a10"><param name="Name" value="operator+="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a27"><param name="Name" value="operator-"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a12"><param name="Name" value="operator-="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a15"><param name="Name" value="operator/"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a16"><param name="Name" value="operator/="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a8"><param name="Name" value="operator="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a17"><param name="Name" value="operator=="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a28"><param name="Name" value="Opposite"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a23"><param name="Name" value="Real"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a22"><param name="Name" value="SetImaginary"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a21"><param name="Name" value="SetReal"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a20"><param name="Name" value="Angle"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a0"><param name="Name" value="CComplexPolar"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a23"><param name="Name" value="Conjugate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a16"><param name="Name" value="GetAngle"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a24"><param name="Name" value="GetConjugate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a22"><param name="Name" value="GetInverse"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a15"><param name="Name" value="GetModulus"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a26"><param name="Name" value="Imaginary"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a21"><param name="Name" value="Inverse"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a19"><param name="Name" value="Modulus"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a9"><param name="Name" value="operator *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a10"><param name="Name" value="operator *="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a6"><param name="Name" value="operator const float *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a5"><param name="Name" value="operator float *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a14"><param name="Name" value="operator!="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a11"><param name="Name" value="operator/"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a12"><param name="Name" value="operator/="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a8"><param name="Name" value="operator="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a13"><param name="Name" value="operator=="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a25"><param name="Name" value="Real"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a18"><param name="Name" value="SetAngle"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a17"><param name="Name" value="SetModulus"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html"><param name="Name" value="gtl::CFont"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#a4"><param name="Name" value="Begin"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#b0"><param name="Name" value="Build"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#a0"><param name="Name" value="CFont"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#a9"><param name="Name" value="Color"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#a7"><param name="Name" value="Disable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#a6"><param name="Name" value="Enable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#a3"><param name="Name" value="End"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#a2"><param name="Name" value="Load"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#p2"><param name="Name" value="m_bLoaded"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#p5"><param name="Name" value="m_fColor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#p4"><param name="Name" value="m_fScale"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#p6"><param name="Name" value="m_fSize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#p7"><param name="Name" value="m_fSpace"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#p1"><param name="Name" value="m_uiDisplayListIndex"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#p0"><param name="Name" value="m_uiFontIndex"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#p3"><param name="Name" value="m_uiOption"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#a5"><param name="Name" value="Print"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#a8"><param name="Name" value="Size"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#a10"><param name="Name" value="Spacing"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#a1"><param name="Name" value="~CFont"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font_t_g_a.html"><param name="Name" value="gtl::CFontTGA"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font_t_g_a.html#a0"><param name="Name" value="CFontTGA"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font_t_g_a.html#a2"><param name="Name" value="Load"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font_t_g_a.html#a3"><param name="Name" value="Print"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font_t_g_a.html#a1"><param name="Name" value="~CFontTGA"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html"><param name="Name" value="gtl::CImage"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a7"><param name="Name" value="Data"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a11"><param name="Name" value="GetValue"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a9"><param name="Name" value="Height"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a2"><param name="Name" value="IsLoaded"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a5"><param name="Name" value="IsSaved"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a1"><param name="Name" value="Load"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a6"><param name="Name" value="New"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a3"><param name="Name" value="Save"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a4"><param name="Name" value="SaveAs"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a12"><param name="Name" value="SetValue"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a10"><param name="Name" value="TexelSize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a8"><param name="Name" value="Width"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a0"><param name="Name" value="~CImage"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html"><param name="Name" value="gtl::CImageBMP"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a0"><param name="Name" value="CImageBMP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a8"><param name="Name" value="Data"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a12"><param name="Name" value="GetValue"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a10"><param name="Name" value="Height"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a3"><param name="Name" value="IsLoaded"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a6"><param name="Name" value="IsSaved"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a2"><param name="Name" value="Load"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a7"><param name="Name" value="New"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a4"><param name="Name" value="Save"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a5"><param name="Name" value="SaveAs"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a13"><param name="Name" value="SetValue"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a11"><param name="Name" value="TexelSize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a9"><param name="Name" value="Width"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a1"><param name="Name" value="~CImageBMP"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html"><param name="Name" value="gtl::CImageRAW"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a0"><param name="Name" value="CImageRAW"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a9"><param name="Name" value="Data"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a13"><param name="Name" value="GetValue"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a11"><param name="Name" value="Height"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a4"><param name="Name" value="IsLoaded"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a7"><param name="Name" value="IsSaved"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a3"><param name="Name" value="Load"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a8"><param name="Name" value="New"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a5"><param name="Name" value="Save"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a6"><param name="Name" value="SaveAs"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a14"><param name="Name" value="SetValue"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a12"><param name="Name" value="TexelSize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a10"><param name="Name" value="Width"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a2"><param name="Name" value="~CImageRAW"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html"><param name="Name" value="gtl::CImageTGA"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a0"><param name="Name" value="CImageTGA"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a8"><param name="Name" value="Data"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a14"><param name="Name" value="GetIdentificationField"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a12"><param name="Name" value="GetValue"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a10"><param name="Name" value="Height"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a3"><param name="Name" value="IsLoaded"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a6"><param name="Name" value="IsSaved"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a2"><param name="Name" value="Load"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a7"><param name="Name" value="New"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a4"><param name="Name" value="Save"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a5"><param name="Name" value="SaveAs"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a13"><param name="Name" value="SetValue"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a11"><param name="Name" value="TexelSize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a9"><param name="Name" value="Width"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a1"><param name="Name" value="~CImageTGA"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_math.html"><param name="Name" value="gtl::CMath"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_math.html#e0"><param name="Name" value="DegToRad"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_math.html#a2"><param name="Name" value="Max"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_math.html#a3"><param name="Name" value="Min"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_math.html#e1"><param name="Name" value="RadToDeg"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_math.html#e2"><param name="Name" value="Sqr"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html"><param name="Name" value="gtl::CMatrix2x2"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a0"><param name="Name" value="CMatrix2x2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a31"><param name="Name" value="Det"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a27"><param name="Name" value="GetIdentity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a29"><param name="Name" value="GetInvert"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a28"><param name="Name" value="Identity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a30"><param name="Name" value="Invert"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a20"><param name="Name" value="operator *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a21"><param name="Name" value="operator *="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a10"><param name="Name" value="operator const T *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a9"><param name="Name" value="operator T *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a12"><param name="Name" value="operator!="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a8"><param name="Name" value="operator()"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a13"><param name="Name" value="operator+"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a14"><param name="Name" value="operator+="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a26"><param name="Name" value="operator-"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a16"><param name="Name" value="operator-="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a24"><param name="Name" value="operator/"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a25"><param name="Name" value="operator/="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a7"><param name="Name" value="operator="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a11"><param name="Name" value="operator=="></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html"><param name="Name" value="gtl::CMatrix3x3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a0"><param name="Name" value="CMatrix3x3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a31"><param name="Name" value="Det"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a27"><param name="Name" value="GetIdentity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a29"><param name="Name" value="GetInvert"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a28"><param name="Name" value="Identity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a30"><param name="Name" value="Invert"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a20"><param name="Name" value="operator *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a21"><param name="Name" value="operator *="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a10"><param name="Name" value="operator const T *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a9"><param name="Name" value="operator T *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a12"><param name="Name" value="operator!="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a8"><param name="Name" value="operator()"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a13"><param name="Name" value="operator+"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a14"><param name="Name" value="operator+="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a26"><param name="Name" value="operator-"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a16"><param name="Name" value="operator-="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a24"><param name="Name" value="operator/"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a25"><param name="Name" value="operator/="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a7"><param name="Name" value="operator="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a11"><param name="Name" value="operator=="></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a0"><param name="Name" value="CMatrix4x4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a25"><param name="Name" value="GetIdentity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a37"><param name="Name" value="GetRotate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a31"><param name="Name" value="GetRotateX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a33"><param name="Name" value="GetRotateY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a35"><param name="Name" value="GetRotateZ"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a27"><param name="Name" value="GetScale"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a29"><param name="Name" value="GetTranslate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a26"><param name="Name" value="Identity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a20"><param name="Name" value="operator *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a21"><param name="Name" value="operator *="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a10"><param name="Name" value="operator const T *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a9"><param name="Name" value="operator T *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a12"><param name="Name" value="operator!="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a8"><param name="Name" value="operator()"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a13"><param name="Name" value="operator+"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a14"><param name="Name" value="operator+="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a24"><param name="Name" value="operator-"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a16"><param name="Name" value="operator-="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a22"><param name="Name" value="operator/"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a23"><param name="Name" value="operator/="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a7"><param name="Name" value="operator="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a11"><param name="Name" value="operator=="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a38"><param name="Name" value="Rotate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a32"><param name="Name" value="RotateX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a34"><param name="Name" value="RotateY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a36"><param name="Name" value="RotateZ"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a28"><param name="Name" value="Scale"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a30"><param name="Name" value="Translate"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html"><param name="Name" value="gtl::CPolynomial"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a17"><param name="Name" value="Add"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a0"><param name="Name" value="CPolynomial"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a23"><param name="Name" value="GetCompress"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a20"><param name="Name" value="GetDegree"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a22"><param name="Name" value="GetDerivative"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a21"><param name="Name" value="GetTerm"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a5"><param name="Name" value="IsNull"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a4"><param name="Name" value="Load"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a13"><param name="Name" value="operator *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a14"><param name="Name" value="operator *="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a6"><param name="Name" value="operator()"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a9"><param name="Name" value="operator+"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a10"><param name="Name" value="operator+="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a11"><param name="Name" value="operator-"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a12"><param name="Name" value="operator-="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a15"><param name="Name" value="operator/"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a16"><param name="Name" value="operator/="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a7"><param name="Name" value="operator="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a18"><param name="Name" value="SetDegree"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a19"><param name="Name" value="SetTerm"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a2"><param name="Name" value="~CPolynomial"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html"><param name="Name" value="gtl::CQuaternion"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a15"><param name="Name" value="Conjugate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a0"><param name="Name" value="CQuaternion"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a16"><param name="Name" value="GetConjugate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a18"><param name="Name" value="GetIndentity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a14"><param name="Name" value="GetInverse"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a11"><param name="Name" value="GetMatrix"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a20"><param name="Name" value="GetNegation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a17"><param name="Name" value="Indentity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a13"><param name="Name" value="Inverse"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a12"><param name="Name" value="Magnitude"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a19"><param name="Name" value="Negation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a5"><param name="Name" value="operator *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a21"><param name="Name" value="operator-"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a7"><param name="Name" value="Rotate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a8"><param name="Name" value="RotateX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a9"><param name="Name" value="RotateY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a10"><param name="Name" value="RotateZ"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_rand.html"><param name="Name" value="gtl::CRand"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_rand.html#e3"><param name="Name" value="Float"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_rand.html#e0"><param name="Name" value="Init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_rand.html#e5"><param name="Name" value="Int"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_screenshot.html"><param name="Name" value="gtl::CScreenshot"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_screenshot.html#a2"><param name="Name" value="Config"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_screenshot.html#a0"><param name="Name" value="CScreenshot"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_screenshot.html#a3"><param name="Name" value="Snap"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_shader.html"><param name="Name" value="gtl::CShader"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_shader.html#a0"><param name="Name" value="CShader"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_shader.html#a3"><param name="Name" value="GetData"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_shader.html#a8"><param name="Name" value="GetShaderType"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_shader.html#a4"><param name="Name" value="GetSize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_shader.html#a5"><param name="Name" value="IsLoaded"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_shader.html#a7"><param name="Name" value="IsShaderType"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_shader.html#a2"><param name="Name" value="Load"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_shader.html#a1"><param name="Name" value="~CShader"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html"><param name="Name" value="gtl::CVector2"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a35"><param name="Name" value="Absolute"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a41"><param name="Name" value="Clamp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a0"><param name="Name" value="CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a45"><param name="Name" value="Distance"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a46"><param name="Name" value="DistanceSquared"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a36"><param name="Name" value="GetAbsolute"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a42"><param name="Name" value="GetClamp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a23"><param name="Name" value="GetDot"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a30"><param name="Name" value="GetInvert"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a44"><param name="Name" value="GetMad"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a38"><param name="Name" value="GetMax"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a40"><param name="Name" value="GetMin"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a28"><param name="Name" value="GetNormalize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a50"><param name="Name" value="GetPerp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a48"><param name="Name" value="GetProj"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a34"><param name="Name" value="GetSaturation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a32"><param name="Name" value="Invert"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a43"><param name="Name" value="Mad"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a26"><param name="Name" value="Magnitude"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a27"><param name="Name" value="MagnitudeSquared"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a37"><param name="Name" value="Max"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a39"><param name="Name" value="Min"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a29"><param name="Name" value="Normalize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a25"><param name="Name" value="operator *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a20"><param name="Name" value="operator *="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a8"><param name="Name" value="operator const T *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a7"><param name="Name" value="operator T *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a10"><param name="Name" value="operator!="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a24"><param name="Name" value="operator%"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a6"><param name="Name" value="operator()"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a15"><param name="Name" value="operator+"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a16"><param name="Name" value="operator+="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a31"><param name="Name" value="operator-"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a18"><param name="Name" value="operator-="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a21"><param name="Name" value="operator/"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a22"><param name="Name" value="operator/="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a12"><param name="Name" value="operator<"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a14"><param name="Name" value="operator<="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a4"><param name="Name" value="operator="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a9"><param name="Name" value="operator=="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a11"><param name="Name" value="operator>"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a13"><param name="Name" value="operator>="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a49"><param name="Name" value="Perp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a47"><param name="Name" value="Proj"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a33"><param name="Name" value="Saturation"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html"><param name="Name" value="gtl::CVector3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a40"><param name="Name" value="Absolute"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a46"><param name="Name" value="Clamp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a29"><param name="Name" value="Cross"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a0"><param name="Name" value="CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a41"><param name="Name" value="GetAbsolute"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a47"><param name="Name" value="GetClamp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a27"><param name="Name" value="GetCross"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a25"><param name="Name" value="GetDot"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a35"><param name="Name" value="GetInvert"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a49"><param name="Name" value="GetMad"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a43"><param name="Name" value="GetMax"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a45"><param name="Name" value="GetMin"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a33"><param name="Name" value="GetNormalize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a53"><param name="Name" value="GetPerp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a51"><param name="Name" value="GetProj"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a39"><param name="Name" value="GetSaturation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a37"><param name="Name" value="Invert"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a48"><param name="Name" value="Mad"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a31"><param name="Name" value="Magnitude"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a32"><param name="Name" value="MagnitudeSquared"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a42"><param name="Name" value="Max"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a44"><param name="Name" value="Min"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a34"><param name="Name" value="Normalize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a21"><param name="Name" value="operator *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a22"><param name="Name" value="operator *="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a8"><param name="Name" value="operator const T *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a7"><param name="Name" value="operator T *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a10"><param name="Name" value="operator!="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a26"><param name="Name" value="operator%"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a6"><param name="Name" value="operator()"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a15"><param name="Name" value="operator+"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a16"><param name="Name" value="operator+="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a36"><param name="Name" value="operator-"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a18"><param name="Name" value="operator-="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a23"><param name="Name" value="operator/"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a24"><param name="Name" value="operator/="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a12"><param name="Name" value="operator<"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a14"><param name="Name" value="operator<="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a4"><param name="Name" value="operator="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a9"><param name="Name" value="operator=="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a11"><param name="Name" value="operator>"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a13"><param name="Name" value="operator>="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a28"><param name="Name" value="operator^"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a30"><param name="Name" value="operator^="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a52"><param name="Name" value="Perp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a50"><param name="Name" value="Proj"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a38"><param name="Name" value="Saturation"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html"><param name="Name" value="gtl::CVector4"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a34"><param name="Name" value="Absolute"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a40"><param name="Name" value="Clamp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a0"><param name="Name" value="CVector4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a23"><param name="Name" value="Dot"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a35"><param name="Name" value="GetAbsolute"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a41"><param name="Name" value="GetClamp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a29"><param name="Name" value="GetInvert"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a43"><param name="Name" value="GetMad"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a37"><param name="Name" value="GetMax"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a39"><param name="Name" value="GetMin"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a27"><param name="Name" value="GetNormalize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a33"><param name="Name" value="GetSaturation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a31"><param name="Name" value="Invert"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a42"><param name="Name" value="Mad"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a25"><param name="Name" value="Magnitude"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a26"><param name="Name" value="MagnitudeSquared"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a36"><param name="Name" value="Max"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a38"><param name="Name" value="Min"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a28"><param name="Name" value="Normalize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a24"><param name="Name" value="operator *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a20"><param name="Name" value="operator *="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a8"><param name="Name" value="operator const T *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a7"><param name="Name" value="operator T *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a10"><param name="Name" value="operator!="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a6"><param name="Name" value="operator()"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a15"><param name="Name" value="operator+"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a16"><param name="Name" value="operator+="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a30"><param name="Name" value="operator-"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a18"><param name="Name" value="operator-="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a21"><param name="Name" value="operator/"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a22"><param name="Name" value="operator/="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a12"><param name="Name" value="operator<"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a14"><param name="Name" value="operator<="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a4"><param name="Name" value="operator="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a9"><param name="Name" value="operator=="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a11"><param name="Name" value="operator>"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a13"><param name="Name" value="operator>="></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a32"><param name="Name" value="Saturation"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html"><param name="Name" value="gtl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a6"><param name="Name" value="A"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a5"><param name="Name" value="B"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a37a1"><param name="Name" value="CAMERA_FRUSTUM"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a37a0"><param name="Name" value="CAMERA_NULL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a37a2"><param name="Name" value="CAMERA_TURN_OVER"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a33"><param name="Name" value="CheckExt"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a37"><param name="Name" value="ECameraOption"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38"><param name="Name" value="EColor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a39"><param name="Name" value="EFont"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40"><param name="Name" value="EShaderType"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a39a11"><param name="Name" value="FONT_BLEND"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a39a10"><param name="Name" value="FONT_NULL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a39a12"><param name="Name" value="FONT_SCALE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a39a13"><param name="Name" value="FONT_SPACING"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a4"><param name="Name" value="G"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a7"><param name="Name" value="H"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a8"><param name="Name" value="L"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a36"><param name="Name" value="operator *"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a3"><param name="Name" value="R"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a9"><param name="Name" value="S"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a19"><param name="Name" value="SHADER_TYPE_ARB_FP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a15"><param name="Name" value="SHADER_TYPE_ARB_VP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a14"><param name="Name" value="SHADER_TYPE_NULL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a20"><param name="Name" value="SHADER_TYPE_NV_FP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a16"><param name="Name" value="SHADER_TYPE_NV_VP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a17"><param name="Name" value="SHADER_TYPE_NV_VP1_1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a18"><param name="Name" value="SHADER_TYPE_NV_VP2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a29"><param name="Name" value="szARBfp1_0"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a25"><param name="Name" value="szARBvp1_0"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a30"><param name="Name" value="szNVfp1_0"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a26"><param name="Name" value="szNVvp1_0"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a27"><param name="Name" value="szNVvp1_1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a28"><param name="Name" value="szNVvp2_0"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a41"><param name="Name" value="TCoord"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a41a24"><param name="Name" value="W"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a41a21"><param name="Name" value="X"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a41a22"><param name="Name" value="Y"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a41a23"><param name="Name" value="Z"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html"><param name="Name" value="gtl_camera.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a37a1"><param name="Name" value="CAMERA_FRUSTUM"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a37a0"><param name="Name" value="CAMERA_NULL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a37a2"><param name="Name" value="CAMERA_TURN_OVER"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a37"><param name="Name" value="ECameraOption"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html"><param name="Name" value="gtl_color.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a6"><param name="Name" value="A"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a5"><param name="Name" value="B"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38"><param name="Name" value="EColor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a4"><param name="Name" value="G"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a7"><param name="Name" value="H"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a8"><param name="Name" value="L"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a3"><param name="Name" value="R"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a9"><param name="Name" value="S"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__color3_8h.html"><param name="Name" value="gtl_color3.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__color3_8h.html#a0"><param name="Name" value="GTL_COLOR_3_RANG"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a31"><param name="Name" value="operator *"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__color4_8h.html"><param name="Name" value="gtl_color4.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__color4_8h.html#a0"><param name="Name" value="GTL_COLOR_4_RANG"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a32"><param name="Name" value="operator *"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GTL_COLOR_3_RANG"><param name="Name" value="GTL_COLOR_3_RANG"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__color3_8h.html#a0"><param name="Name" value="gtl_color3.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GTL_COLOR_4_RANG"><param name="Name" value="GTL_COLOR_4_RANG"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__color4_8h.html#a0"><param name="Name" value="gtl_color4.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html"><param name="Name" value="gtl_font.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a39"><param name="Name" value="EFont"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a39a11"><param name="Name" value="FONT_BLEND"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__font_8h.html#a0"><param name="Name" value="FONT_BUFFER"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a39a10"><param name="Name" value="FONT_NULL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a39a12"><param name="Name" value="FONT_SCALE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a39a13"><param name="Name" value="FONT_SPACING"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__gl_8cpp.html"><param name="Name" value="gtl_gl.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__gl_8cpp.html#a1"><param name="Name" value="GetErrorMsg"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__gl_8cpp.html#a0"><param name="Name" value="IsError"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__gl_8h.html"><param name="Name" value="gtl_gl.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__gl_8h.html#a2"><param name="Name" value="GetErrorMsg"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__gl_8h.html#a0"><param name="Name" value="GL_GLEXT_LEGACY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__gl_8h.html#a1"><param name="Name" value="IsError"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html"><param name="Name" value="gtl_glext.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a33"><param name="Name" value="CheckExt"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html"><param name="Name" value="gtl_math.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a3"><param name="Name" value="DEG_TO_RAD"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a6"><param name="Name" value="MAX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a7"><param name="Name" value="MAX3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a8"><param name="Name" value="MAX4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a9"><param name="Name" value="MIN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a10"><param name="Name" value="MIN3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a11"><param name="Name" value="MIN4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a0"><param name="Name" value="PI"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a1"><param name="Name" value="PI_OVER_180"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a2"><param name="Name" value="PI_UNDER_180"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a4"><param name="Name" value="RAD_TO_DEG"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a5"><param name="Name" value="SQR"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__matrix2x2_8h.html"><param name="Name" value="gtl_matrix2x2.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__matrix2x2_8h.html#a0"><param name="Name" value="GTL_MATRIX_2X2_RANG"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__matrix3x3_8h.html"><param name="Name" value="gtl_matrix3x3.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__matrix3x3_8h.html#a0"><param name="Name" value="GTL_MATRIX_3X3_RANG"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__matrix4x4_8h.html"><param name="Name" value="gtl_matrix4x4.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__matrix4x4_8h.html#a0"><param name="Name" value="GTL_MATRIX_4X4_RANG"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GTL_MATRIX_2X2_RANG"><param name="Name" value="GTL_MATRIX_2X2_RANG"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__matrix2x2_8h.html#a0"><param name="Name" value="gtl_matrix2x2.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GTL_MATRIX_3X3_RANG"><param name="Name" value="GTL_MATRIX_3X3_RANG"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__matrix3x3_8h.html#a0"><param name="Name" value="gtl_matrix3x3.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GTL_MATRIX_4X4_RANG"><param name="Name" value="GTL_MATRIX_4X4_RANG"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__matrix4x4_8h.html#a0"><param name="Name" value="gtl_matrix4x4.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html"><param name="Name" value="gtl_shader.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a29"><param name="Name" value="szARBfp1_0"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a25"><param name="Name" value="szARBvp1_0"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a30"><param name="Name" value="szNVfp1_0"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a26"><param name="Name" value="szNVvp1_0"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a27"><param name="Name" value="szNVvp1_1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a28"><param name="Name" value="szNVvp2_0"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html"><param name="Name" value="gtl_shader.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40"><param name="Name" value="EShaderType"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a19"><param name="Name" value="SHADER_TYPE_ARB_FP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a15"><param name="Name" value="SHADER_TYPE_ARB_VP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a14"><param name="Name" value="SHADER_TYPE_NULL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a20"><param name="Name" value="SHADER_TYPE_NV_FP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a16"><param name="Name" value="SHADER_TYPE_NV_VP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a17"><param name="Name" value="SHADER_TYPE_NV_VP1_1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a18"><param name="Name" value="SHADER_TYPE_NV_VP2"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html"><param name="Name" value="gtl_vector.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a41"><param name="Name" value="TCoord"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a41a24"><param name="Name" value="W"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a41a21"><param name="Name" value="X"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a41a22"><param name="Name" value="Y"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a41a23"><param name="Name" value="Z"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__vector2_8h.html"><param name="Name" value="gtl_vector2.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__vector2_8h.html#a0"><param name="Name" value="GTL_VECTOR_2_RANG"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a34"><param name="Name" value="operator *"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__vector3_8h.html"><param name="Name" value="gtl_vector3.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__vector3_8h.html#a0"><param name="Name" value="GTL_VECTOR_3_RANG"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a35"><param name="Name" value="operator *"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__vector4_8h.html"><param name="Name" value="gtl_vector4.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__vector4_8h.html#a0"><param name="Name" value="GTL_VECTOR_4_RANG"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a36"><param name="Name" value="operator *"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GTL_VECTOR_2_RANG"><param name="Name" value="GTL_VECTOR_2_RANG"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__vector2_8h.html#a0"><param name="Name" value="gtl_vector2.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GTL_VECTOR_3_RANG"><param name="Name" value="GTL_VECTOR_3_RANG"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__vector3_8h.html#a0"><param name="Name" value="gtl_vector3.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GTL_VECTOR_4_RANG"><param name="Name" value="GTL_VECTOR_4_RANG"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__vector4_8h.html#a0"><param name="Name" value="gtl_vector4.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="H"><param name="Name" value="H"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a7"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a7"><param name="Name" value="gtl_color.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Height"><param name="Name" value="Height"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a9"><param name="Name" value="gtl::CImage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a10"><param name="Name" value="gtl::CImageBMP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a11"><param name="Name" value="gtl::CImageRAW"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a10"><param name="Name" value="gtl::CImageTGA"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Identity"><param name="Name" value="Identity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a28"><param name="Name" value="gtl::CMatrix2x2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a28"><param name="Name" value="gtl::CMatrix3x3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a26"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Imaginary"><param name="Name" value="Imaginary"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a24"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a26"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Indentity"><param name="Name" value="Indentity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a17"><param name="Name" value="gtl::CQuaternion"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Init"><param name="Name" value="Init"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a4"><param name="Name" value="gtl::CCamera"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_rand.html#e0"><param name="Name" value="gtl::CRand"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Int"><param name="Name" value="Int"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_rand.html#e5"><param name="Name" value="gtl::CRand"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Inverse"><param name="Name" value="Inverse"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a25"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a21"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a13"><param name="Name" value="gtl::CQuaternion"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Invert"><param name="Name" value="Invert"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a30"><param name="Name" value="gtl::CMatrix2x2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a30"><param name="Name" value="gtl::CMatrix3x3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a32"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a37"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a31"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="IsError"><param name="Name" value="IsError"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__gl_8cpp.html#a0"><param name="Name" value="gtl_gl.cpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__gl_8h.html#a1"><param name="Name" value="gtl_gl.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="IsInFrustum"><param name="Name" value="IsInFrustum"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a19"><param name="Name" value="gtl::CCamera"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="IsLoaded"><param name="Name" value="IsLoaded"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a2"><param name="Name" value="gtl::CImage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a3"><param name="Name" value="gtl::CImageBMP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a4"><param name="Name" value="gtl::CImageRAW"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a3"><param name="Name" value="gtl::CImageTGA"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_shader.html#a5"><param name="Name" value="gtl::CShader"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="IsNull"><param name="Name" value="IsNull"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a5"><param name="Name" value="gtl::CPolynomial"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="IsSaved"><param name="Name" value="IsSaved"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a5"><param name="Name" value="gtl::CImage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a6"><param name="Name" value="gtl::CImageBMP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a7"><param name="Name" value="gtl::CImageRAW"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a6"><param name="Name" value="gtl::CImageTGA"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="IsShaderType"><param name="Name" value="IsShaderType"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_shader.html#a7"><param name="Name" value="gtl::CShader"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="L"><param name="Name" value="L"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a8"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a8"><param name="Name" value="gtl_color.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Load"><param name="Name" value="Load"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#a2"><param name="Name" value="gtl::CFont"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font_t_g_a.html#a2"><param name="Name" value="gtl::CFontTGA"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a1"><param name="Name" value="gtl::CImage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a2"><param name="Name" value="gtl::CImageBMP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a3"><param name="Name" value="gtl::CImageRAW"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a2"><param name="Name" value="gtl::CImageTGA"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a4"><param name="Name" value="gtl::CPolynomial"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_shader.html#a2"><param name="Name" value="gtl::CShader"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="LookAt"><param name="Name" value="LookAt"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a8"><param name="Name" value="gtl::CCamera"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_bLoaded"><param name="Name" value="m_bLoaded"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#p2"><param name="Name" value="gtl::CFont"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fColor"><param name="Name" value="m_fColor"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#p5"><param name="Name" value="gtl::CFont"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fScale"><param name="Name" value="m_fScale"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#p4"><param name="Name" value="gtl::CFont"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fSize"><param name="Name" value="m_fSize"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#p6"><param name="Name" value="gtl::CFont"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fSpace"><param name="Name" value="m_fSpace"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#p7"><param name="Name" value="gtl::CFont"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_uiDisplayListIndex"><param name="Name" value="m_uiDisplayListIndex"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#p1"><param name="Name" value="gtl::CFont"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_uiFontIndex"><param name="Name" value="m_uiFontIndex"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#p0"><param name="Name" value="gtl::CFont"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_uiOption"><param name="Name" value="m_uiOption"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#p3"><param name="Name" value="gtl::CFont"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Mad"><param name="Name" value="Mad"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a43"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a48"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a42"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Magnitude"><param name="Name" value="Magnitude"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a12"><param name="Name" value="gtl::CQuaternion"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a26"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a31"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a25"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MagnitudeSquared"><param name="Name" value="MagnitudeSquared"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a27"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a32"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a26"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MAX3"><param name="Name" value="MAX3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a7"><param name="Name" value="gtl_math.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MAX4"><param name="Name" value="MAX4"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a8"><param name="Name" value="gtl_math.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Max"><param name="Name" value="Max"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_math.html#a2"><param name="Name" value="gtl::CMath"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a37"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a42"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a36"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MAX"><param name="Name" value="MAX"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a6"><param name="Name" value="gtl_math.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MIN3"><param name="Name" value="MIN3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a10"><param name="Name" value="gtl_math.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MIN4"><param name="Name" value="MIN4"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a11"><param name="Name" value="gtl_math.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Min"><param name="Name" value="Min"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_math.html#a3"><param name="Name" value="gtl::CMath"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a39"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a44"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a38"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MIN"><param name="Name" value="MIN"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a9"><param name="Name" value="gtl_math.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Modulus"><param name="Name" value="Modulus"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a32"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a19"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Move"><param name="Name" value="Move"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a10"><param name="Name" value="gtl::CCamera"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MoveUp"><param name="Name" value="MoveUp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a12"><param name="Name" value="gtl::CCamera"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Negation"><param name="Name" value="Negation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a19"><param name="Name" value="gtl::CQuaternion"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="New"><param name="Name" value="New"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a6"><param name="Name" value="gtl::CImage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a7"><param name="Name" value="gtl::CImageBMP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a8"><param name="Name" value="gtl::CImageRAW"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a7"><param name="Name" value="gtl::CImageTGA"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Normalize"><param name="Name" value="Normalize"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a29"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a34"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a28"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator *="><param name="Name" value="operator *="></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a13"><param name="Name" value="gtl::CColor3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a14"><param name="Name" value="gtl::CColor4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a14"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a10"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a21"><param name="Name" value="gtl::CMatrix2x2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a21"><param name="Name" value="gtl::CMatrix3x3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a21"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a14"><param name="Name" value="gtl::CPolynomial"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a20"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a22"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a20"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator *"><param name="Name" value="operator *"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a36"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a12"><param name="Name" value="gtl::CColor3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a13"><param name="Name" value="gtl::CColor4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a13"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a9"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a20"><param name="Name" value="gtl::CMatrix2x2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a20"><param name="Name" value="gtl::CMatrix3x3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a20"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a13"><param name="Name" value="gtl::CPolynomial"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a5"><param name="Name" value="gtl::CQuaternion"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a25"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a21"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a24"><param name="Name" value="gtl::CVector4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a31"><param name="Name" value="gtl_color3.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a32"><param name="Name" value="gtl_color4.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a34"><param name="Name" value="gtl_vector2.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a35"><param name="Name" value="gtl_vector3.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a36"><param name="Name" value="gtl_vector4.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator const float *"><param name="Name" value="operator const float *"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a6"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a6"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator const T *"><param name="Name" value="operator const T *"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a19"><param name="Name" value="gtl::CColor3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a20"><param name="Name" value="gtl::CColor4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a10"><param name="Name" value="gtl::CMatrix2x2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a10"><param name="Name" value="gtl::CMatrix3x3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a10"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a8"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a8"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a8"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator float *"><param name="Name" value="operator float *"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a5"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a5"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator T *"><param name="Name" value="operator T *"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a18"><param name="Name" value="gtl::CColor3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a19"><param name="Name" value="gtl::CColor4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a9"><param name="Name" value="gtl::CMatrix2x2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a9"><param name="Name" value="gtl::CMatrix3x3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a9"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a7"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a7"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a7"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator!="><param name="Name" value="operator!="></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a6"><param name="Name" value="gtl::CColor4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a18"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a14"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a12"><param name="Name" value="gtl::CMatrix2x2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a12"><param name="Name" value="gtl::CMatrix3x3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a12"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a10"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a10"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a10"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator%"><param name="Name" value="operator%"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a24"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a26"><param name="Name" value="gtl::CVector3"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator()"><param name="Name" value="operator()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a17"><param name="Name" value="gtl::CColor3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a18"><param name="Name" value="gtl::CColor4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a8"><param name="Name" value="gtl::CMatrix2x2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a8"><param name="Name" value="gtl::CMatrix3x3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a8"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a6"><param name="Name" value="gtl::CPolynomial"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a6"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a6"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a6"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator+="><param name="Name" value="operator+="></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a9"><param name="Name" value="gtl::CColor3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a10"><param name="Name" value="gtl::CColor4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a10"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a14"><param name="Name" value="gtl::CMatrix2x2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a14"><param name="Name" value="gtl::CMatrix3x3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a14"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a10"><param name="Name" value="gtl::CPolynomial"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a16"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a16"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a16"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator+"><param name="Name" value="operator+"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a8"><param name="Name" value="gtl::CColor3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a9"><param name="Name" value="gtl::CColor4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a9"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a13"><param name="Name" value="gtl::CMatrix2x2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a13"><param name="Name" value="gtl::CMatrix3x3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a13"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a9"><param name="Name" value="gtl::CPolynomial"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a15"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a15"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a15"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator-="><param name="Name" value="operator-="></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a11"><param name="Name" value="gtl::CColor3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a12"><param name="Name" value="gtl::CColor4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a12"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a16"><param name="Name" value="gtl::CMatrix2x2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a16"><param name="Name" value="gtl::CMatrix3x3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a16"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a12"><param name="Name" value="gtl::CPolynomial"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a18"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a18"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a18"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator-"><param name="Name" value="operator-"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a10"><param name="Name" value="gtl::CColor3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a11"><param name="Name" value="gtl::CColor4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a27"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a26"><param name="Name" value="gtl::CMatrix2x2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a26"><param name="Name" value="gtl::CMatrix3x3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a24"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a11"><param name="Name" value="gtl::CPolynomial"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a21"><param name="Name" value="gtl::CQuaternion"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a31"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a36"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a30"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator/="><param name="Name" value="operator/="></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a15"><param name="Name" value="gtl::CColor3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a16"><param name="Name" value="gtl::CColor4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a16"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a12"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a25"><param name="Name" value="gtl::CMatrix2x2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a25"><param name="Name" value="gtl::CMatrix3x3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a23"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a16"><param name="Name" value="gtl::CPolynomial"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a22"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a24"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a22"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator/"><param name="Name" value="operator/"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a14"><param name="Name" value="gtl::CColor3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a15"><param name="Name" value="gtl::CColor4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a15"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a11"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a24"><param name="Name" value="gtl::CMatrix2x2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a24"><param name="Name" value="gtl::CMatrix3x3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a22"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a15"><param name="Name" value="gtl::CPolynomial"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a21"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a23"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a21"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator<="><param name="Name" value="operator<="></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a14"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a14"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a14"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator<"><param name="Name" value="operator<"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a12"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a12"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a12"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator=="><param name="Name" value="operator=="></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a5"><param name="Name" value="gtl::CColor3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a5"><param name="Name" value="gtl::CColor4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a17"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a13"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a11"><param name="Name" value="gtl::CMatrix2x2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a11"><param name="Name" value="gtl::CMatrix3x3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a11"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a9"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a9"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a9"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator="><param name="Name" value="operator="></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a7"><param name="Name" value="gtl::CColor3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a8"><param name="Name" value="gtl::CColor4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a8"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a8"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix2x2.html#a7"><param name="Name" value="gtl::CMatrix2x2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix3x3.html#a7"><param name="Name" value="gtl::CMatrix3x3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a7"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a7"><param name="Name" value="gtl::CPolynomial"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a4"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a4"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a4"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator>="><param name="Name" value="operator>="></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a13"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a13"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a13"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator>"><param name="Name" value="operator>"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a11"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a11"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a11"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator^="><param name="Name" value="operator^="></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a30"><param name="Name" value="gtl::CVector3"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="operator^"><param name="Name" value="operator^"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a28"><param name="Name" value="gtl::CVector3"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Opposite"><param name="Name" value="Opposite"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a28"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Perp"><param name="Name" value="Perp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a49"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a52"><param name="Name" value="gtl::CVector3"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PI"><param name="Name" value="PI"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a0"><param name="Name" value="gtl_math.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PI_OVER_180"><param name="Name" value="PI_OVER_180"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a1"><param name="Name" value="gtl_math.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PI_UNDER_180"><param name="Name" value="PI_UNDER_180"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a2"><param name="Name" value="gtl_math.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Position"><param name="Name" value="Position"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a9"><param name="Name" value="gtl::CCamera"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Print"><param name="Name" value="Print"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#a5"><param name="Name" value="gtl::CFont"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font_t_g_a.html#a3"><param name="Name" value="gtl::CFontTGA"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Proj"><param name="Name" value="Proj"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a47"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a50"><param name="Name" value="gtl::CVector3"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="R"><param name="Name" value="R"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a3"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a3"><param name="Name" value="gtl_color.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="RAD_TO_DEG"><param name="Name" value="RAD_TO_DEG"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a4"><param name="Name" value="gtl_math.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="RadToDeg"><param name="Name" value="RadToDeg"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_math.html#e1"><param name="Name" value="gtl::CMath"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Real"><param name="Name" value="Real"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a23"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a25"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Rotate"><param name="Name" value="Rotate"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a38"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a7"><param name="Name" value="gtl::CQuaternion"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="RotateX"><param name="Name" value="RotateX"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a32"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a8"><param name="Name" value="gtl::CQuaternion"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="RotateY"><param name="Name" value="RotateY"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a34"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a9"><param name="Name" value="gtl::CQuaternion"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="RotateZ"><param name="Name" value="RotateZ"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a36"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_quaternion.html#a10"><param name="Name" value="gtl::CQuaternion"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="S"><param name="Name" value="S"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a9"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a38a9"><param name="Name" value="gtl_color.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Saturation"><param name="Name" value="Saturation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector2.html#a33"><param name="Name" value="gtl::CVector2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector3.html#a38"><param name="Name" value="gtl::CVector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_vector4.html#a32"><param name="Name" value="gtl::CVector4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Save"><param name="Name" value="Save"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a3"><param name="Name" value="gtl::CImage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a4"><param name="Name" value="gtl::CImageBMP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a5"><param name="Name" value="gtl::CImageRAW"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a4"><param name="Name" value="gtl::CImageTGA"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SaveAs"><param name="Name" value="SaveAs"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a4"><param name="Name" value="gtl::CImage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a5"><param name="Name" value="gtl::CImageBMP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a6"><param name="Name" value="gtl::CImageRAW"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a5"><param name="Name" value="gtl::CImageTGA"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Scale"><param name="Name" value="Scale"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a28"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetAngle"><param name="Name" value="SetAngle"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a18"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetDegree"><param name="Name" value="SetDegree"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a18"><param name="Name" value="gtl::CPolynomial"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetImaginary"><param name="Name" value="SetImaginary"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a22"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetModulus"><param name="Name" value="SetModulus"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_polar.html#a17"><param name="Name" value="gtl::CComplexPolar"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetReal"><param name="Name" value="SetReal"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_complex_algebraic.html#a21"><param name="Name" value="gtl::CComplexAlgebraic"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetTerm"><param name="Name" value="SetTerm"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a19"><param name="Name" value="gtl::CPolynomial"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetValue"><param name="Name" value="SetValue"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a12"><param name="Name" value="gtl::CImage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a13"><param name="Name" value="gtl::CImageBMP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a14"><param name="Name" value="gtl::CImageRAW"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a13"><param name="Name" value="gtl::CImageTGA"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetViewDistance"><param name="Name" value="SetViewDistance"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a21"><param name="Name" value="gtl::CCamera"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SHADER_TYPE_ARB_FP"><param name="Name" value="SHADER_TYPE_ARB_FP"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a19"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a19"><param name="Name" value="gtl_shader.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SHADER_TYPE_ARB_VP"><param name="Name" value="SHADER_TYPE_ARB_VP"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a15"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a15"><param name="Name" value="gtl_shader.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SHADER_TYPE_NULL"><param name="Name" value="SHADER_TYPE_NULL"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a14"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a14"><param name="Name" value="gtl_shader.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SHADER_TYPE_NV_FP"><param name="Name" value="SHADER_TYPE_NV_FP"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a20"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a20"><param name="Name" value="gtl_shader.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SHADER_TYPE_NV_VP1_1"><param name="Name" value="SHADER_TYPE_NV_VP1_1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a17"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a17"><param name="Name" value="gtl_shader.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SHADER_TYPE_NV_VP2"><param name="Name" value="SHADER_TYPE_NV_VP2"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a18"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a18"><param name="Name" value="gtl_shader.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SHADER_TYPE_NV_VP"><param name="Name" value="SHADER_TYPE_NV_VP"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a16"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a40a16"><param name="Name" value="gtl_shader.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Size"><param name="Name" value="Size"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#a8"><param name="Name" value="gtl::CFont"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Snap"><param name="Name" value="Snap"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_screenshot.html#a3"><param name="Name" value="gtl::CScreenshot"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Spacing"><param name="Name" value="Spacing"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#a10"><param name="Name" value="gtl::CFont"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Sqr"><param name="Name" value="Sqr"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_math.html#e2"><param name="Name" value="gtl::CMath"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SQR"><param name="Name" value="SQR"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gtl__math_8h.html#a5"><param name="Name" value="gtl_math.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Strafe"><param name="Name" value="Strafe"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a11"><param name="Name" value="gtl::CCamera"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="szARBfp1_0"><param name="Name" value="szARBfp1_0"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a29"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a29"><param name="Name" value="gtl_shader.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="szARBvp1_0"><param name="Name" value="szARBvp1_0"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a25"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a25"><param name="Name" value="gtl_shader.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="szNVfp1_0"><param name="Name" value="szNVfp1_0"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a30"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a30"><param name="Name" value="gtl_shader.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="szNVvp1_0"><param name="Name" value="szNVvp1_0"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a26"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a26"><param name="Name" value="gtl_shader.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="szNVvp1_1"><param name="Name" value="szNVvp1_1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a27"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a27"><param name="Name" value="gtl_shader.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="szNVvp2_0"><param name="Name" value="szNVvp2_0"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a28"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a28"><param name="Name" value="gtl_shader.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="TCoord"><param name="Name" value="TCoord"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a41"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a41"><param name="Name" value="gtl_vector.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="TestDistance"><param name="Name" value="TestDistance"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a17"><param name="Name" value="gtl::CCamera"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="TexelSize"><param name="Name" value="TexelSize"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a10"><param name="Name" value="gtl::CImage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a11"><param name="Name" value="gtl::CImageBMP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a12"><param name="Name" value="gtl::CImageRAW"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a11"><param name="Name" value="gtl::CImageTGA"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ToHLS"><param name="Name" value="ToHLS"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color3.html#a20"><param name="Name" value="gtl::CColor3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_color4.html#a21"><param name="Name" value="gtl::CColor4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Translate"><param name="Name" value="Translate"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_matrix4x4.html#a30"><param name="Name" value="gtl::CMatrix4x4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="W"><param name="Name" value="W"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a41a24"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a41a24"><param name="Name" value="gtl_vector.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Width"><param name="Name" value="Width"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a8"><param name="Name" value="gtl::CImage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a9"><param name="Name" value="gtl::CImageBMP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a10"><param name="Name" value="gtl::CImageRAW"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a9"><param name="Name" value="gtl::CImageTGA"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="X"><param name="Name" value="X"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a41a21"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a41a21"><param name="Name" value="gtl_vector.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Y"><param name="Name" value="Y"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a41a22"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a41a22"><param name="Name" value="gtl_vector.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Z"><param name="Name" value="Z"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a41a23"><param name="Name" value="gtl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacegtl.html#a41a23"><param name="Name" value="gtl_vector.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="~CCamera"><param name="Name" value="~CCamera"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_camera.html#a1"><param name="Name" value="gtl::CCamera"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="~CFont"><param name="Name" value="~CFont"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font.html#a1"><param name="Name" value="gtl::CFont"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="~CFontTGA"><param name="Name" value="~CFontTGA"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_font_t_g_a.html#a1"><param name="Name" value="gtl::CFontTGA"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="~CImage"><param name="Name" value="~CImage"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image.html#a0"><param name="Name" value="gtl::CImage"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="~CImageBMP"><param name="Name" value="~CImageBMP"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_b_m_p.html#a1"><param name="Name" value="gtl::CImageBMP"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="~CImageRAW"><param name="Name" value="~CImageRAW"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_r_a_w.html#a2"><param name="Name" value="gtl::CImageRAW"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="~CImageTGA"><param name="Name" value="~CImageTGA"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_image_t_g_a.html#a1"><param name="Name" value="gtl::CImageTGA"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="~CPolynomial"><param name="Name" value="~CPolynomial"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_polynomial.html#a2"><param name="Name" value="gtl::CPolynomial"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="~CShader"><param name="Name" value="~CShader"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classgtl_1_1_c_shader.html#a1"><param name="Name" value="gtl::CShader"></OBJECT>
+</UL>

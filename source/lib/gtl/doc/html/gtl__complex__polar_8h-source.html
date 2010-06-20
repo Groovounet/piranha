@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+<title>GTL: gtl_complex_polar.h Source File</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body>
+<!-- Généré par Doxygen 1.3.8 -->
+<div class="qindex"><a class="qindex" href="index.html">Page&nbsp;principale</a> | <a class="qindex" href="namespaces.html">Liste des namespaces</a> | <a class="qindex" href="hierarchy.html">Hiérarchie&nbsp;des&nbsp;classes</a> | <a class="qindex" href="annotated.html">Liste&nbsp;des&nbsp;classes</a> | <a class="qindex" href="files.html">Liste&nbsp;des&nbsp;fichiers</a> | <a class="qindex" href="namespacemembers.html">Membres&nbsp;de&nbsp;namespace</a> | <a class="qindex" href="functions.html">Membres&nbsp;de&nbsp;classe</a> | <a class="qindex" href="globals.html">Membres&nbsp;de&nbsp;fichier</a></div>
+<h1>gtl_complex_polar.h</h1><a href="gtl__complex__polar_8h.html">Aller à la documentation de ce fichier.</a><pre class="fragment"><div>00001 
+00002 <span class="comment">// GTL</span>
+00003 <span class="comment">// Copyright (c) 2003-2004 Groove</span>
+00004 <span class="comment">// Sous licence LGPL version 2</span>
+00005 <span class="comment">// G-Truc Creation, www.g-truc.net</span>
+00011 <span class="comment"></span>
+00012 <span class="comment">// r : Identify the float part of a complex number</span>
+00013 <span class="comment">// i : Identify the imaginary part of a complex number</span>
+00014 <span class="comment">// m : Identify the modulus of a complex number</span>
+00015 <span class="comment">// a : Identify the angle of a complex number</span>
+00016 <span class="comment">// c : Identify a complex</span>
+00017 
+00018 <span class="preprocessor">#ifndef __GTL_COMPLEX_POLAR_H__</span>
+00019 <span class="preprocessor"></span><span class="preprocessor">#define __GTL_COMPLEX_POLAR_H__</span>
+00020 <span class="preprocessor"></span>
+00021 <span class="preprocessor">#include "<a class="code" href="gtl__math_8h.html">gtl_math.h</a>"</span>
+00022 <span class="preprocessor">#include "<a class="code" href="gtl__complex__algebraic_8h.html">gtl_complex_algebraic.h</a>"</span>
+00023 
+00024 <span class="keyword">namespace </span>gtl {
+00025 
+00026 <span class="keyword">class </span>CComplexAlgebraic;
+00027 
+<a name="l00029"></a><a class="code" href="classgtl_1_1_c_complex_polar.html">00029</a> <span class="keyword">class </span><a class="code" href="classgtl_1_1_c_complex_polar.html">CComplexPolar</a>
+00030 {
+00031 <span class="keyword">private</span>:
+00032         <span class="keywordtype">float</span> m_fData[2]; <span class="comment">// z = m (cos (a) + i * sin (a)) =&gt; m = m_fData[0], a = m_fData[1]</span>
+00033 
+00034 <span class="keyword">public</span>:
+00035         <a class="code" href="classgtl_1_1_c_complex_polar.html#a0">CComplexPolar</a> ();
+00036         <a class="code" href="classgtl_1_1_c_complex_polar.html#a0">CComplexPolar</a> (<span class="keywordtype">float</span> r, <span class="keywordtype">float</span> i);
+00037         <a class="code" href="classgtl_1_1_c_complex_polar.html#a0">CComplexPolar</a> (<span class="keywordtype">float</span> c[2]);
+00038 
+00039         <a class="code" href="classgtl_1_1_c_complex_polar.html#a0">CComplexPolar</a> (<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_complex_polar.html">CComplexPolar</a> &amp; c);
+00040         <a class="code" href="classgtl_1_1_c_complex_polar.html#a0">CComplexPolar</a> (<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_complex_algebraic.html">CComplexAlgebraic</a> &amp; c);
+00041 
+00042         <a class="code" href="classgtl_1_1_c_complex_polar.html#a5">operator float* </a>();
+00043         <a class="code" href="classgtl_1_1_c_complex_polar.html#a6">operator const float* </a>(); 
+00044 
+00045         <a class="code" href="classgtl_1_1_c_complex_polar.html">CComplexPolar</a>&amp; <a class="code" href="classgtl_1_1_c_complex_polar.html#a7">operator= </a>(<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_complex_polar.html">CComplexPolar</a> &amp; c);
+00046         <a class="code" href="classgtl_1_1_c_complex_polar.html">CComplexPolar</a>&amp; <a class="code" href="classgtl_1_1_c_complex_polar.html#a7">operator= </a>(<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_complex_algebraic.html">CComplexAlgebraic</a> &amp; c);
+00047 
+00048         <a class="code" href="classgtl_1_1_c_complex_polar.html">CComplexPolar</a> <a class="code" href="classgtl_1_1_c_complex_polar.html#a9">operator* </a>(<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_complex_polar.html">CComplexPolar</a> &amp; c) <span class="keyword">const</span>;
+00049         <a class="code" href="classgtl_1_1_c_complex_polar.html">CComplexPolar</a>&amp; <a class="code" href="classgtl_1_1_c_complex_polar.html#a10">operator*= </a>(<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_complex_polar.html">CComplexPolar</a> &amp; c);
+00050 
+00051         <a class="code" href="classgtl_1_1_c_complex_polar.html">CComplexPolar</a> <a class="code" href="classgtl_1_1_c_complex_polar.html#a11">operator/ </a>(<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_complex_polar.html">CComplexPolar</a> &amp; c) <span class="keyword">const</span>;
+00052         <a class="code" href="classgtl_1_1_c_complex_polar.html">CComplexPolar</a>&amp; <a class="code" href="classgtl_1_1_c_complex_polar.html#a12">operator/= </a>(<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_complex_polar.html">CComplexPolar</a> &amp; c);
+00053 
+00054         <span class="keywordtype">bool</span> <a class="code" href="classgtl_1_1_c_complex_polar.html#a13">operator== </a>(<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_complex_polar.html">CComplexPolar</a> &amp; c) <span class="keyword">const</span>;
+00055         <span class="keywordtype">bool</span> <a class="code" href="classgtl_1_1_c_complex_polar.html#a14">operator!= </a>(<span class="keyword">const</span> <a class="code" href="classgtl_1_1_c_complex_polar.html">CComplexPolar</a> &amp; c) <span class="keyword">const</span>;
+00056 
+00057         <span class="keywordtype">float</span> <a class="code" href="classgtl_1_1_c_complex_polar.html#a15">GetModulus</a> () <span class="keyword">const</span>;
+00058         <span class="keywordtype">float</span> <a class="code" href="classgtl_1_1_c_complex_polar.html#a16">GetAngle</a> () <span class="keyword">const</span>;
+00059 
+00060         <span class="keywordtype">void</span> <a class="code" href="classgtl_1_1_c_complex_polar.html#a17">SetModulus</a> (<span class="keywordtype">float</span> m);
+00061         <span class="keywordtype">void</span> <a class="code" href="classgtl_1_1_c_complex_polar.html#a18">SetAngle</a> (<span class="keywordtype">float</span> a);
+00062 
+00063         <span class="keywordtype">float</span>&amp; <a class="code" href="classgtl_1_1_c_complex_polar.html#a19">Modulus</a> ();
+00064         <span class="keywordtype">float</span>&amp; <a class="code" href="classgtl_1_1_c_complex_polar.html#a20">Angle</a> ();
+00065 
+00066         <a class="code" href="classgtl_1_1_c_complex_polar.html">CComplexPolar</a>&amp; <a class="code" href="classgtl_1_1_c_complex_polar.html#a21">Inverse</a> ();
+00067         <a class="code" href="classgtl_1_1_c_complex_polar.html">CComplexPolar</a> <a class="code" href="classgtl_1_1_c_complex_polar.html#a22">GetInverse</a> () <span class="keyword">const</span>;
+00068 <span class="comment">/*</span>
+00069 <span class="comment">        CComplexPolar operator- ();</span>
+00070 <span class="comment">        CComplexPolar&amp; Opposite ();</span>
+00071 <span class="comment">        CComplexPolar GetOpposite () const;</span>
+00072 <span class="comment">*/</span>
+00073         <a class="code" href="classgtl_1_1_c_complex_polar.html">CComplexPolar</a>&amp; <a class="code" href="classgtl_1_1_c_complex_polar.html#a23">Conjugate</a> ();
+00074         <a class="code" href="classgtl_1_1_c_complex_polar.html">CComplexPolar</a> <a class="code" href="classgtl_1_1_c_complex_polar.html#a24">GetConjugate</a> () <span class="keyword">const</span>;
+00075 
+00076         <span class="keywordtype">float</span> <a class="code" href="classgtl_1_1_c_complex_polar.html#a25">Real</a> () <span class="keyword">const</span>;
+00077         <span class="keywordtype">float</span> <a class="code" href="classgtl_1_1_c_complex_polar.html#a26">Imaginary</a> () <span class="keyword">const</span>;
+00078 };
+00079 
+00080 }; <span class="comment">// namespace gtl</span>
+00081 
+00082 <span class="preprocessor">#endif //__GTL_COMPLEX_POLAR_H__</span>
+</div></pre><hr size="1"><address style="align: right;"><small>Généré le Wed Jan 5 23:28:22 2005 pour GTL par
+<a href="http://www.doxygen.org/index.html">
+<img src="doxygen.png" alt="doxygen" align="middle" border=0 ></a> 1.3.8 </small></address>
+</body>
+</html>
