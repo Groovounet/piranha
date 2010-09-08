@@ -16,6 +16,18 @@
 
 using namespace terrain;
 
+int g_Subdiviser_HautGauche_BasDroit = 0;
+int g_Subdiviser_HautDroit_BasGauche = 0;
+int g_Subdiviser_Tout = 0;
+int g_Subdiviser_Rien = 0;
+int g_Subdiviser_RienLimite = 0;
+int g_Render_Adapter = 0;
+int g_Render_Adapter_DL = 0;
+int g_Render_Adapter_DR = 0;
+int g_Render_Adapter_UR = 0;
+int g_Render_Adapter_UL = 0;
+int g_Subdiviser = 0;
+
 static const char*      TEXTURE_PLANT =             "./data/terrain/plant.tga";
 
 const char g_cFanCode [16] = 
@@ -55,6 +67,18 @@ CGround::CGround (const file::SGround * pGround, const file::SPlants * pPlants, 
 
 CGround::~CGround ()
 {
+    printf("g_Subdiviser_HautGauche_BasDroit = %d\n", g_Subdiviser_HautGauche_BasDroit);
+    printf("g_Subdiviser_HautDroit_BasGauche = %d\n", g_Subdiviser_HautDroit_BasGauche);
+    printf("g_Subdiviser_Tout = %d\n", g_Subdiviser_Tout);
+    printf("g_Subdiviser_Rien = %d\n", g_Subdiviser_Rien);
+    printf("g_Subdiviser_RienLimite = %d\n", g_Subdiviser_RienLimite);
+    printf("g_Render_Adapter = %d\n", g_Render_Adapter);
+    printf("g_Render_Adapter_DL = %d\n", g_Render_Adapter_DL);
+    printf("g_Render_Adapter_DR = %d\n", g_Render_Adapter_DR);
+    printf("g_Render_Adapter_UR = %d\n", g_Render_Adapter_UR);
+    printf("g_Render_Adapter_UL = %d\n", g_Render_Adapter_UL);
+    printf("g_Subdiviser = %d\n", g_Subdiviser);
+
     if (m_pNormal)
         delete [] m_pNormal;
     if (m_pucQuadMatrix)
@@ -371,7 +395,7 @@ void CGround::_SubdivideNode (unsigned short x, unsigned short y, unsigned short
 		if (!(unEdgeLength<=3))
 		{
 			unsigned short unChildOffset = (unEdgeLength - 1) >> 2;
-			unsigned short unChildEdgeLength = (unEdgeLength+1) >> 1;
+			unsigned short unChildEdgeLength = (unEdgeLength + 1) >> 1;
 
 			_SubdivideNode (x - unChildOffset, y - unChildOffset, unChildEdgeLength);
 			_SubdivideNode (x + unChildOffset, y - unChildOffset, unChildEdgeLength);
@@ -381,7 +405,7 @@ void CGround::_SubdivideNode (unsigned short x, unsigned short y, unsigned short
 	} 
 }
 
-void CGround::_BuildQuadMatrix ()
+void CGround::_BuildQuadMatrix()
 {
 	unsigned short unCenter = (m_unSize - 1) / 2;
 	
@@ -442,6 +466,7 @@ void CGround::_RenderNode (float x, float y, int iEdgeLength) const
 	{
 		if (iEdgeLength<=3)
 		{
+            g_Subdiviser_RienLimite++;
 			glBegin (RENDER_MODE);
             //glBegin (GL_QUADS);
             //glBegin (GL_LINE_STRIP);
@@ -485,65 +510,17 @@ void CGround::_RenderNode (float x, float y, int iEdgeLength) const
 
 			if (iFanCode == QUAD_NO_FAN)
 			{
+                g_Subdiviser_Rien++;
 				_RenderNode (x-fChildOffset, y-fChildOffset, iChildEdgeLength);
 				_RenderNode (x+fChildOffset, y-fChildOffset, iChildEdgeLength);
 				_RenderNode (x-fChildOffset, y+fChildOffset, iChildEdgeLength);
 				_RenderNode (x+fChildOffset, y+fChildOffset, iChildEdgeLength);
-				return;
-			}
-
-			if (iFanCode == QUAD_LL_UR)
-			{
-				// 27/08/2003 - UR
-				glBegin (RENDER_MODE);
-					_RenderVertex (x, y, fMidX, fMidY);
-					_RenderVertex (x+fEdgeOffset, y, fTexRight, fMidY);
-					_RenderVertex (x+fEdgeOffset, y+fEdgeOffset, fTexRight, fTexTop);
-					_RenderVertex (x, y+fEdgeOffset, fMidX, fTexTop);
-				glEnd ();
-
-				// 27/08/2003 - LL
-				glBegin (RENDER_MODE);
-					_RenderVertex (x, y, fMidX, fMidY);
-					_RenderVertex (x-fEdgeOffset, y, fTexLeft, fMidY);
-					_RenderVertex (x-fEdgeOffset, y-fEdgeOffset, fTexLeft, fTexBottom);
-					_RenderVertex (x, y-fEdgeOffset, fMidX, fTexBottom);
-				glEnd ();
-
-				// 27/08/2003 - UL
-				_RenderNode (x-fChildOffset, y+fChildOffset, iChildEdgeLength);
-				// 27/08/2003 - LR
-				_RenderNode (x+fChildOffset, y-fChildOffset, iChildEdgeLength);
-				return;
-			}
-
-			if (iFanCode==QUAD_LR_UL)
-			{
-				// 27/08/2003 - UL
-				glBegin (RENDER_MODE);
-					_RenderVertex (x, y, fMidX, fMidY);
-					_RenderVertex (x, y+fEdgeOffset, fMidX, fTexTop);
-					_RenderVertex (x-fEdgeOffset, y+fEdgeOffset, fTexLeft, fTexTop);
-					_RenderVertex (x-fEdgeOffset, y, fTexLeft, fMidY);
-				glEnd ();
-
-				// 27/08/2003 - LR
-				glBegin (RENDER_MODE);
-					_RenderVertex (x, y, fMidX, fMidY);
-					_RenderVertex (x, y-fEdgeOffset, fMidX, fTexBottom);
-					_RenderVertex (x+fEdgeOffset, y-fEdgeOffset, fTexRight, fTexBottom);
-					_RenderVertex (x+fEdgeOffset, y, fTexRight, fMidY);
-				glEnd ();
-
-				// 27/08/2003 - UR
-				_RenderNode (x+fChildOffset, y+fChildOffset, iChildEdgeLength);
-				// Groove - 27/08/2003 - LL
-				_RenderNode (x-fChildOffset, y-fChildOffset, iChildEdgeLength);
 				return;
 			}
 
 			if (iFanCode==QUAD_COMPLETE_FAN)
 			{
+                g_Subdiviser_Tout++;
 				glBegin (RENDER_MODE);
 					_RenderVertex (x, y, fMidX, fMidY);
 
@@ -582,12 +559,14 @@ void CGround::_RenderNode (float x, float y, int iEdgeLength) const
 
 			glBegin (RENDER_MODE);
 				_RenderVertex (x, y, fMidX, fMidY);
+                g_Render_Adapter++;
 
 				for (iFanPosition=iFanLength; iFanPosition>0; iFanPosition--)
 				{
 					switch (iStart)
 					{
 					case QUAD_NODE_LR:
+                        g_Render_Adapter_DR++;
 						if (((iY-iAdjOffset) < 0) || _GetQuadMatrixData (iX, iY-iAdjOffset) || (iFanPosition == iFanLength))
 							_RenderVertex (x, y-fEdgeOffset, fMidX, fTexBottom);
 
@@ -597,6 +576,7 @@ void CGround::_RenderNode (float x, float y, int iEdgeLength) const
 							_RenderVertex (x+fEdgeOffset, y, fTexRight, fMidY);
 						break;
 					case QUAD_NODE_LL:
+                        g_Render_Adapter_DL++;
 						if (((x-iAdjOffset) < 0) || _GetQuadMatrixData (iX-iAdjOffset, iY) || (iFanPosition == iFanLength))
 							_RenderVertex (x-fEdgeOffset, y, fTexLeft, fMidY );
 
@@ -606,6 +586,7 @@ void CGround::_RenderNode (float x, float y, int iEdgeLength) const
 							_RenderVertex (x, y-fEdgeOffset, fMidX, fTexBottom);
 						break;
 					case QUAD_NODE_UL:
+                        g_Render_Adapter_UL++;
 						if (((iY+iAdjOffset) >= m_unSize) || _GetQuadMatrixData (iX, iY+iAdjOffset) || (iFanPosition == iFanLength))
 							_RenderVertex (x, y+fEdgeOffset, fMidX, fTexTop);
 
@@ -615,6 +596,7 @@ void CGround::_RenderNode (float x, float y, int iEdgeLength) const
 							_RenderVertex (x-fEdgeOffset, y, fTexLeft, fMidY);
 						break;
 					case QUAD_NODE_UR:
+                        g_Render_Adapter_UR++;
 						if (((iX+iAdjOffset) >= m_unSize) || _GetQuadMatrixData (iX+iAdjOffset, iY) || (iFanPosition == iFanLength))
 							_RenderVertex (x+fEdgeOffset, y, fTexRight, fMidY);
 
@@ -633,6 +615,7 @@ void CGround::_RenderNode (float x, float y, int iEdgeLength) const
 			// 27/08/2003 - Récurence de RenderNode () pour les carrés de jonctions
 			for (iFanPosition = (4-iFanLength); iFanPosition>0; iFanPosition--)
 			{
+                g_Subdiviser++;
 				switch (iStart)
 				{
 				case QUAD_NODE_LR:
@@ -656,3 +639,4 @@ void CGround::_RenderNode (float x, float y, int iEdgeLength) const
 		}
 	}
 }
+

@@ -37,6 +37,8 @@ CCube::~CCube ()
     delete m_pObject1;
     delete m_pObject2;
     delete m_pObject3;
+	if(m_pPlane != 0)
+		delete m_pPlane;
 
     m_pParticle = 0;
 }

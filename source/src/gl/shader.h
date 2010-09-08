@@ -36,6 +36,7 @@ public:
     void                    Disable () const;
     unsigned int            Uniform (const char* szNameVar) const;
     unsigned int			Attrib (const char* szNameVar) const;
+    unsigned int            Object () const {return m_uiShaderProg;}
 };
 
 }; // gl

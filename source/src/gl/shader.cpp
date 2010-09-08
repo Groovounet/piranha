@@ -25,18 +25,18 @@ CShader::CShader ()
 CShader::~CShader ()
 {
     if (m_uiShaderProg != -1)
-        glDeleteObjectARB (m_uiShaderProg);
+        glDeleteProgram(m_uiShaderProg);
 }
 
 unsigned int CShader::Uniform (const char* szNameVar) const
 {
-    return glGetUniformLocationARB (m_uiShaderProg, szNameVar);
+    return glGetUniformLocation(m_uiShaderProg, szNameVar);
 }
 
-unsigned int CShader::Attrib (const char* szNameVar) const
+unsigned int CShader::Attrib(const char* szNameVar) const
 {
-	unsigned int uiAttrib = glGetAttribLocationARB (m_uiShaderProg, szNameVar);
-	glBindAttribLocationARB (m_uiShaderProg, uiAttrib, szNameVar);
+	unsigned int uiAttrib = glGetAttribLocation(m_uiShaderProg, szNameVar);
+	//glBindAttribLocation(m_uiShaderProg, uiAttrib, szNameVar);
     return uiAttrib;
 }
 
@@ -52,7 +52,6 @@ void CShader::Disable () const
 
 bool CShader::Load (const char* szVertex, const char* szPixel)
 {
-	GLint iResult;
 	char szBuffer[BUFFER];
 	memset (szBuffer, '\0', BUFFER);
 
@@ -62,30 +61,32 @@ bool CShader::Load (const char* szVertex, const char* szPixel)
 
     // Vertex shader
 	szShaderSources[0] = _Load (szVertex);
-	GLhandleARB ShaderVert = glCreateShaderObjectARB (GL_VERTEX_SHADER_ARB);
-	glShaderSourceARB (ShaderVert, 1, &szShaderSources[0], 0);
-	glCompileShaderARB (ShaderVert);
-	glAttachObjectARB (m_uiShaderProg, ShaderVert);
-    glDeleteObjectARB (ShaderVert);
+	unsigned int ShaderVert = glCreateShader(GL_VERTEX_SHADER);
+	glShaderSource (ShaderVert, 1, &szShaderSources[0], 0);
+	glCompileShader(ShaderVert);
+	glAttachShader(m_uiShaderProg, ShaderVert);
+    glDeleteShader(ShaderVert);
+	delete[] szShaderSources[0];
 
 	// Fragment shader
 	szShaderSources[1] = _Load (szPixel);
-	GLhandleARB ShaderFrag = glCreateShaderObjectARB (GL_FRAGMENT_SHADER_ARB);
-	glShaderSourceARB (ShaderFrag, 1, &szShaderSources[1], 0);
-	glCompileShaderARB (ShaderFrag);
-	glAttachObjectARB (m_uiShaderProg, ShaderFrag);
-    glDeleteObjectARB (ShaderFrag);
+	unsigned int ShaderFrag = glCreateShader(GL_FRAGMENT_SHADER);
+	glShaderSource(ShaderFrag, 1, &szShaderSources[1], 0);
+	glCompileShader(ShaderFrag);
+	glAttachShader(m_uiShaderProg, ShaderFrag);
+    glDeleteShader(ShaderFrag);
+	delete[] szShaderSources[1];
 
-	glLinkProgramARB (m_uiShaderProg);
-
-	glGetObjectParameterivARB (m_uiShaderProg, GL_OBJECT_LINK_STATUS_ARB, &iResult);
+	glLinkProgram(m_uiShaderProg);
+/*
+	glGetObjectParameteriv(m_uiShaderProg, GL_OBJECT_LINK_STATUS, &iResult);
 	if (iResult == GL_FALSE)
 	{
 		glGetInfoLogARB (m_uiShaderProg, sizeof (szBuffer), 0, szBuffer);
 		printf ("%s\n", szBuffer);
 		return false;
 	}
-
+*/
     return true;
 }
 

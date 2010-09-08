@@ -16,7 +16,7 @@ using namespace window;
 CMain::CMain ()
 {
     Enable (OPTION_DOUBLEBUFFER);
-    //Enable (window::OPTION_ESCAPE_EXIT);
+    Enable (window::OPTION_ESCAPE_EXIT);
     //Enable (window::OPTION_FULLSCREEN);
     //Enable (window::OPTION_SYNC);
     Config (CONFIG_WIDTH, 640);
@@ -41,6 +41,10 @@ CMain::~CMain ()
 
 void CMain::Begin ()
 {
+    if(int Err = glewInit() != GLEW_OK)
+        fprintf(stderr, "Error: %s\n", glewGetErrorString(Err));
+    fprintf(stdout, "Status: Using GLEW %s\n", glewGetString(GLEW_VERSION));
+
     gl::Init ();
     if (!gl::Check ())
         Exit ();
@@ -117,7 +121,11 @@ void CMain::Render ()
 
 void CMain::End ()
 {
-    scene::CManager::Kill ();
+    scene::CManager::Kill();
+	file::CManager::Kill();
+	util::CStateMachine::Kill();
+	util::CTimerGlobal::Kill();
+	util::CTracker::Kill();
 }
 
 void CMain::KeyDown (int c)

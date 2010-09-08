@@ -26,7 +26,7 @@ bool gl::ARB_vertex_shader = false;
 bool gl::SGIS_generate_mipmap = false;
 bool gl::NV_point_sprite = false;
 bool gl::NV_texture_rectangle = false;
-
+/*
 // GL_ARB_fragment_program
 
 // GL_ARB_fragment_shader
@@ -186,7 +186,7 @@ PFNGLGETATTRIBLOCATIONARBPROC                   glGetAttribLocationARB = 0;
 // GL_NV_point_sprite
 
 // GL_NV_texture_rectangle
-
+*/
 bool gl::Check ()
 {
     bool bCheck = true;
@@ -357,6 +357,7 @@ void gl::Init ()
     if (strstr (szExtension, "GL_ARB_multitexture"))
     {
         ARB_multitexture = true;
+/*
 	    if (!glActiveTextureARB)
 		    glActiveTextureARB = (PFNGLACTIVETEXTUREARBPROC) SDL_GL_GetProcAddress ("glActiveTextureARB");
 	    if (!glClientActiveTextureARB)
@@ -365,16 +366,19 @@ void gl::Init ()
 		    glMultiTexCoord2fARB = (PFNGLMULTITEXCOORD2FARBPROC) SDL_GL_GetProcAddress ("glMultiTexCoord2fARB");
 	    if (!glMultiTexCoord2fvARB)
 		    glMultiTexCoord2fvARB = (PFNGLMULTITEXCOORD2FVARBPROC) SDL_GL_GetProcAddress ("glMultiTexCoord2fvARB");
+*/
     }
 
     // GL_ARB_point_parameters
     if (strstr (szExtension, "GL_ARB_point_parameters"))
     {
         ARB_point_parameters = true;
+/*
 	    if (!glPointParameterfARB)
 		    glPointParameterfARB = (PFNGLPOINTPARAMETERFARBPROC) SDL_GL_GetProcAddress ("glPointParameterfARB");
 	    if (!glPointParameterfvARB)
 		    glPointParameterfvARB = (PFNGLPOINTPARAMETERFVARBPROC) SDL_GL_GetProcAddress ("glPointParameterfvARB");
+*/
     }
 
     // GL_ARB_point_sprite
@@ -387,6 +391,7 @@ void gl::Init ()
     if (strstr (szExtension, "GL_ARB_shader_objects"))
     {
         ARB_shader_objects = true;
+/*
         if (!glDeleteObjectARB)
             glDeleteObjectARB = (PFNGLDELETEOBJECTARBPROC) SDL_GL_GetProcAddress ("glDeleteObjectARB");
         if (!glGetHandleARB)
@@ -465,12 +470,14 @@ void gl::Init ()
             glGetUniformivARB = (PFNGLGETUNIFORMIVARBPROC) SDL_GL_GetProcAddress ("glGetUniformivARB");
         if (!glGetShaderSourceARB)
             glGetShaderSourceARB = (PFNGLGETSHADERSOURCEARBPROC) SDL_GL_GetProcAddress ("glGetShaderSourceARB");
+*/
     }
 
     // GL_ARB_texture_compression
     if (strstr (szExtension, "GL_ARB_texture_compression"))
     {
         ARB_texture_compression = true;
+/*
         if (!glCompressedTexImage3DARB)
             glCompressedTexImage3DARB = (PFNGLCOMPRESSEDTEXIMAGE3DARBPROC) SDL_GL_GetProcAddress ("glCompressedTexImage3DARB");
         if (!glCompressedTexImage2DARB)
@@ -485,6 +492,7 @@ void gl::Init ()
             glCompressedTexSubImage1DARB = (PFNGLCOMPRESSEDTEXSUBIMAGE1DARBPROC) SDL_GL_GetProcAddress ("glCompressedTexSubImage1DARB");
         if (!glGetCompressedTexImageARB)
             glGetCompressedTexImageARB = (PFNGLGETCOMPRESSEDTEXIMAGEARBPROC) SDL_GL_GetProcAddress ("glGetCompressedTexImageARB");
+*/
     }
 
     // GL_ARB_texture_end_combine
@@ -509,6 +517,7 @@ void gl::Init ()
     if (strstr (szExtension, "GL_ARB_vertex_buffer_object"))
     {
         ARB_vertex_buffer_object = true;
+/*
         if (!glBindBufferARB)
             glBindBufferARB = (PFNGLBINDBUFFERARBPROC) SDL_GL_GetProcAddress ("glBindBufferARB");
         if (!glDeleteBuffersARB)
@@ -531,12 +540,14 @@ void gl::Init ()
             glGetBufferParameterivARB = (PFNGLGETBUFFERPARAMETERIVARBPROC) SDL_GL_GetProcAddress ("glGetBufferParameterivARB");
         if (!glGetBufferPointervARB)
             glGetBufferPointervARB = (PFNGLGETBUFFERPOINTERVARBPROC) SDL_GL_GetProcAddress ("glGetBufferPointervARB");
+*/
     }
 
     // GL_ARB_vertex_program
     if (strstr (szExtension, "GL_ARB_vertex_program"))
     {
         ARB_vertex_program = true;
+/*
         if (!glVertexAttrib1dARB)
             glVertexAttrib1dARB = (PFNGLVERTEXATTRIB1DARBPROC) SDL_GL_GetProcAddress ("glVertexAttrib1dARB");
         if (!glVertexAttrib1dvARB)
@@ -661,18 +672,21 @@ void gl::Init ()
             glGetVertexAttribPointervARB = (PFNGLGETVERTEXATTRIBPOINTERVARBPROC) SDL_GL_GetProcAddress ("glGetVertexAttribPointervARB");
         if (!glIsProgramARB)
             glIsProgramARB = (PFNGLISPROGRAMARBPROC) SDL_GL_GetProcAddress ("glIsProgramARB");
+*/
     }
 
     // GL_ARB_vertex_shader
     if (strstr (szExtension, "GL_ARB_vertex_shader"))
     {
         ARB_vertex_shader = true;
+/*
         if (!glBindAttribLocationARB)
             glBindAttribLocationARB = (PFNGLBINDATTRIBLOCATIONARBPROC) SDL_GL_GetProcAddress ("glBindAttribLocationARB");
         if (!glGetActiveAttribARB)
             glGetActiveAttribARB = (PFNGLGETACTIVEATTRIBARBPROC) SDL_GL_GetProcAddress ("glGetActiveAttribARB");
         if (!glGetAttribLocationARB)
             glGetAttribLocationARB = (PFNGLGETATTRIBLOCATIONARBPROC) SDL_GL_GetProcAddress ("glGetAttribLocationARB");
+*/
     }
 
     // GL_SGIS_generate_mipmap

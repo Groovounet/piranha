@@ -18,6 +18,7 @@ namespace scene {
 
 class CLoading : public CElement
 {
+    //friend CElement* CManager::_Create (const EType & Type);
 	friend class CManager;
 
 private:

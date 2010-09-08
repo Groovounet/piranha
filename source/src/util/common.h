@@ -11,6 +11,10 @@
 #ifndef __PIRANHA_UTIL_COMMON_H__
 #define __PIRANHA_UTIL_COMMON_H__
 
+#define GLEW_STATIC
+
+#include "../../lib/glew/glew.h"
+
 #include "../../lib/gtl/include/gtl.h"
 #ifdef WIN32
 #include "../../lib/sdl/include/SDL.h"

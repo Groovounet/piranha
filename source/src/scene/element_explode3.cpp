@@ -77,6 +77,7 @@ void CExplode3::Begin ()
 void CExplode3::End ()
 {
     particle::CManager::Instance ()->Clean ();
+	particle::CManager::Kill();
 
     glDisable (GL_LIGHT0);
     glPopAttrib ();

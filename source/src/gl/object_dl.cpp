@@ -30,7 +30,7 @@ void CObjectDL::Render () const
 
 void CObjectDL::Cube (const gtl::CVector3<float> & Position, const gtl::CVector3<float> & Size)
 {
-    glNewList (m_uiDisplayList, GL_COMPILE);
+    glNewList(m_uiDisplayList, GL_COMPILE);
 
     float x = Position (gtl::X) - Size (gtl::X)  / 2;
 	float y = Position (gtl::Y) - Size (gtl::Y) / 2;

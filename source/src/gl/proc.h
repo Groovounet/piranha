@@ -36,7 +36,7 @@ extern bool NV_texture_rectangle;
 extern bool SGIS_generate_mipmap;
 
 }; // gl
-
+/*
 // GL_ARB_fragment_program
 
 // GL_ARB_fragment_shader
@@ -192,5 +192,5 @@ extern PFNGLGETATTRIBLOCATIONARBPROC                   glGetAttribLocationARB;
 // GL_NV_texture_rectangle
 
 // GL_SGIS_generate_mipmap
-
+*/
 #endif //__PIRANHA_GL_PROC_H__

@@ -60,11 +60,10 @@ public:
     virtual void Bind () const = 0;
 	virtual ETextureType Type () const = 0;
 
-	unsigned short GetWidth () const;
-	unsigned short GetHeight () const;
-	unsigned short GetColor () const;
-	const char* GetFilename () const;
-    unsigned int GetTextureObject () const;
+	unsigned short Width () const;
+	unsigned short Height () const;
+	unsigned short Color () const;
+	const char* Filename () const;
 };
 
 }; // file

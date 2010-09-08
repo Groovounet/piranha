@@ -14,7 +14,12 @@
 
 using namespace window;
 
-CHUD::CHUD ()
+CHUD::CHUD () :
+	m_pTextureBorder(0),
+	m_pTextureCube(0),
+	m_pTextureCursor(0),
+	m_pObject1(0),
+	m_pObject2(0)
 {
 
 }
@@ -74,7 +79,7 @@ void CHUD::Render ()
             glViewport (0, 0, WINDOW_WIDTH, WINDOW_HEIGHT);
             glMatrixMode (GL_PROJECTION);
 		    glLoadIdentity ();
-		    glOrtho (0, 640, 0, 480, -1, 1);
+		    glOrtho (0, 640, 0, 480, 1, -1);
 		    glMatrixMode (GL_MODELVIEW);
 		    glLoadIdentity ();
 

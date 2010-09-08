@@ -94,7 +94,7 @@ void CTitle::Render () const
 {
     static float fLightAngle = 0;
     fLightAngle += 1.0f;
-    float fTime = util::CTimerGlobal::Instance ()->Time ();
+    float fTime = util::CTimerGlobal::Instance ()->Time () - m_fTimeStart;
 
     m_pShader->Enable ();
 
@@ -114,12 +114,16 @@ void CTitle::Render () const
 	if (m_iVarTexture2 != -1)
 		glUniform1iARB (m_iVarTexture2, 1);
 	if (m_iVarTime)
-		glUniform1fARB (m_iVarTime, fTime - m_fTimeStart);
+		glUniform1fARB (m_iVarTime, fTime);
 
 	glEnable (GL_CULL_FACE);
         m_pObject->Render ();
 	glDisable (GL_CULL_FACE);
-
+/*
+    float fValue = 0.0f;
+    glGetUniformfvARB (m_pShader->Object (), m_iVarTime, &fValue);
+    printf ("Time : %f, Shader value = %f\n", fTime, fValue);
+*/
     m_pShader->Disable ();
 }
 

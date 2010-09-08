@@ -22,27 +22,22 @@ CTexture::~CTexture ()
 
 }
 
-unsigned short CTexture::GetWidth () const
+unsigned short CTexture::Width () const
 {
 	return m_unWidth;
 }
 
-unsigned short CTexture::GetHeight () const
+unsigned short CTexture::Height () const
 {
 	return m_unHeight;
 }
 
-unsigned short CTexture::GetColor () const
+unsigned short CTexture::Color () const
 {
 	return m_ucColor;
 }
 
-const char* CTexture::GetFilename () const
+const char* CTexture::Filename () const
 {
 	return m_szFilename.c_str ();
-}
-
-unsigned int CTexture::GetTextureObject () const
-{
-    return m_uiTexture;
 }

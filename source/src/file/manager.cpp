@@ -119,10 +119,10 @@ bool CManager::DeleteRectangle (CTexture* pTexture)
 
 bool CManager::_DeleteTexture (CTexture* pTexture)
 {
-    if (!pTexture)
+	if (!pTexture || m_Textures.empty())
 		return false;
 
-	TTextures::iterator it = m_Textures.find (pTexture->GetFilename ());
+	TTextures::iterator it = m_Textures.find (pTexture->Filename ());
 
     it->second.first--;
 	if (it->second.first <= 0)

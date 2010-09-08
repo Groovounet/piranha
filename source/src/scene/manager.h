@@ -63,7 +63,7 @@ private:
 
 	int                 _FindFreeIndex () const;
 	void                _Kill (unsigned int uiIndex);
-    CElement*           _Create (const EType & Type);
+	CElement*           _Create (const EType & Type);
 
 public:
     bool                Load ();

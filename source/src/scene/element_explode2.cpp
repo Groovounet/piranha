@@ -43,6 +43,7 @@ CExplode2::~CExplode2 ()
     delete m_pSphere1;
     delete m_pSphere2;
     delete m_pFade1;
+	delete m_pDisk1;
 }
 
 bool CExplode2::Load ()
