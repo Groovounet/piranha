@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="9.00"
+	Version="8,00"
 	Name="piranha"
 	ProjectGUID="{C499F5E7-10EE-4AEA-988E-D9701F4B8B21}"
 	RootNamespace="piranha"
 	Keyword="ManagedCProj"
-	TargetFrameworkVersion="131072"
 	>
 	<Platforms>
 		<Platform
@@ -65,13 +64,11 @@
 				AdditionalDependencies="opengl32.lib glu32.lib glew32s.lib sdl.lib sdlmain.lib gtl.lib $(NOINHERIT)"
 				OutputFile="..\..\..\$(ProjectName).exe"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="..\..\lib\sdl\lib\vc7.1;..\..\lib\gtl\lib\vc9.0;..\..\lib\glew;$(NOINHERIT)"
+				AdditionalLibraryDirectories="..\..\lib\sdl\lib\vc7.1;..\..\lib\gtl\lib\vc8.0;..\..\lib\glew;$(NOINHERIT)"
 				IgnoreDefaultLibraryNames="libc.lib"
 				GenerateDebugInformation="true"
 				AssemblyDebug="1"
 				SubSystem="2"
-				RandomizedBaseAddress="1"
-				DataExecutionPrevention="0"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -90,6 +87,9 @@
 			/>
 			<Tool
 				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
@@ -141,12 +141,10 @@
 				AdditionalDependencies="opengl32.lib glu32.lib glew32s.lib sdl.lib sdlmain.lib gtl.lib $(NOINHERIT)"
 				OutputFile="..\..\..\$(ProjectName).exe"
 				LinkIncremental="1"
-				AdditionalLibraryDirectories="..\..\lib\sdl\lib\vc7.1;..\..\lib\gtl\lib\vc9.0;..\..\lib\glew;$(NOINHERIT)"
+				AdditionalLibraryDirectories="..\..\lib\sdl\lib\vc7.1;..\..\lib\gtl\lib\vc8.0;..\..\lib\glew;$(NOINHERIT)"
 				IgnoreDefaultLibraryNames="libc.lib"
 				GenerateDebugInformation="true"
 				SubSystem="2"
-				RandomizedBaseAddress="1"
-				DataExecutionPrevention="0"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -165,6 +163,9 @@
 			/>
 			<Tool
 				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"

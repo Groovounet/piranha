@@ -22,6 +22,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
+				AdditionalIncludeDirectories="&quot;E:\Activity\gtc-sorted\projet\piranha\build\0138\source\lib&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG;DEBUG;TIXML_USE_STL"
 				MinimalRebuild="FALSE"
 				BasicRuntimeChecks="0"
@@ -32,10 +33,10 @@
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="opengl32.lib glu32.lib sdl.lib sdlmain.lib gtl.lib $(NOINHERIT)"
+				AdditionalDependencies="opengl32.lib glu32.lib sdl.lib sdlmain.lib gtl.lib glew32s.lib $(NOINHERIT)"
 				OutputFile="..\..\..\$(ProjectName).exe"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="..\..\lib\sdl\lib\vc7.1;..\..\lib\gtl\lib\vc7.1;$(NOINHERIT)"
+				AdditionalLibraryDirectories="..\..\lib\sdl\lib\vc7.1;..\..\lib\gtl\lib\vc7.1;..\..\lib\glew;$(NOINHERIT)"
 				GenerateDebugInformation="TRUE"
 				AssemblyDebug="1"
 				SubSystem="2"/>
@@ -81,7 +82,7 @@
 				AdditionalDependencies="opengl32.lib glu32.lib sdl.lib sdlmain.lib gtl.lib $(NOINHERIT)"
 				OutputFile="..\..\..\$(ProjectName).exe"
 				LinkIncremental="1"
-				AdditionalLibraryDirectories="..\..\lib\sdl\lib\vc7.1;..\..\lib\gtl\lib\vc7.1;$(NOINHERIT)"
+				AdditionalLibraryDirectories="..\..\lib\sdl\lib\vc7.1;..\..\lib\gtl\lib\vc7.1;..\..\lib\glew;$(NOINHERIT)"
 				GenerateDebugInformation="TRUE"
 				SubSystem="2"/>
 			<Tool
