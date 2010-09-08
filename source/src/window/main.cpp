@@ -17,7 +17,7 @@ CMain::CMain ()
 {
     Enable (OPTION_DOUBLEBUFFER);
     //Enable (window::OPTION_ESCAPE_EXIT);
-    Enable (window::OPTION_FULLSCREEN);
+    //Enable (window::OPTION_FULLSCREEN);
     //Enable (window::OPTION_SYNC);
     Config (CONFIG_WIDTH, 640);
     Config (CONFIG_HEIGHT, 480);
