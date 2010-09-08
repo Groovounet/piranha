@@ -19,7 +19,7 @@ namespace scene {
 
 class CTunnel2 : public CElement
 {
-    friend CElement* CManager::_Create (const EType & Type);
+	friend class CManager;
 
 private:
     file::CTexture* m_pTextureTunnel;

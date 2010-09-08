@@ -22,7 +22,7 @@ class CElement : public util::CTracked<util::TRACKED_SCENE>
 class CElement
 #endif //DEBUG
 {
-    friend void CManager::_Kill (unsigned int uiIndex);
+	friend class CManager;
 
 protected:
     CElement ();

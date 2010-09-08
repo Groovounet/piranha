@@ -18,7 +18,7 @@ namespace scene {
 
 class CTerrain1 : public CElement
 {
-    friend CElement* CManager::_Create (const EType & Type);
+	friend class CManager;
 
 private:
     terrain::CTerrain* m_pTerrain;

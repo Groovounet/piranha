@@ -20,7 +20,7 @@ namespace scene {
 
 class CExplode1 : public CElement
 {
-    friend CElement* CManager::_Create (const EType & Type);
+	friend class CManager;
 
 private:
     file::CTexture* m_pTextureColormap;

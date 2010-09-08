@@ -19,7 +19,7 @@ namespace scene {
 
 class CTunnel7 : public CElement
 {
-    friend CElement* CManager::_Create (const EType & Type);
+	friend class CManager;
 
     class CStatePlanet : 
         public gl::CStateAuto<GL_DEPTH_TEST>,
