@@ -6,8 +6,8 @@ varying float FinalDistance;
 
 void main (void)
 {
-	FinalDistortion = Distortion != 0.f ? 1.0f : 0.0f;
-	FinalDistance = Distance / 512.f;// > 0.f ? 1.0f : 0.0f;
+	FinalDistortion = Distortion != 0.0 ? 1.0 : 0.0;
+	FinalDistance = Distance / 512.0;// > 0.f ? 1.0f : 0.0f;
 
 	gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;
 

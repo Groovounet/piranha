@@ -14,8 +14,8 @@ void main (void)
 
 vec4 oscilation (vec4 v)
 {
-	v.z  = sin (gl_Vertex.x + time * 8) / (time / 5);
-	v.z += cos (gl_Vertex.y + time * 8) / (time / 5);
+	v.z  = sin(gl_Vertex.x + time * 8.0) / (time / 5.0);
+	v.z += cos(gl_Vertex.y + time * 8.0) / (time / 5.0);
 
 	return v;
 }
