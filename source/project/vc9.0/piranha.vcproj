@@ -62,7 +62,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="opengl32.lib glu32.lib glew32s.lib sdl.lib sdlmain.lib gtl.lib $(NOINHERIT)"
+				AdditionalDependencies="opengl32.lib glu32.lib glew32s.lib sdl.lib sdlmain.lib $(NOINHERIT)"
 				OutputFile="..\..\..\$(ProjectName).exe"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories="..\..\lib\sdl\lib\vc7.1;..\..\lib\gtl\lib\vc9.0;..\..\lib\glew;$(NOINHERIT)"
@@ -138,7 +138,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="opengl32.lib glu32.lib glew32s.lib sdl.lib sdlmain.lib gtl.lib $(NOINHERIT)"
+				AdditionalDependencies="opengl32.lib glu32.lib glew32s.lib sdl.lib sdlmain.lib $(NOINHERIT)"
 				OutputFile="..\..\..\$(ProjectName).exe"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories="..\..\lib\sdl\lib\vc7.1;..\..\lib\gtl\lib\vc9.0;..\..\lib\glew;$(NOINHERIT)"
@@ -905,6 +905,218 @@
 					>
 				</File>
 			</Filter>
+		</Filter>
+		<Filter
+			Name="gtl"
+			>
+			<File
+				RelativePath="..\..\src\gtl\gtl.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_camera.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_camera.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_color.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_color3.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_color3.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_color4.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_color4.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_complex_algebraic.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_complex_algebraic.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_complex_polar.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_complex_polar.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_font.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_font.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_font_tga.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_font_tga.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_gl.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_gl.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_glext.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_glext.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_image.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_image_bmp.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_image_bmp.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_image_raw.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_image_raw.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_image_tga.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_image_tga.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_math.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_math.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_matrix2x2.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_matrix2x2.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_matrix3x3.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_matrix3x3.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_matrix4x4.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_matrix4x4.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_polynomial.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_polynomial.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_quaternion.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_quaternion.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_rand.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_rand.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_screenshot.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_screenshot.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_shader.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_shader.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_vector.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_vector2.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_vector2.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_vector3.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_vector3.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_vector4.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\gtl\gtl_vector4.h"
+				>
+			</File>
 		</Filter>
 	</Files>
 	<Globals>
