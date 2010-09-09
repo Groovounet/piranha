@@ -15,7 +15,8 @@
 
 #include "../../lib/glew/glew.h"
 
-#include "../../lib/gtl/include/gtl.h"
+#include "../gtl/gtl.h"
+
 #ifdef WIN32
 #include "../../lib/sdl/include/SDL.h"
 #else
