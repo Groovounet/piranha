@@ -19,8 +19,8 @@ CMain::CMain ()
     Enable (window::OPTION_ESCAPE_EXIT);
     //Enable (window::OPTION_FULLSCREEN);
     //Enable (window::OPTION_SYNC);
-    Config (CONFIG_WIDTH, 640);
-    Config (CONFIG_HEIGHT, 480);
+    Config (CONFIG_WIDTH, 960);
+    Config (CONFIG_HEIGHT, 720);
     //Config (window::CONFIG_SYNC, 60);
     Config (CONFIG_STENCIL, 8);
     Config (CONFIG_VIEW_DISTANCE, 2048);
