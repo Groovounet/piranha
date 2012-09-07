@@ -21,13 +21,13 @@
 */
 
 /**
- *  \file SDL_cpuinfo.h
- *  
- *  CPU feature detection for SDL.
+ * \file SDL_clipboard.h
+ *
+ * Include file for SDL clipboard handling
  */
 
-#ifndef _SDL_cpuinfo_h
-#define _SDL_cpuinfo_h
+#ifndef _SDL_clipboard_h
+#define _SDL_clipboard_h
 
 #include "SDL_stdinc.h"
 
@@ -39,50 +39,29 @@ extern "C" {
 /* *INDENT-ON* */
 #endif
 
-/**
- *  This function returns the number of CPU cores available.
- */
-extern DECLSPEC int SDLCALL SDL_GetCPUCount(void);
+/* Function prototypes */
 
 /**
- *  This function returns true if the CPU has the RDTSC instruction.
+ * \brief Put UTF-8 text into the clipboard
+ *
+ * \sa SDL_GetClipboardText()
  */
-extern DECLSPEC SDL_bool SDLCALL SDL_HasRDTSC(void);
+extern DECLSPEC int SDLCALL SDL_SetClipboardText(const char *text);
 
 /**
- *  This function returns true if the CPU has MMX features.
+ * \brief Get UTF-8 text from the clipboard, which must be freed with SDL_free()
+ *
+ * \sa SDL_SetClipboardText()
  */
-extern DECLSPEC SDL_bool SDLCALL SDL_HasMMX(void);
+extern DECLSPEC char * SDLCALL SDL_GetClipboardText(void);
 
 /**
- *  This function returns true if the CPU has MMX Ext.\ features.
+ * \brief Returns whether the clipboard has text
+ *
+ * \sa SDL_GetClipboardText()
  */
-extern DECLSPEC SDL_bool SDLCALL SDL_HasMMXExt(void);
+extern DECLSPEC SDL_bool SDLCALL SDL_HasClipboardText(void);
 
-/**
- *  This function returns true if the CPU has 3DNow!\ features.
- */
-extern DECLSPEC SDL_bool SDLCALL SDL_Has3DNow(void);
-
-/**
- *  This function returns true if the CPU has 3DNow!\ Ext.\ features.
- */
-extern DECLSPEC SDL_bool SDLCALL SDL_Has3DNowExt(void);
-
-/**
- *  This function returns true if the CPU has SSE features.
- */
-extern DECLSPEC SDL_bool SDLCALL SDL_HasSSE(void);
-
-/**
- *  This function returns true if the CPU has SSE2 features.
- */
-extern DECLSPEC SDL_bool SDLCALL SDL_HasSSE2(void);
-
-/**
- *  This function returns true if the CPU has AltiVec features.
- */
-extern DECLSPEC SDL_bool SDLCALL SDL_HasAltiVec(void);
 
 /* Ends C function definitions when using C++ */
 #ifdef __cplusplus
@@ -92,6 +71,6 @@ extern DECLSPEC SDL_bool SDLCALL SDL_HasAltiVec(void);
 #endif
 #include "close_code.h"
 
-#endif /* _SDL_cpuinfo_h */
+#endif /* _SDL_clipboard_h */
 
 /* vi: set ts=4 sw=4 expandtab: */

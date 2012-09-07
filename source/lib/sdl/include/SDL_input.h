@@ -21,15 +21,24 @@
 */
 
 /**
- *  \file SDL_cpuinfo.h
+ *  \file SDL_input.h
  *  
- *  CPU feature detection for SDL.
+ *  Include file for lowlevel SDL input device handling.
+ *
+ *  This talks about individual devices, and not the system cursor. If you
+ *  just want to know when the user moves the pointer somewhere in your
+ *  window, this is NOT the API you want. This one handles things like
+ *  multi-touch, drawing tablets, and multiple, separate mice.
+ *
+ *  The other API is in SDL_mouse.h
  */
 
-#ifndef _SDL_cpuinfo_h
-#define _SDL_cpuinfo_h
+#ifndef _SDL_input_h
+#define _SDL_input_h
 
 #include "SDL_stdinc.h"
+#include "SDL_error.h"
+#include "SDL_video.h"
 
 #include "begin_code.h"
 /* Set up for C function definitions, even when using C++ */
@@ -39,50 +48,32 @@ extern "C" {
 /* *INDENT-ON* */
 #endif
 
-/**
- *  This function returns the number of CPU cores available.
+
+/* Function prototypes */
+
+/* !!! FIXME: real documentation
+ * - Redetect devices
+ * - This invalidates all existing device information from previous queries!
+ * - There is an implicit (re)detect upon SDL_Init().
  */
-extern DECLSPEC int SDLCALL SDL_GetCPUCount(void);
+extern DECLSPEC int SDLCALL SDL_RedetectInputDevices(void);
 
 /**
- *  This function returns true if the CPU has the RDTSC instruction.
+ *  \brief Get the number of mouse input devices available.
  */
-extern DECLSPEC SDL_bool SDLCALL SDL_HasRDTSC(void);
+extern DECLSPEC int SDLCALL SDL_GetNumInputDevices(void);
 
 /**
- *  This function returns true if the CPU has MMX features.
+ *  \brief Gets the name of a device with the given index.
+ *  
+ *  \param index is the index of the device, whose name is to be returned.
+ *  
+ *  \return the name of the device with the specified index
  */
-extern DECLSPEC SDL_bool SDLCALL SDL_HasMMX(void);
+extern DECLSPEC const char *SDLCALL SDL_GetInputDeviceName(int index);
 
-/**
- *  This function returns true if the CPU has MMX Ext.\ features.
- */
-extern DECLSPEC SDL_bool SDLCALL SDL_HasMMXExt(void);
 
-/**
- *  This function returns true if the CPU has 3DNow!\ features.
- */
-extern DECLSPEC SDL_bool SDLCALL SDL_Has3DNow(void);
-
-/**
- *  This function returns true if the CPU has 3DNow!\ Ext.\ features.
- */
-extern DECLSPEC SDL_bool SDLCALL SDL_Has3DNowExt(void);
-
-/**
- *  This function returns true if the CPU has SSE features.
- */
-extern DECLSPEC SDL_bool SDLCALL SDL_HasSSE(void);
-
-/**
- *  This function returns true if the CPU has SSE2 features.
- */
-extern DECLSPEC SDL_bool SDLCALL SDL_HasSSE2(void);
-
-/**
- *  This function returns true if the CPU has AltiVec features.
- */
-extern DECLSPEC SDL_bool SDLCALL SDL_HasAltiVec(void);
+extern DECLSPEC int SDLCALL SDL_IsDeviceDisconnected(int index);
 
 /* Ends C function definitions when using C++ */
 #ifdef __cplusplus
@@ -92,6 +83,6 @@ extern DECLSPEC SDL_bool SDLCALL SDL_HasAltiVec(void);
 #endif
 #include "close_code.h"
 
-#endif /* _SDL_cpuinfo_h */
+#endif /* _SDL_mouse_h */
 
 /* vi: set ts=4 sw=4 expandtab: */

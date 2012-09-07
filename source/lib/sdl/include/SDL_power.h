@@ -20,14 +20,14 @@
     slouken@libsdl.org
 */
 
-/**
- *  \file SDL_cpuinfo.h
- *  
- *  CPU feature detection for SDL.
- */
+#ifndef _SDL_power_h
+#define _SDL_power_h
 
-#ifndef _SDL_cpuinfo_h
-#define _SDL_cpuinfo_h
+/**
+ *  \file SDL_power.h
+ *  
+ *  Header for the SDL power management routines.
+ */
 
 #include "SDL_stdinc.h"
 
@@ -40,49 +40,32 @@ extern "C" {
 #endif
 
 /**
- *  This function returns the number of CPU cores available.
+ *  \brief The basic state for the system's power supply.
  */
-extern DECLSPEC int SDLCALL SDL_GetCPUCount(void);
+typedef enum
+{
+    SDL_POWERSTATE_UNKNOWN,      /**< cannot determine power status */
+    SDL_POWERSTATE_ON_BATTERY,   /**< Not plugged in, running on the battery */
+    SDL_POWERSTATE_NO_BATTERY,   /**< Plugged in, no battery available */
+    SDL_POWERSTATE_CHARGING,     /**< Plugged in, charging battery */
+    SDL_POWERSTATE_CHARGED       /**< Plugged in, battery charged */
+} SDL_PowerState;
+
 
 /**
- *  This function returns true if the CPU has the RDTSC instruction.
+ *  \brief Get the current power supply details.
+ *  
+ *  \param secs Seconds of battery life left. You can pass a NULL here if
+ *              you don't care. Will return -1 if we can't determine a
+ *              value, or we're not running on a battery.
+ *  
+ *  \param pct Percentage of battery life left, between 0 and 100. You can
+ *             pass a NULL here if you don't care. Will return -1 if we
+ *             can't determine a value, or we're not running on a battery.
+ *  
+ *  \return The state of the battery (if any).
  */
-extern DECLSPEC SDL_bool SDLCALL SDL_HasRDTSC(void);
-
-/**
- *  This function returns true if the CPU has MMX features.
- */
-extern DECLSPEC SDL_bool SDLCALL SDL_HasMMX(void);
-
-/**
- *  This function returns true if the CPU has MMX Ext.\ features.
- */
-extern DECLSPEC SDL_bool SDLCALL SDL_HasMMXExt(void);
-
-/**
- *  This function returns true if the CPU has 3DNow!\ features.
- */
-extern DECLSPEC SDL_bool SDLCALL SDL_Has3DNow(void);
-
-/**
- *  This function returns true if the CPU has 3DNow!\ Ext.\ features.
- */
-extern DECLSPEC SDL_bool SDLCALL SDL_Has3DNowExt(void);
-
-/**
- *  This function returns true if the CPU has SSE features.
- */
-extern DECLSPEC SDL_bool SDLCALL SDL_HasSSE(void);
-
-/**
- *  This function returns true if the CPU has SSE2 features.
- */
-extern DECLSPEC SDL_bool SDLCALL SDL_HasSSE2(void);
-
-/**
- *  This function returns true if the CPU has AltiVec features.
- */
-extern DECLSPEC SDL_bool SDLCALL SDL_HasAltiVec(void);
+extern DECLSPEC SDL_PowerState SDLCALL SDL_GetPowerInfo(int *secs, int *pct);
 
 /* Ends C function definitions when using C++ */
 #ifdef __cplusplus
@@ -92,6 +75,6 @@ extern DECLSPEC SDL_bool SDLCALL SDL_HasAltiVec(void);
 #endif
 #include "close_code.h"
 
-#endif /* _SDL_cpuinfo_h */
+#endif /* _SDL_power_h */
 
 /* vi: set ts=4 sw=4 expandtab: */
